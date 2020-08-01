@@ -58,4 +58,4 @@ Congratulations! You have successfully completed the onboarding tool and are rea
 
 ## Next steps
 
-Once you have received a devkit, please see the [unboxing guide](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/getting_started/devkit_unboxing_setup_july_2020.md) for information on powering on your device and accessing the [OOBE (out of box experience)](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/getting_started/oobe_july_2020.md).  
+Once you have received a devkit, please see the [unboxing guide](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/devkit-unboxing-setup.md) for information on powering on your device and accessing the [OOBE (out of box experience)](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md).  
