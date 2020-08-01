@@ -7,20 +7,20 @@ By participating in this preview program you will get an early start using the P
 On this page you will find everything you need to get started.
 
 ## 1. Ensure your Azure Subscription is On-boarded
-- [Onboard your Azure subscription]()
+- [Onboard your Azure subscription](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/azure-subscription-onboarding.md)
 
 ## 2. Set Up Your Dev Kit
-- [Unbox and assemble your dev kit]()
-- [Connect your dev kit to Wifi and Azure]()
+- [Unbox and assemble your dev kit](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/devkit-unboxing-setup.md)
+- [Connect your dev kit to Wifi and Azure](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md)
 
 ## 3. Build Your Prototype
-- [Build a no code vision solution]()
-- [Build a no code audio solution]()
-- [Build a custom solution using VS Code]()
+- [Build a no code vision solution](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/create-nocode-vision.md)
+- [Build a no code audio solution](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/nocode-speech.md)
+- [Build a custom solution using VS Code](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/transfer-learning.md)
 
 ## Keep your Dev Kits Up To Date
-- [Update over-the-air]()
-- [Update via USB]()
+- [Update over-the-air](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/ota_update.md)
+- [Update via USB](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/usb_updating.md)
 
 
 ## Other Important Information
@@ -35,13 +35,5 @@ Here are some links to information that will help you while participating in the
 - FAQ
 
 
-
-
-
-
-## Full Table of Contents of all Technical Documentation
-1. Overview
-  1. [Why AI at the Edge?]()
-  1. [Why Project Santa Cruz?]()
  
 
