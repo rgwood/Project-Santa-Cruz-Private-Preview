@@ -1,0 +1,5 @@
+{
+    "DomainType": "ssd100",
+    "LabelFileName": "labels.txt",
+    "ModelFileName": "model.blob"
+}

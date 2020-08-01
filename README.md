@@ -1,6 +1,6 @@
 
 # Welcome to the Project Santa Cruz Private Preview
-[Click here]() to immediately start setting up your Project Santa Cruz Dev Kit
+Watch [this video](https://microsoft.sharepoint-df.com/:v:/t/ProjectSantaCruzPrivatePreview/EX3mBUcyM9tOmnVcZMnhe9wB-4lubt4scTkbqh_q8JSM3Q?e=zyqJvu) to immediately start setting up your Project Santa Cruz Dev Kit
 
 By participating in this preview program you will get an early start using the Project Santa Cruz Dev Kits and services while providing our product and engineering team valuable feedback.
 
