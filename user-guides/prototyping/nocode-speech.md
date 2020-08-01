@@ -26,7 +26,7 @@ The first step in creating a voice assistant is to navigate to the Azure Edge De
 
 Alternatively, you can navigate directly to the [Azure Edge Devices Overview page](https://preview.portal.azure.com/#blade/AzureEdgeDevices/AEDBlade/overview).
 
-![Azure Edige Devices Portal](getting_started/getting_started_images/aed-portal-home-page.png)
+![Azure Edige Devices Portal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/aed-portal-home-page.png)
 
 
 ## Select a Speech Template
@@ -40,7 +40,7 @@ You can build a voice assistant using available templates. The Hospitality theme
 4.	Select one of the speech templates.
 1. Click the **I agree to terms & conditions for this project.** checkbox.
 5.	Click **Create** button. The portal deploys the resource to the device.
-   ![Azure Edige Devices Portal](getting_started/getting_started_images/aed-try-speech-themes.png)
+   ![Azure Edige Devices Portal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/aed-try-speech-themes.png)
 
 **WARNING:** Do not close the **Try out speech themes** pane until the portal finish deploying the resource. Closing the pane can result in unexpected behavior from the device.
    
@@ -77,4 +77,4 @@ Try any of the following commands to interact with your voice assistant. Always 
    
 ## Next Steps
 
-Now that you have created a voice assistant, you could try creating a [Vision project](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/aed-create-nocode-vision.md).
+Now that you have created a voice assistant, you could try creating a [Vision project](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/create-nocode-vision.md).
