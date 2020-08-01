@@ -80,7 +80,7 @@ Near the bottom of the **Azure Developer Portal** browser tab, you'll find the *
 
 ## Next Steps
 
-In this Quickstart Guide, you created a Vision project for your Eye SOM. You took pictures and used that input data to train your AI model. Finally, you deployed it to your Eye SOM. Next, try the [Quickstart Guide for the Ear SOM to create a speech solution](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/aed-nocode-speech.md).
+In this Quickstart Guide, you created a Vision project for your Eye SOM. You took pictures and used that input data to train your AI model. Finally, you deployed it to your Eye SOM. Next, try the [Quickstart Guide for the Ear SOM to create a speech solution](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/nocode-speech.md).
 
 
 
