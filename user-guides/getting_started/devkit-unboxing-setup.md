@@ -1,10 +1,10 @@
 # Project Santa Cruz devkit unboxing and setup
 
-After [onboarding](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/getting_started/onboarding_july_2020.md) for Private Preview has been completed, and you have received your Project Santa Cruz Devkit, you are ready to begin developing with Santa Cruz. Reference this guide for information on connecting the devkit components and powering on the device. 
+After [onboarding](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/azure-subscription-onboarding.md) for Private Preview has been completed, and you have received your Project Santa Cruz Devkit, you are ready to begin developing with Santa Cruz. Reference this guide for information on connecting the devkit components and powering on the device. 
 
 ## Prerequisites
 
-- [Onboarding](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/getting_started/onboarding_july_2020.md) for Private Preview has been completed. 
+- [Onboarding](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/azure-subscription-onboarding.md) for Private Preview has been completed. 
 - Project Santa Cruz Devkit.
 - Computer with WiFi capability.
 
@@ -46,5 +46,5 @@ After [onboarding](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_gu
 1. The PE-101 carrier board is assigned a default address of 10.1.1.1 on the Santa Cruz Wifi AP. To reach the OOBE (out-of-box-experience), open a browser and go to http://10.1.1.1:4242/en-US. 
 
 ## Next steps
-Now that your devkit is powered on and connected to the OOBE, work through the OOBE to connect your devkit to a WiFi network and provision it to your Azure account. For guidance on the OOBE process, please see the [OOBE walkthrough](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/getting_started/oobe_july_2020.md).
+Now that your devkit is powered on and connected to the OOBE, work through the OOBE to connect your devkit to a WiFi network and provision it to your Azure account. For guidance on the OOBE process, please see the [OOBE walkthrough](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md).
 
