@@ -1,31 +1,47 @@
 
-# Contributing
+# Welcome to the Project Santa Cruz Private Preview
+[Click here]() to immediately start setting up your Project Santa Cruz Dev Kit
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+By participating in this preview program you will get an early start using the Project Santa Cruz Dev Kits and services while providing our product and engineering team valuable feedback.
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+On this page you will find everything you need to get started.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+## 1. Ensure your Azure Subscription is On-boarded
+- [Onboard your Azure subscription]()
 
-# Legal Notices
+## 2. Set Up Your Dev Kit
+- [Unbox and assemble your dev kit]()
+- [Connect your dev kit to Wifi and Azure]()
 
-Microsoft and any contributors grant you a license to the Microsoft documentation and other content
-in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
-see the [LICENSE](LICENSE) file, and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the
-[LICENSE-CODE](LICENSE-CODE) file.
+## 3. Build Your Prototype
+- [Build a no code vision solution]()
+- [Build a no code audio solution]()
+- [Build a custom solution using VS Code]()
 
-Microsoft, Windows, Microsoft Azure and/or other Microsoft products and services referenced in the documentation
-may be either trademarks or registered trademarks of Microsoft in the United States and/or other countries.
-The licenses for this project do not grant you rights to use any Microsoft names, logos, or trademarks.
-Microsoft's general trademark guidelines can be found at http://go.microsoft.com/fwlink/?LinkID=254653.
+## Keep your Dev Kits Up To Date
+- [Update over-the-air]()
+- [Update via USB]()
 
-Privacy information can be found at https://privacy.microsoft.com/en-us/
 
-Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents,
-or trademarks, whether by implication, estoppel or otherwise.
+## Other Important Information
+Here are some links to information that will help you while participating in the program.
+
+- Getting help
+- Reporting issues
+- Providing feedback
+- Engage with the community
+- Complete the Quests
+- Known issues
+- FAQ
+
+
+
+
+
+
+## Full Table of Contents of all Technical Documentation
+1. Overview
+  1. [Why AI at the Edge?]()
+  1. [Why Project Santa Cruz?]()
+ 
+
