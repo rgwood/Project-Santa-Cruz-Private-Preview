@@ -30,7 +30,7 @@ Here are some links to information that will help you while participating in the
 - Reporting issues
 - Providing feedback
 - Engage with the community
-- Complete the Quests
+- Complete the Focused Test Scenarios
 - Known issues
 - FAQ
 
