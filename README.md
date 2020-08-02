@@ -26,11 +26,10 @@ On this page you will find everything you need to get started.
 ## Other Important Information
 Here are some links to information that will help you while participating in the program.
 
-- Getting help
-- Reporting issues
-- Providing feedback
-- Engage with the community
-- Complete the Focused Test Scenarios
+- [Getting support](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/general/get-support.md)
+- [Reporting issues](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/general/report-a-bug.md)
+- [Providing feedback](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/general/give-feedback.md)
+- [Complete the Focused Test Scenarios](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/general/test-scenarios.md)
 - Known issues
 - FAQ
 
