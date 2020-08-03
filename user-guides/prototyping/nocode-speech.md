@@ -5,7 +5,7 @@ In this quickstart, you make your own voice assistant using the Project Santa Cr
 ## Prerequisites
 
 * Hardware: 
-  * Devkit with Ear SOM connected.
+  * Devkit with an Ear SOM connected.
   * Speaker connected to the Ear SOM (not included in the package).
 * Configuration steps: 
   * [OOBE (out of box experience)](../getting_started/oobe.md) setup completed.
@@ -52,7 +52,7 @@ You can build a voice assistant using available templates. The Hospitality templ
 12. Choose the pricing tier from the **Tier** list. (We recommend **Standard**).
 13. Click the **Create** button. Resources for the voice assistant application will be deployed to your subscription. <br/>
    
-**WARNING:** Do not close the pane until the portal finish deploying the resource. Closing the pane can result in unexpected behavior from the device.
+**WARNING:** Do not close the pane until the portal finish deploying the resource. Closing the pane can result in unexpected behavior of voice assistant.
    
 At this point, the portal displays the speech demo.
 
@@ -75,7 +75,23 @@ Try any of the following commands to interact with your voice assistant. Always 
 * "Open blinds."
 * "Close blinds."
 * "Set temp to 75."
-   
+
+## Clean up resources
+
+To clean up the resource you deployed in this quickstart, open resouse group you selected in step 9 and delete 6 resource which names start with the prefix you selected in step 10 above. 
+
+1. From the Azure portal, select **Resource group** from the left menu.
+2. Enter the resource group name (selected in step 9) in the **Filter by name** field.
+3. Select the resource group from the list.
+4. Open the the resource group to view its resources.
+5. Select 6 resources with the name starting with prefix selected in step 10.  
+6. Click **Delete** action in the top menu.
+7. Confirm delete operation.
+8. Press **Delete** to delete resources.
+
+**WARNING:** This will remove any custom keywords you created in Speech Studio and voice assistant will no longer function. 
+
+
 ## Next Steps
 
 Now that you have created a voice assistant, you could try creating a [Vision project](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/create-nocode-vision.md).
