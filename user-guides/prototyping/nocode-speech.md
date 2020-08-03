@@ -1,4 +1,4 @@
-# Quickstart: Creating a Voice Assistant with the AED Devkit
+# QuickStart: Creating a Voice Assistant with the Project Santa Cruz Devkit
 
 In this quickstart, you make your own voice assistant using the Project Santa Cruz Development Kit (DevKit) and [Speech services](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/overview).
 
@@ -45,7 +45,7 @@ You can build a voice assistant using available templates. The Hospitality templ
 
 ![Azure Edge Devices Portal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/aed-try-speech-themes.png)
 
-8. Select the Azure subscription you're using for this project in the **Subscription** box.
+8. Select the Azure subscription in the **Subscription** box.
 9. Select the resource group to use from the **Resource group** list.
 10. Enter name for the voice assistant. It will be used as a prefix to resource names.
 11. Select the region to deploy resources to from the **Region** list.
@@ -76,14 +76,54 @@ Try any of the following commands to interact with your voice assistant. Always 
 * "Close blinds."
 * "Set temp to 75."
 
+## Troubleshooting
+
+### Azure Edge Devices is not available in the Azure portal
+
+1.	Verify the Azure portal link. For the Project Santa Cruz private preview you must use the preview version of the Azure portal at  https://preview.portal.azure.com.
+2. Make sure that the onboarding process for your organization is completed. 
+  * Contact your lead PM or support team to find the latest status. 
+  * Request onboarding to the Project Santa Cruz developer experience in Azure portal. 
+
+### Voice assistant application cannot be created - resource deployment fails
+
+1. Verify that the following resource providers are registered in the subscription:
+  * Cognitive Services
+  * Storage
+  * Web
+2. Register resource providers if they are not registered.
+
+#### How to register resource providers
+
+1. Select **Subscriptions** from the left navigation menu
+2. Find the subscription that use for private preview and click on it to open detailed info
+3. Select **Resource Providers** in the left navigation menu
+4. Find each of the resource providers below and **Register** if they are not registered
+  * Cognitive Services
+  * Storage
+  * Web
+
+### Voice Assistant was created but does not respond to commands
+
+1. Check led lights on the Ear SOM. 
+  * 3 bright blue lights indicate that voice assistant is ready and waiting for the keyword
+  * no lights when devkit is powered indicate that devkit completed initialization and needs to be configured
+  * any combination of green lights indicates that Ear SOM did not complete initialization 
+
+### Documentation links are not working
+
+1. Make sure that the onboarding process for your organization is completed. 
+  * Contact your lead PM or support team to find latest status. 
+  * Request onboarding to the private preview documentation.
+
 ## Clean up resources
 
-To clean up the resource you deployed in this quickstart, open resouse group you selected in step 9 and delete 6 resource which names start with the prefix you selected in step 10 above. 
+Follow these steps to clean up resources you deployed in this quickstart: 
 
 1. From the Azure portal, select **Resource group** from the left menu.
 2. Enter the resource group name (selected in step 9) in the **Filter by name** field.
 3. Select the resource group from the list.
-4. Open the the resource group to view its resources.
+4. Open the resource group to view its resources.
 5. Select 6 resources with the name starting with prefix selected in step 10.  
 6. Click **Delete** action in the top menu.
 7. Confirm delete operation.
