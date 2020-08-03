@@ -6,7 +6,7 @@ ms.author: v-elqu     # the author's Microsoft alias (if applicable) - will be a
 ms.date: {@date}           # the date - will be auto-populated when template is first applied
 ms.topic: reference  # the type of article
 --->
-# Azure eye SoM datasheet
+# Project Santa Cruz eye SoM datasheet
 
 
 
