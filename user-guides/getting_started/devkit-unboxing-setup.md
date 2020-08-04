@@ -43,9 +43,9 @@ After [onboarding](https://github.com/microsoft/Project-Santa-Cruz-Private-Previ
     1. SoftAP/Hotspot SSID: scz-xxxx    (where xxxx = the last four digits of the devkit's WiFi MAC address)
     2. Password: santacruz
     > [!NOTE]
-    > The initial SoftAP is using WEP encryption to support 802.11b so Windows may complain about it using a less secure standard.  This will be updated to WPA2 at a later date.
+    > The initial SoftAP is using WEP encryption to support 802.11b, so Windows may complain about it using a less secure standard.  This will be updated to WPA2 at a later date.
 
-1. The PE-101 carrier board is assigned a default address of 10.1.1.1 on the Santa Cruz Wifi AP. To reach the OOBE (out-of-box-experience), open a browser and go to http://10.1.1.1:4242/en-US. 
+1. The PE-101 carrier board is assigned a default address of 10.1.1.1 on the Santa Cruz Wifi AP. To reach the OOBE (out-of-box-experience), open a browser and go to http://10.1.1.1:4242. 
 
 ## Next steps
 Now that your devkit is powered on and connected to the OOBE, work through the OOBE to connect your devkit to a WiFi network and provision it to your Azure account. For guidance on the OOBE process, please see the [OOBE walkthrough](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md).
