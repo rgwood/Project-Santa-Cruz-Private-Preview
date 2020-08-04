@@ -1,7 +1,7 @@
 # Managing your voice assistant
 
 This article describes configuration of the voice assistant application. 
-For a step-by-step tutorial that guides you through the process of creating a voice assistant, see [QuickStart: Creating a Voice Assistant with the Project Santa Cruz Devkit](../nocode-speech.md).
+For a step-by-step tutorial that guides you through the process of creating a voice assistant, see [QuickStart: Creating a Voice Assistant with the Project Santa Cruz Devkit](../../nocode-speech.md).
 
 ## Keyword
 
