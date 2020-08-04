@@ -14,7 +14,7 @@ This guide will show you how to flash the carrier board of the Santa Cruz devkit
 
 - Windows or Linux PC with an available USB Type C port. 
 
-- USB-C cable, included in the Santa Cruz devkit.  
+- USB-C cable, included in the Project Santa Cruz Development Kit.  
 
 - Ballpoint pen or small screwdriver. This will be used to toggle the DIP switches of the carrier board.  
 
