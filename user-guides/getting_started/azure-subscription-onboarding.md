@@ -6,17 +6,22 @@ ms.author: v-elqu     # the author's Microsoft alias (if applicable) - will be a
 ms.date: {@date}           # the date - will be auto-populated when template is first applied
 ms.topic: reference  # the type of article
 --->
-# Project Santa Cruz onboarding    
+# Project Santa Cruz onboarding
 
-Welcome to Project Santa Cruz! Prior to getting started with Santa Cruz devkits and devices, please complete the onboarding as described herein. The onboarding process involves connecting an appropriate Azure subscription and IoT Hub to Project Santa Cruz, which allows you to connect, manage, and update your devices with ease. Perform the following steps to complete the onboarding: 
+Welcome to Project Santa Cruz! Prior to getting started with Santa Cruz devkits and devices, please complete the onboarding as described herein. The onboarding process involves connecting an appropriate Azure subscription and IoT Hub to Project Santa Cruz, which allows you to connect, manage, and update your devices with ease. Perform the following steps to complete the onboarding:
 
+1. Read and sign the Project Santa Cruz NDA and provide your tenant ID through the Private Preview email invitation. If you have not received an email invitation, please reach out to your Project Santa Cruz representative for assistance.
+    1. To locate your tenant ID, sign in to the [Azure Portal](https://ms.portal.azure.com/#home) and click View under Manage Azure Active Directory. If this link is not available on your portal’s home screen, type Azure Active Directory into the search bar at the top of the page and click on the link with the blue pyramid icon.
 
-1. Read and sign the Project Santa Cruz NDA and provide your tenant ID through the Private Preview email invitation. To locate your tenant ID, sign in to the [Azure Portal](https://ms.portal.azure.com/#home) and click View under Manage Azure Active Directory. If this link is not available on your portal’s home screen, type Azure Active Directory into the search bar at the top of the page and click on the link with the blue pyramid icon. The tenant ID will be displayed in the Tenant information box on the Overview page of Azure Active Directory. For more information on tenant IDs, please view the Azure Active Directory [documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-create-new-tenant).  If you have not received an email invitation, please reach out to _______ for assistance. 
+        ![azure_portal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/onboarding_azure_portal.png)
 
-    ![azure_portal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/onboarding_azure_portal.png)
-    ![azure_active_directory](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/onboarding_azure_active_directory.png)
+    1. The tenant ID will be displayed in the Tenant information box on the Overview page of Azure Active Directory. For more information on tenant IDs, please view the Azure Active Directory [documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-create-new-tenant). 
+
+        ![azure_active_directory](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/onboarding_azure_active_directory.png)
+
+    1. You will be able to access the Project Santa Cruz onboarding website within three to four days of submitting your Private Preview agreement.
  
-1. Open a browser and enter projectsantacruz.microsoft.com in the address bar to access the onboarding tool.  
+1. Once your Private Preview agreement has been processed, open a browser and enter projectsantacruz.microsoft.com in the address bar to access the onboarding tool.  
 
 1. Enter your account login details and click Next. The account must be associated with the tenant ID provided through the Private Preview email invitation.  
  
@@ -40,13 +45,13 @@ Welcome to Project Santa Cruz! Prior to getting started with Santa Cruz devkits 
 
     1. Select your location from the drop-down menu. Note that you may use any available region regardless of your country of residence.  
 
-    1. After selecting your IoT Hub properties, click Submit. After submitting, any changes to your IoT properties can be made in your [Azure account](https://ms.portal.azure.com/#home). 
+    1. After selecting your IoT Hub properties, click Submit. After submitting, any changes to your IoT properties can be made in your [Azure account](https://ms.portal.azure.com/?feature.canmodifystamps=true&Microsoft_Azure_Iothub=aduprod#home). 
     
     ![onboarding_create_iot_hub](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/onboarding_create_iot_hub.png)
     
 1. Toggle Device Provisioning Service (DPS) to the ON position and enter your DPS name.  
 
-1. Toggle Azure Device Update (ADU) and Automatic Import Updates to the ON Position. Click Submit. After submitting, any changes to these properties can be made in your [Azure account](https://ms.portal.azure.com/#home).
+1. Toggle Azure Device Update (ADU) and Automatic Import Updates to the ON Position. Click Submit. After submitting, any changes to these properties can be made in your [Azure account](https://ms.portal.azure.com/?feature.canmodifystamps=true&Microsoft_Azure_Iothub=aduprod#home) (this link allows you to access the Azure Device Update extension, which is a Private Preview service).
 
     ![onboarding_dps_adu](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/onboarding_dps_adu.png)  
 
@@ -58,4 +63,4 @@ Congratulations! You have successfully completed the onboarding tool and are rea
 
 ## Next steps
 
-Once you have received a devkit, please see the [unboxing guide](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/devkit-unboxing-setup.md) for information on powering on your device and accessing the [OOBE (out of box experience)](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md).  
+Once you have received a Project Santa Cruz Development Kit, please see the [unboxing guide](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/devkit-unboxing-setup.md) for information on powering on your device and accessing the [OOBE (out of box experience)](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md).  
