@@ -12,9 +12,9 @@ ms.topic: reference  # the type of article
 
 -	Host PC.
 -	Project Santa Cruz Devkit
--	[Onboarding](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/getting_started/onboarding_july_2020.md) completion.
--	[Devkit setup](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/getting_started/devkit_unboxing_setup_july_2020.md) completion.
--	[OOBE](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/getting_started/oobe_july_2020.md) completion.
+-	[Onboarding](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/azure-subscription-onboarding.md) completion.
+-	[Devkit setup](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/devkit-unboxing-setup.md) completion.
+-	[OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md) completion.
 
 ## Ear SoM Firmware Update Procedure: 
 
@@ -22,39 +22,37 @@ ms.topic: reference  # the type of article
 
 1. Plug in and power on the devkit. There are three LEDs on the Azure Ear SoM, labeled L01, L02, and L03. Upon powering on the devkit, L01 and L02 will turn green, and L02 will flash on and off for several seconds, indicating that the SoM authentication is in progress. After authentication is complete, all three LEDs will turn blue. 
 
-    ![ear_som_led](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/firmware_ear_som_led.png)
+    ![ear_som_led](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/firmware_ear_som_led.png)
  
-1. On your PC, login to the [Azure Portal](https://ms.portal.azure.com/#home) and click All resources under the Azure services section of the portal homepage. 
+1. On your PC, login to the [Azure Portal](https://ms.portal.azure.com/?feature.canmodifystamps=true&Microsoft_Azure_Iothub=aduprod#home) and click All resources under the Azure services section of the portal homepage. 
 
-    ![azure_services](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/firmware_azure_services_all_resources.png)
+    ![azure_services](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/firmware_azure_services_all_resources.png)
 
 1. On the All resources page, click on the name of the IoT Hub that was provisioned to your devkit during the OOBE process. 
 
-    ![all_resources](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/firmware_all_resources.png)
-
 1. On the left side of the IoT Hub page, click on IoT Edge under Automatic Device Management. On the IoT Edge devices page, find the device ID of your devkit and click to open. 
 
-    ![iot_hub](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/firmware_iot_hub.png)
+    ![iot_hub](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/firmware_iot_hub.png)
 
 1. Click Set Modules at the top of your devkit’s IoT Edge device page.
 
-    ![set_modules](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/firmware_set_modules.png)
+    ![set_modules](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/firmware_set_modules.png)
 
 1. Find speechclient on the IoT Edge Modules page and click to open it. 
 
-    ![speechclient](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/firmware_speechclient.png)
+    ![speechclient](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/firmware_speechclient.png)
 
 1. Select stopped under the Desired Status drop-down menu and click Update.
 
-    ![desired_status_stopped](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/firmware_desired_status_stopped.png)
+    ![desired_status_stopped](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/firmware_desired_status_stopped.png)
 
 1. Back on the IoT Edge Modules page, click devmmclient. This will open the IoT Edge Module Details page for devmmclient. 
 
-    ![devmmclient](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/firmware_devmmclient.png)
+    ![devmmclient](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/firmware_devmmclient.png)
 
 1. Click Direct method on the devmmclient Iot Edge Module Details page.
 
-    ![direct_method](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/firmware_direct_method.png)
+    ![direct_method](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/firmware_direct_method.png)
 
 1. On the Direct method page, set Method Name to UpgradeDev and enter the following into the Payload box:
     ```console
@@ -68,11 +66,11 @@ ms.topic: reference  # the type of article
 
     After entering the Method Name and Payload information, click Invoke Method to run the firmware update. If the PKG_URL is invalid, you will receive a success message, but the codec will reject the invalid package and keep the current firmware version. 
 
-    ![upgrade_dev](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/firmware_upgrade_dev.png)
+    ![upgrade_dev](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/firmware_upgrade_dev.png)
 
 1. Click Direct method on the IoT Edge Module Details page to open the Direct method page for devmmclient a second time. Set the Method Name to QueryDevInfo, remove any settings from the Payload box, and click Invoke Method. The new firmware version can be seen in the Result box at the bottom of the page. 
 
-    ![query_dev_info](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/firmware_query_dev_info.png)
+    ![query_dev_info](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/firmware_query_dev_info.png)
 
 1. Return to the Set Modules page and select speechclient to open the speechclient Update IoT Edge Module page again. Select running under the Desired Status drop-down menu and click Update. 
 
