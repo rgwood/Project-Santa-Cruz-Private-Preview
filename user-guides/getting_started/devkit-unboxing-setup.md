@@ -43,7 +43,7 @@ After [onboarding](https://github.com/microsoft/Project-Santa-Cruz-Private-Previ
     1. SoftAP/Hotspot SSID: scz-xxxx    (where xxxx = the last four digits of the devkit's WiFi MAC address)
     2. Password: santacruz
     > [!NOTE]
-    > The initial SoftAP is using WEP encryption to support 802.11b, so Windows may complain about it using a less secure standard.  This will be updated to WPA2 at a later date.
+    > Windows may complain about the SoftAP using a less secure standard (WPA2+TKIP cipher).  This will be addressed in a future build to only allow connections via the CCMP pairwise cipher.
 
 1. The PE-101 carrier board is assigned a default address of 10.1.1.1 on the Santa Cruz Wifi AP. To reach the OOBE (out-of-box-experience), open a browser and go to http://10.1.1.1:4242. 
 
