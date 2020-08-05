@@ -21,7 +21,7 @@ Welcome to Project Santa Cruz! Prior to getting started with Santa Cruz devkits 
 
     1. You will be able to access the Project Santa Cruz onboarding website within three to four days of submitting your Private Preview agreement.
  
-1. Once your Private Preview agreement has been processed, open a browser and enter projectsantacruz.microsoft.com in the address bar to access the onboarding tool.  
+1. Once your Private Preview agreement has been processed, open a browser and enter aka.ms/projectsantacruz in the address bar to access the onboarding tool.  
 
 1. Enter your account login details and click Next. The account must be associated with the tenant ID provided through the Private Preview email invitation.  
  
