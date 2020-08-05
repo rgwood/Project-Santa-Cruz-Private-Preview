@@ -5,17 +5,30 @@ In this quickstart, you make your own voice assistant using the Project Santa Cr
 ## Prerequisites
 
 * Hardware: 
-  * Devkit with an Ear SOM connected.
-  * Speaker connected to the Ear SOM (not included in the package).
-* Configuration steps: 
-  * [OOBE (out of box experience)](../getting_started/oobe.md) setup completed.
-* Organization Azure tenant id enrolled in the Project Santa Cruz private preview.
-* The following resource provides registered in the Azure subscription:
+  * Devkit with an Ear SoM.
+  * Speaker (not included in the package).
+* Devkit [OOBE (out of box experience)](../getting_started/oobe.md) configuration is completed, it is connected to internet and shows up in your IoT Hub. 
+* Organization is enrolled in the Project Santa Cruz private preview and onboarded their Azure *tenant id* to the Project Santa Cruz services.
+* The following resource providers registered in the Azure subscription:
   * Cognitive Services
   * Storage
   * Web 
 
-## Go to Azure Edge Devices in the Azure portal
+## Devkit setup 
+
+1. Connect speaker to your Ear SoM.
+2. Connect the Ear SoM to your devkit.
+3. Power on the devkit.
+   * The 1st LED light on the Ear SoM will change to bright green to indicate Ear SoM was powered on. 
+   *	The 2nd LED changes to blinking to indicate Ear SOM is waiting for authentication.
+4. Wait for the authentication process to complete. It can take up to 3 minutes.
+5. Proceed to the next section when you see one of the following:
+   * Both LED light turn off. This indicates that authentication is completed and devkit is not configured with a keyword.
+   * Three bright blue light turn on. This indicates that authentication is completed and devkit is configured with a keyword.
+
+**NOTE:** Reach out to your lead AED PM for support if your devkit cannot complete step 5.
+
+## Azure Edge Devices in the Azure portal
 
 The first step in creating a voice assistant is to navigate to the Project Santa Cruz in Azure portal.
 
@@ -51,8 +64,8 @@ You can build a voice assistant using available templates. The Hospitality templ
 11. Select the region to deploy resources to from the **Region** list.
 12. Choose the pricing tier from the **Tier** list. (We recommend **Standard**).
 13. Click the **Create** button. Resources for the voice assistant application will be deployed to your subscription. <br/>
-   
-**WARNING:** Do not close the pane until the portal finish deploying the resource. Closing the pane can result in unexpected behavior of voice assistant.
+
+**WARNING :** Do not close the pane until the portal finish deploying the resource. Closing the pane can result in unexpected behavior of voice assistant.
    
 At this point, the portal displays the speech demo.
 
@@ -82,15 +95,15 @@ Try any of the following commands to interact with your voice assistant. Always 
 
 1.	Verify the Azure portal link. For the Project Santa Cruz private preview you must use the preview version of the Azure portal at  https://preview.portal.azure.com.
 2. Make sure that the onboarding process for your organization is completed. 
-  * Contact your lead PM or support team to find the latest status. 
-  * Request onboarding to the Project Santa Cruz developer experience in Azure portal. 
+   * Contact your lead PM or support team to find the latest status. 
+   * Request onboarding to the Project Santa Cruz developer experience in Azure portal. 
 
 ### Voice assistant application cannot be created - resource deployment fails
 
 1. Verify that the following resource providers are registered in the subscription:
-  * Cognitive Services
-  * Storage
-  * Web
+   * Cognitive Services
+   * Storage
+   * Web
 2. Register resource providers if they are not registered.
 
 #### How to register resource providers
@@ -99,22 +112,22 @@ Try any of the following commands to interact with your voice assistant. Always 
 2. Find the subscription that use for private preview and click on it to open detailed info
 3. Select **Resource Providers** in the left navigation menu
 4. Find each of the resource providers below and **Register** if they are not registered
-  * Cognitive Services
-  * Storage
-  * Web
+   * Cognitive Services
+   * Storage
+   * Web
 
 ### Voice Assistant was created but does not respond to commands
 
 1. Check led lights on the Ear SOM. 
-  * 3 bright blue lights indicate that voice assistant is ready and waiting for the keyword
-  * no lights when devkit is powered indicate that devkit completed initialization and needs to be configured
-  * any combination of green lights indicates that Ear SOM did not complete initialization 
+   * 3 bright blue lights indicate that voice assistant is ready and waiting for the keyword
+   * no lights when devkit is powered indicate that devkit completed initialization and needs to be configured
+   * any combination of green lights indicates that Ear SOM did not complete initialization 
 
 ### Documentation links are not working
 
 1. Make sure that the onboarding process for your organization is completed. 
-  * Contact your lead PM or support team to find latest status. 
-  * Request onboarding to the private preview documentation.
+   * Contact your lead PM or support team to find latest status. 
+   * Request onboarding to the private preview documentation.
 
 ## Clean up resources
 
