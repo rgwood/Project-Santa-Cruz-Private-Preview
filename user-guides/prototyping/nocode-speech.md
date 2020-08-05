@@ -19,15 +19,14 @@ In this quickstart, you make your own voice assistant using the Project Santa Cr
 1. Connect speaker to your Ear SoM.
 2. Connect the Ear SoM to your devkit.
 3. Power on the devkit.
-  * The 1st LED light on the Ear SoM will change to bright green to indicate Ear SoM was powered on. 
-  *	The 2nd LED changes to blinking to indicate Ear SOM is waiting for authentication.
+   * The 1st LED light on the Ear SoM will change to bright green to indicate Ear SoM was powered on. 
+   *	The 2nd LED changes to blinking to indicate Ear SOM is waiting for authentication.
 4. Wait for the authentication process to complete. It can take up to 3 minutes.
 5. Proceed to the next section when you see one of the following:
-  * Both LED light turn off. This indicates that authentication was completed and further configuration is required.
-  * Three bright blue light turn on. This indicsted that authentication is completed and devkit is configured with a keyword.
+   * Both LED light turn off. This indicates that authentication was completed and further configuration is required.
+   * Three bright blue light turn on. This indicsted that authentication is completed and devkit is configured with a keyword.
 
-> [!IMPORTANT]
-> Reach out to your lead AED PM for support if your devkit cannot complete step 5.
+**NOTE:** Reach out to your lead AED PM for support if your devkit cannot complete step 5.
 
 ## Azure Edge Devices in the Azure portal
 
@@ -66,8 +65,7 @@ You can build a voice assistant using available templates. The Hospitality templ
 12. Choose the pricing tier from the **Tier** list. (We recommend **Standard**).
 13. Click the **Create** button. Resources for the voice assistant application will be deployed to your subscription. <br/>
 
-> [!IMPORTANT]
-> Do not close the pane until the portal finish deploying the resource. Closing the pane can result in unexpected behavior of voice assistant.
+**WARNING :** Do not close the pane until the portal finish deploying the resource. Closing the pane can result in unexpected behavior of voice assistant.
    
 At this point, the portal displays the speech demo.
 
