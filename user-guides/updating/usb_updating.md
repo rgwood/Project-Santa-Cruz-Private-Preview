@@ -14,7 +14,7 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
 
 - [Devkit setup](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/devkit-unboxing-setup.md) complete.
 
-- Windows or Linux PC with an available USB Type C port.
+- Windows PC with an available USB Type C port.
 
 - USB-C cable, included in the Project Santa Cruz Development Kit.  
 
@@ -24,7 +24,7 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
 
     ![nxp](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_nxp.png)
 
-- [7zip](https://www.7-zip.org/). For Windows users, this software will be used for extracting files from an XZ compressed folder. Linux users do not need to install 7zip. Download the appropriate .exe file and click on the .exe file to install the software.  
+- [7zip](https://www.7-zip.org/). This software will be used for extracting the raw image file from an XZ compressed folder. Download the appropriate .exe file and click on the .exe file to install 7zip.  
 
 ## USB Update Procedure
 
@@ -32,7 +32,7 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
 
     ![update_download](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_update_download.png)
 
-1. Extract the pe101-uefi-\<version>.raw file from the pe101-uefi\<version>.raw.xz file. To do this, right click on the .xz image file and select 7-Zip > Extract Here.  
+1. Extract the pe101-uefi-\<version>.raw file from the compressed pe101-uefi\<version>.raw.xz file. Right click on the .xz image file and select 7-Zip > Extract Here.  
 
     ![extract_update_files](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_extract_update_files.png)
 
@@ -46,15 +46,22 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
 
     ![wifi_ap](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_wifi_ap.png)  
 
-1. Open PuTTY. Enter 10.1.1.1 under Host Name, enter 22 under Port, select SSH under Connection Type, and click Open to SSH into your devkit.
+1. Open PuTTY. Enter the following and click Open to SSH into your devkit: 
+
+    1. Host Name: 10.1.1.1 
+    1. Port: 22 
+    1. Connection Type: SSH 
 
     ![putty](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_putty.png)  
 
-1. Log in to the PuTTY terminal using root (Password = p@ssw0rd).
+1. Log in to the PuTTY terminal:
+
+    1. login as: root 
+    1. Password = p@ssw0rd
 
     ![putty_login](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_putty_login.png)  
 
-1. Next, open a command prompt (Windows) or a terminal (Linux) and navigate to the Santa Cruz image flash tool folder where the update files are stored. Run the following command in Windows:
+1. Next, open a command prompt and navigate to the Santa Cruz image flash tool folder where the update files are stored. Run the following command:
 
     ```console
     uuu -b emmc_full.txt fast-hab-fw.raw pe101-<version>.raw  
@@ -80,7 +87,7 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
 
         ![putty_usb_update_mode](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_putty_usb_update_mode.png)
 
-1. Navigate back to the command prompt or terminal. When the update is finished, you will see the following screen:
+1. Navigate back to the command prompt. When the update is finished, you will see the following screen:
 
     ![update_complete](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_update_complete.png)
   
