@@ -10,15 +10,11 @@ After completing the [onboarding](https://github.com/microsoft/Project-Santa-Cru
 
 ## OOBE Procedure
 
-1. After the devkit has been powered on and your computer is connected to the Santa Cruz Wi-Fi AP, open a browser and go to http://10.1.1.1:4242/en-US.  
+1. After the devkit has been powered on and your computer is connected to the Santa Cruz Wi-Fi AP, open a browser and go to http://10.1.1.1:4242.  
 
 1. Click Next on the OOBE Welcome screen.  
 
     ![welcome_screen](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/oobe_welcome_screen.png)
-
-1. Read through the License Agreement, select “I Accept”, and click Next.  
-
-    ![license_agreement](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/oobe_license_agreement.png)
 
 1. On the Network connection page, click “Connect to a new WiFi network” to connect your devkit to a Wi-Fi network. 
 
@@ -32,6 +28,10 @@ After completing the [onboarding](https://github.com/microsoft/Project-Santa-Cru
 
     ![wifi_success](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/oobe_wifi_success.png)
 
+1. Read through the License Agreement, select “I Accept”, and click Next.
+
+    ![license_agreement](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/oobe_license_agreement.png)
+    
 1. If you would like to set up SSH for remote access to your devkit, enter your SSH login and password, and click Next.  
 
     ![ssh](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/oobe_ssh.png)
