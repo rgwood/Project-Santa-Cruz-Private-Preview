@@ -14,21 +14,21 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
 
 - [Devkit setup](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/devkit-unboxing-setup.md) complete.
 
-- Windows PC with an available USB Type C port.
+- Windows PC with an available USB-C port.
 
 - USB-C cable, included in the Project Santa Cruz Development Kit.  
 
 - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
 
-- [NXP UUU tool](https://github.com/NXPmicro/mfgtools/releases/tag/uuu_1.3.102). Download the uuu.exe file under the Assets tab. Move the .exe file to the emmc_flashing_tools artifact folder and click on the .exe file to install the NXP UUU tool.  
+- [NXP UUU tool](https://github.com/NXPmicro/mfgtools/releases/tag/uuu_1.3.102). Download the uuu.exe file under the Assets tab.
 
     ![nxp](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_nxp.png)
 
-- [7zip](https://www.7-zip.org/). This software will be used for extracting the raw image file from an XZ compressed folder. Download the appropriate .exe file and click on the .exe file to install 7zip.  
+- [7zip](https://www.7-zip.org/). This software will be used for extracting the raw image file from its XZ compressed file. Download the appropriate .exe file and click on the .exe file to install 7zip.  
 
 ## USB Update Procedure
 
-1. On your PC, navigate to the [Project Santa Cruz update management website](https://app-dev-sc.azurewebsites.net/Download). Download the full devkit image (pe101-uefi-\<version>.raw.xz) as well as the associated emmc_full.txt and fast-hab-fw.raw files.
+1. On your PC, navigate to the [Project Santa Cruz update management website](https://app-dev-sc.azurewebsites.net/Download). Download the full devkit image (pe101-uefi-\<version>.raw.xz) as well as the associated emmc_full.txt and fast-hab-fw.raw files. 
 
     ![update_download](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_update_download.png)
 
@@ -36,9 +36,7 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
 
     ![extract_update_files](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_extract_update_files.png)
 
-1. Copy the extracted pe101-\<version>.raw file, as well as the associated emmc_full.txt and fast-hab-fw.raw files, to the Santa Cruz image flash tool folder.  
-
-1. Power off the carrier board and unplug the power cable. Remove the SD card from the SD card slot.  
+1. Copy the extracted pe101-uefi-\<version>.raw file, as well as the associated emmc_full.txt and fast-hab-fw.raw files, to the folder containing the UUU tool (uuu.exe).  
 
 1. Plug in the carrier board power cable and turn on the device.  
 
@@ -61,10 +59,10 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
 
     ![putty_login](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_putty_login.png)  
 
-1. Next, open a command prompt and navigate to the Santa Cruz image flash tool folder where the update files are stored. Run the following command:
+1. Next, open a command prompt (Start > cmd) and navigate to the folder where the update files are stored. Run the following command:
 
     ```console
-    uuu -b emmc_full.txt fast-hab-fw.raw pe101-<version>.raw  
+    uuu -b emmc_full.txt fast-hab-fw.raw pe101-uefi-<version>.raw  
     ```
 
     ![cmd_flash](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_cmd_flash.png)  
@@ -73,13 +71,13 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
 
 1. In the PuTTY terminal, run the following commands:
 
-    1. Set the device to usb update mode:
+    1. Set the device to usb update mode. 
 
         ```console
         flagutil    -wBfRequestUsbFlash    -v1
         ```
 
-    1. Reboot the device:
+    1. Reboot the device. The update installation will begin.
 
         ```console
         reboot
@@ -91,11 +89,11 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
 
     ![update_complete](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_update_complete.png)
   
-1. Once the update is complete, power off the carrier board and unplug the power cable. Unplug the USB cable from the PC and the carrier board.  
+1. Once the update is complete, power off the carrier board. Unplug the USB-C cable from the PC.  
 
-1. Power the devkit back on.
+1. Power the carrier board back on.
 
-1. To verify the update, SSH into your devkit to check the ADU version.
+1. To verify the update, SSH into your devkit to check the software version.
 
     1. First, reconnect to the devkit's Wi-Fi AP (password = santacruz).
 
@@ -105,6 +103,6 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
         cat /etc/adu-version
         ```
 
-        The terminal will display the current software version, which should match the installed update.
+        The terminal will display the current software version, which should match the installed update (pe101-uefi-\<version>.raw).
 
         ![putty_terminal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_putty_terminal.png) 
