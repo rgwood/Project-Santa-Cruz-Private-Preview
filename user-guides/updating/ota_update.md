@@ -29,23 +29,21 @@ With Project Santa Cruz, you can update your devkit carrier board software over-
 
 1. Login to the [Azure Portal](https://ms.portal.azure.com/?feature.canmodifystamps=true&Microsoft_Azure_Iothub=aduprod#home) (this link allows you to access the Azure Device Update extension, which is a Private Preview service). Click All resources under the Azure services section of the portal homepage. 
 
-    ![azure_services_all_resources](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/firmware_azure_services_all_resources.png)
+    ![azure_services_all_resources](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/firmware_azure_services_all_resources.png)
 
 1. On the All resources page, click on the name of the IoT Hub that was provisioned to your devkit during the OOBE process. 
 
-    ![all_resources](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/firmware_all_resources.png)
-
 1. On the left side of the IoT Hub page, click on IoT Edge under Automatic Device Management. On the IoT Edge devices page, find the device ID of your devkit. The status of your device’s Runtime Response should be OK. If an error message is present, resolve the error before proceeding with the OTA update procedure. Click the Device ID of your devkit to open its IoT Edge device page. 
 
-    ![iot_hub](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/firmware_iot_hub.png)
+    ![iot_hub](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/firmware_iot_hub.png)
 
 1. On your devkit’s IoT Edge device page, the Runtime Status of all installed modules should be listed as running. 
 
-    ![iot_edge_device_page](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/ota_iot_edge_device_page.png)
+    ![iot_edge_device_page](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_iot_edge_device_page.png)
 
 1. Navigate back to the IoT Hub page and click Import updates under Azure Device Update on the left side of the IoT Hub page. The first time you navigate to Azure Device Update (ADU), you will be asked for your ADU Account Name and Instance Name. These will be provided to you by your Project Santa Cruz representative. Click Import New Update at the top of the Import updates page. 
 
-    ![import_updates](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/ota_import_updates.png)
+    ![import_updates](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_import_updates.png)
 
 1. Click on the boxes under Select Import Manifest File and Select Update Files to select the appropriate manifest file (.json) and update file (.swu). Please note that only one update file we be needed for re-imaging the carrier board of your devkit. 
 
@@ -57,7 +55,7 @@ With Project Santa Cruz, you can update your devkit carrier board software over-
 
 1. Click the Refresh icon at the top of the Import updates page. Once the update files have been imported, the status will display as Succeeded. 
 
-    ![import_success](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/ota_import_success.png)
+    ![import_success](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_import_success.png)
 
 1. (Optionally) create a device group for your devkit. ADU provides the ability to deploy updates to all compatible devices (in this case, Project Santa Cruz devkits) connected to your IoT Hub or to a select group of compatible devices. If you would like to update a select group of devkits, complete the following steps to create a device group:
 
@@ -67,15 +65,15 @@ With Project Santa Cruz, you can update your devkit carrier board software over-
 
     1. In the Add Group window, enter the group name of your choice under Group Name. 
 
-        ![group_name](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/ota_group_name.png)
+        ![group_name](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_group_name.png)
 
     1. Select “microsoft” under the Manufacturer drop-down menu. 
 
-        ![manufacturer](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/ota_manufacturer.png)
+        ![manufacturer](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_manufacturer.png)
 
     1. Select pe101 (the devkit carrier board model name) under the Model drop-down menu. Check the box next to the devkit device IDs that you want to add to the group. Click Save.  If your devkit is not listed here, verify the device runtime status and runtime response and refresh the page. 
 
-        ![model](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/ota_model.png)
+        ![model](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_model.png)
 
     1. Navigate back to the Group Management page by clicking Device groups under Azure Device Update. Your new device group should now be listed here. 
 
@@ -111,7 +109,7 @@ With Project Santa Cruz, you can update your devkit carrier board software over-
 
 1. For additional update deployment stats, click on the Deployment Status. 
 
-    ![deployment_status](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/updates/article_images/ota_deployment_status.png)
+    ![deployment_status](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_deployment_status.png)
 
 1. To verify that the correct update was installed, navigate back to the Device Twin page for your devkit (IoT Hub > Automatic Device Management > IoT Edge > Device Twin). swVersion will display the current software, which should match the update that was just installed. 
 
