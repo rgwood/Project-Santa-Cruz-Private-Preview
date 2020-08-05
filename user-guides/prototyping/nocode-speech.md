@@ -7,7 +7,7 @@ In this quickstart, you make your own voice assistant using the Project Santa Cr
 * Hardware: 
   * Devkit with an Ear SoM.
   * Speaker (not included in the package).
-* Devkit [OOBE (out of box experience)](../getting_started/oobe.md) configuration is completed, it is connected to internet and shows up in your IoT Hub. 
+* [OOBE (out of box experience)](../getting_started/oobe.md) configuration is completed, the devkit is connected to internet and shows up in your IoT Hub. 
 * Organization is enrolled in the Project Santa Cruz private preview and onboarded their Azure *tenant id* to the Project Santa Cruz services.
 * The following resource providers registered in the Azure subscription:
   * Cognitive Services
