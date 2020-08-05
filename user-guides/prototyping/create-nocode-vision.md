@@ -1,4 +1,4 @@
-# Quickstart: Create a Vision Solution using the AED DevKit
+# Quickstart: Create a Vision Solution using the Project Santa Cruz DevKit
 
 In this quickstart, you start a new Vision solution with the Azure Edge Devices Development Kit (AED DevKit) to integrate AI into Edge devices.
 
