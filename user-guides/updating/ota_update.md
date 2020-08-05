@@ -71,7 +71,7 @@ With Project Santa Cruz, you can update your devkit carrier board software over-
 
         ![manufacturer](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_manufacturer.png)
 
-    1. Select pe101 (the devkit carrier board model name) under the Model drop-down menu. Check the box next to the devkit device IDs that you want to add to the group. Click Save.  If your devkit is not listed here, verify the device runtime status and runtime response and refresh the page. 
+    1. Select pe101 (the devkit carrier board model name) under the Model drop-down menu. Check the box next to the devkit device IDs that you want to add to the group. Click Save.  If your devkit is not listed here, verify the device runtime status and runtime response, and refresh the page. 
 
         ![model](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_model.png)
 
@@ -115,17 +115,26 @@ With Project Santa Cruz, you can update your devkit carrier board software over-
 
     ![device_twin_updated](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_device_twin_updated.png)
 
-1. As an additional verification step, SSH into your devkit to check the ADU version.
+1. As an additional verification step, SSH into your devkit to check the ADU softwareversion.
 
     1. First, connect to the devkit's Wi-Fi AP (password = santacruz). 
     
         ![wifi_ap](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_wifi_ap.png)  
 
-    1. Open PuTTY. Enter 10.1.1.1 under Host Name, enter 22 under Port, select SSH under Connection Type, and click Open. 
+    1. Open PuTTY. Enter the following and click Open to SSH into your devkit: 
+
+        1. Host Name: 10.1.1.1 
+        1. Port: 22 
+        1. Connection Type: SSH 
     
         ![putty](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_putty.png)  
 
-    1. Log in to the PuTTY terminal using root (Password = p@ssw0rd) and enter the following: 
+    1. Log in to the PuTTY terminal:
+
+        1. login as: root 
+        1. Password = p@ssw0rd 
+        
+    1. Enter the following in the PuTTY terminal: 
     
         ```console
         cat /etc/adu-version
