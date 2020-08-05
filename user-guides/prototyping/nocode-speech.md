@@ -23,8 +23,8 @@ In this quickstart, you make your own voice assistant using the Project Santa Cr
    *	The 2nd LED changes to blinking to indicate Ear SOM is waiting for authentication.
 4. Wait for the authentication process to complete. It can take up to 3 minutes.
 5. Proceed to the next section when you see one of the following:
-   * Both LED light turn off. This indicates that authentication was completed and further configuration is required.
-   * Three bright blue light turn on. This indicsted that authentication is completed and devkit is configured with a keyword.
+   * Both LED light turn off. This indicates that authentication is completed and devkit is not configured with a keyword.
+   * Three bright blue light turn on. This indicates that authentication is completed and devkit is configured with a keyword.
 
 **NOTE:** Reach out to your lead AED PM for support if your devkit cannot complete step 5.
 
