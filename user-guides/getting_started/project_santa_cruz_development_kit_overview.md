@@ -24,7 +24,7 @@ There are three main stages to getting started with your Project Santa Cruz Deve
 
 1. [OOBE]( https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md)
 
-In the [onboarding stage](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/azure-subscription-onboarding.md), you will assign an Azure subscription within your account to Project Santa Cruz. The onboarding tool will walk your through the process of creating an IoT Hub within your Azure subscription to use with Project Santa Cruz. You will have the option of enabling services, such as the Device Provisioning Service (DPS), Azure Device Update (ADU), and Automatic Import Updates, within your IoT Hub.
+In the [onboarding stage](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/azure-subscription-onboarding.md), you will assign an Azure subscription within your account to Project Santa Cruz. The onboarding tool will walk you through the process of creating an IoT Hub within your Azure subscription to use with Project Santa Cruz. You will have the option of enabling services, such as the Device Provisioning Service (DPS), Azure Device Update (ADU), and Automatic Import Updates, within your IoT Hub.
 
 After onboarding has been completed, follow the [devkit unboxing and set up guide](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/devkit-unboxing-setup.md) for guidance on connecting the various components of the kit and powering on your device. 
 
