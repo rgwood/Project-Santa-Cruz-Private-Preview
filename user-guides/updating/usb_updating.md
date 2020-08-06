@@ -52,10 +52,10 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
 
     ![putty](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_putty.png)  
 
-1. Log in to the PuTTY terminal:
+1. Log in to the PuTTY terminal. If you set up an SSH username and password during the [OOBE]( https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md), enter those login credentials when prompted. Otherwise, enter the following:  
 
     1. login as: root 
-    1. Password = p@ssw0rd
+    1. Password: p@ssw0rd 
 
     ![putty_login](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_putty_login.png)  
 
