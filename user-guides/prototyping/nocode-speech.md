@@ -7,12 +7,8 @@ In this quickstart, you make your own voice assistant using the Project Santa Cr
 * Hardware: 
   * Devkit with an Ear SoM.
   * Speaker (not included in the package).
-* [OOBE (out of box experience)](../getting_started/oobe.md) configuration is completed, the devkit is connected to internet and shows up in your IoT Hub. 
-* Organization is enrolled in the Project Santa Cruz private preview and onboarded their Azure *tenant id* to the Project Santa Cruz services.
-* The following resource providers registered in the Azure subscription:
-  * Cognitive Services
-  * Storage
-  * Web 
+* [Out of Box Experience (OOBE)](../getting_started/oobe.md) configuration is completed. 
+* Organization is enrolled in the Project Santa Cruz private preview and completed onboarding process.
 
 ## Devkit setup 
 
@@ -38,7 +34,6 @@ The first step in creating a voice assistant is to navigate to the Project Santa
 3.	In the list that appears, choose *Azure Edge Devices*. Your browser displays the Azure Edge Devices Overview page.
 
 Alternatively, you can navigate directly to the [Azure Edge Devices Overview page](https://preview.portal.azure.com/#blade/AzureEdgeDevices/AEDBlade/overview).
-
 
 ![Azure Edge Devices Portal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/aed-portal-home-page.png)
 
@@ -95,7 +90,7 @@ Try any of the following commands to interact with your voice assistant. Always 
 
 1.	Verify the Azure portal link. For the Project Santa Cruz private preview you must use the preview version of the Azure portal at  https://preview.portal.azure.com.
 2. Make sure that the onboarding process for your organization is completed. 
-   * Contact your lead PM or support team to find the latest status. 
+   * Contact your lead PM to find the latest status. 
    * Request onboarding to the Project Santa Cruz developer experience in Azure portal. 
 
 ### Voice assistant application cannot be created - resource deployment fails
@@ -126,7 +121,7 @@ Try any of the following commands to interact with your voice assistant. Always 
 ### Documentation links are not working
 
 1. Make sure that the onboarding process for your organization is completed. 
-   * Contact your lead PM or support team to find latest status. 
+   * Contact your lead PM to find the latest status. 
    * Request onboarding to the private preview documentation.
 
 ## Clean up resources
@@ -137,7 +132,7 @@ Follow these steps to clean up resources you deployed in this quickstart:
 2. Enter the resource group name (selected in step 9) in the **Filter by name** field.
 3. Select the resource group from the list.
 4. Open the resource group to view its resources.
-5. Select 6 resources with the name starting with prefix selected in step 10.  
+5. There will be 6 resources with the name starting with prefix selected in step 10. Select each of them. 
 6. Click **Delete** action in the top menu.
 7. Confirm delete operation.
 8. Press **Delete** to delete resources.
