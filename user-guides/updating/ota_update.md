@@ -14,7 +14,7 @@ With Project Santa Cruz, you can update your devkit carrier board software over-
 
 -	Host PC.
 -	Project Santa Cruz Development Kit.
-- [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). 
+-   [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). 
 -	[Onboarding](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/azure-subscription-onboarding.md) complete. 
 -	[Devkit setup](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/devkit-unboxing-setup.md) complete.
 -	[OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md) complete.
@@ -129,10 +129,10 @@ With Project Santa Cruz, you can update your devkit carrier board software over-
     
         ![putty](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_putty.png)  
 
-    1. Log in to the PuTTY terminal:
+    1. Log in to the PuTTY terminal. If you set up an SSH username and password during the [OOBE]( https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md), enter those login credentials when prompted. Otherwise, enter the following:  
 
         1. login as: root 
-        1. Password = p@ssw0rd 
+        1. Password: p@ssw0rd 
         
     1. Enter the following in the PuTTY terminal: 
     
