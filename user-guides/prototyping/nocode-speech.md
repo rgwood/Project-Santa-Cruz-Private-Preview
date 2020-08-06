@@ -4,11 +4,10 @@ In this quickstart, you make your own voice assistant using the Project Santa Cr
 
 ## Prerequisites
 
-* Hardware: 
-  * Devkit with an Ear SoM.
-  * Speaker (not included in the package).
-* [Out of Box Experience (OOBE)](../getting_started/oobe.md) configuration is completed. 
-* Organization is enrolled in the Project Santa Cruz private preview and completed onboarding process.
+* Project Santa Cruz Development Kit with the Ear SoM connected.
+* Speaker (not included in the devkit).
+* [Onboarding](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/azure-subscription-onboarding.md) complete.
+* [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md) complete.
 
 ## Devkit setup 
 

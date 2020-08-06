@@ -5,9 +5,9 @@ Project Santa Cruz enables you to build a complete computer vision solution and 
 
 ## Prerequisites
 
-* A Project Santa Cruz Dev Kit with the Azure Eye SoM
-* Azure tennant ID enrolled in the AED private preview with the following registered resources.
-* Eye SOM whose carrier board is connected to an IoT Hub.
+* Project Santa Cruz Development Kit with the Azure Eye SoM connected.
+* [Onboarding](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/azure-subscription-onboarding.md) complete.
+* [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md) complete.
 * Default vision and web stream AI modules deployed.
  - Storage
  - Web
