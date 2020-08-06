@@ -1,15 +1,14 @@
-# Quickstart: Create a Vision Solution using the Project Santa Cruz DevKit
+# Create a No Code Vision Solution and Deploy it to a Project Santa Cruz Dev Kit
 
-In this quickstart, you start a new Vision solution with the Azure Edge Devices Development Kit (AED DevKit) to integrate AI into Edge devices.
+Project Santa Cruz enables you to build a complete computer vision solution and deploy it to your Project Santa Cruz Dev Kit. This article will guide you through the process of training a vision AI model and deploying it to the dev kit.
 
-If you do not have an [Azure subscription](https://docs.microsoft.com/en-us/azure/guides/developer/azure-developer-guide#understanding-accounts-subscriptions-and-billing), please create a [free account](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=docs&utm_campaign=visualstudio) before you begin.
 
 ## Prerequisites
 
-* Installed AED DevKit.
+* A Project Santa Cruz Dev Kit with the Azure Eye SoM
+* Azure tennant ID enrolled in the AED private preview with the following registered resources.
 * Eye SOM whose carrier board is connected to an IoT Hub.
 * Default vision and web stream AI modules deployed.
-* Azure tennant ID enrolled in the AED private preview with the following registered resources.
  - Storage
  - Web
  - Cognitive Services
