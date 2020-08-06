@@ -1,0 +1,10 @@
+{
+  "##num_classes##": "2", 
+  "##batch_size##": "1",
+  "##num_steps##": "10",
+  "##fine_tune_checkpoint##": "ssdlite_mobilenet_v2_coco_2018_05_09/model.ckpt",
+  "##label_map_path##": "tfdata/pascal_label_map.pbtxt",
+  "##train_input_path##": "tfdata/train.record",
+  "##test_input_path##": "tfdata/test.record"
+}
+

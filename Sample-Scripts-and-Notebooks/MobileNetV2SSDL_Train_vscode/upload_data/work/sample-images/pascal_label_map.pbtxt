@@ -1,0 +1,8 @@
+item {
+ id: 1
+ name: 'fork'
+}
+item {
+ id: 2
+ name: 'scissor'
+}
