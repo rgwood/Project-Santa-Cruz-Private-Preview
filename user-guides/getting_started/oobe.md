@@ -21,7 +21,7 @@ After completing the [onboarding](https://github.com/microsoft/Project-Santa-Cru
     ![network_connection](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/oobe_network_connection.png)
 
 1. Select your Wi-Fi network from the available connections. 
-
+    >[NOTE] The WiFi network you connect to, must currently have internet connectivity so we can communicate with Azure.  
     ![wifi](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/oobe_wifi.png)
 
 1. Once your devkit has successfully connected to your network of choice, click Next. 
