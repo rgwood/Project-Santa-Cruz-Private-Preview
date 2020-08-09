@@ -16,7 +16,8 @@ On this page you will find everything you need to get started.
 ## 3. Build Your Prototype
 - [Build a no code vision solution](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/create-nocode-vision.md)
 - [Build a no code audio solution](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/nocode-speech.md)
-- [Build a custom solution using VS Code](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/transfer-learning.md)
+- [Build a custom solution using Advanced code (Machine Learning Notebooks – Jupyter Notebooks + AML)( https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/Sample-Scripts-and-Notebooks/ML-Notebooks/readme.md)
+- [Build a custom solution using Advanced code (VS Code + AML) (https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/transfer-learning.md)
 
 ## Keep your Dev Kits Up To Date
 - [Update over-the-air](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/ota_update.md)
