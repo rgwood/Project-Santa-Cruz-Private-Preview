@@ -17,12 +17,12 @@ If you are unable to watch via Microsoft Teams, you can download the video files
 
 | Video Topic | Stream | Download | 
 | :---------- | :----- | :------- |
-| Private Preview Overview | Stream | Download |
-| Devkit Unbox and Setup | Stream | Download |
-| No Code Vision | Stream | Download |
-| No Code Speech | Stream | Download |
-| Custom Solutions with Advanced Code | Stream | Download |
-| End to End AI App Experiences Demo | Stream | Download |
-| Update Experiences | Stream | Download |
-| Device and Services Reference Architecture | Stream | Download |
-| Project Santa Cruz Business Model | Stream | Download |
+| Private Preview Overview | [Stream]() | [Download](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/videos/1%20-%20Private%20Preview%20Overview.mp4) |
+| Devkit Unbox and Setup | [Stream]() | [Download](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/videos/2%20-%20Devkit%20Unbox%20and%20Setup.mp4) |
+| No Code Vision | [Stream]() | [Download](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/videos/3%20-%20No%20Code%20Vision.mp4) |
+| No Code Speech | [Stream]() | [Download]() |
+| Custom Solutions with Advanced Code | [Stream]() | [Download]() |
+| End to End AI App Experiences Demo | [Stream]() | [Download]() |
+| Update Experiences | [Stream]() | [Download]() |
+| Device and Services Reference Architecture | [Stream]() | [Download]() |
+| Project Santa Cruz Business Model | [Stream]() | [Download]() |
