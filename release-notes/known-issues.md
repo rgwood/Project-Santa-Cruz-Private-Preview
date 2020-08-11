@@ -6,7 +6,7 @@ If you encounter any of these issues it is not necessary to open a bug, as we ar
 |:--|:--|:--|
 | OOBE | It is not possible to connect to OOBE via ethernet without first connecting via WiFi. | 1. SSH to the device access point (10.1.1.1) 2. Identify and copy the device ethernet IP address 3. Connect to OOBE using the copied ethernet IP based URL |
 | OOBE | Clicking on links in the EULA during OOBE sometimes does not open a new web page. | Will be fixed in an upcoming update. |
-| WiFi | The hardware button that toggles the Wifi SoftAP on and off sometimes does not work. | Confirm the device updated by navigating to the Device Twin for the device in IoT Hub. |
+| WiFi | The hardware button that toggles the Wifi SoftAP on and off sometimes does not work. | Continue to try pressing the button or reboot the device. |
 | WiFi | Users may see a message after connecting to WiFI saying "This Wifi network uses an older security standard." | The devkit's hotspot/SoftAP uses the WEP encryption algorithm.  We will be updating this to WPA2 in a future update. |
 | No code speech | Creating custom keywords during the no code speech path is not supported within the Azure portal. | Use Speech Studio to [train custom keywords](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/how-tos/speech/voice-assistant-config.md#create-custom-keyword). |
 | No code speech | Users cannot view entire conversation with speech assistant while in the demo app. Only the "completion" responses are visible. Clarifying questions from the speech assistant are not viewable. | Connect speakers or headphones to the Ear SoM to hear the entire conversation. |
