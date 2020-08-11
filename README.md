@@ -1,10 +1,10 @@
 
 # Welcome to the Project Santa Cruz Private Preview
-Watch [this video](https://microsoft.sharepoint-df.com/:v:/t/ProjectSantaCruzPrivatePreview/EX3mBUcyM9tOmnVcZMnhe9wB-4lubt4scTkbqh_q8JSM3Q?e=zyqJvu) to immediately start setting up your Project Santa Cruz Dev Kit
+Watch [this video](https://microsoft.sharepoint-df.com/:v:/t/ProjectSantaCruzPrivatePreview/EX3mBUcyM9tOmnVcZMnhe9wB-4lubt4scTkbqh_q8JSM3Q?e=zyqJvu) to immediately start setting up your Project Santa Cruz Dev Kit (having trouble viewing the video? [click here](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/videos.md)).
 
 By participating in this preview program you will get an early start using the Project Santa Cruz Dev Kits and services while providing our product and engineering team valuable feedback.
 
-On this page you will find everything you need to get started.
+On this page you will find everything you need to get started, including these [getting started videos](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/videos.md).
 
 ## 1. Ensure your Azure Subscription is On-boarded
 - [Onboard your Azure subscription](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/azure-subscription-onboarding.md)
