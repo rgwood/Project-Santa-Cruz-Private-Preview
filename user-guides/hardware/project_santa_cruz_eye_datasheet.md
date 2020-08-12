@@ -17,25 +17,29 @@ ms.topic: reference  # the type of article
 |Target Industries               |Manufacturing <br> Smart Buildings <br> Auto <br> Retail  |
 |Hero Scenarios                  |Shopper Analytics <br> On-shelf Availability <br> Shrink Reduction <br> Security/Surveillance <br> Workplace Safety|
 |Price                           |$50 MSRP  |
-|Included in Box  |1x AI Vision SoM |
-|External Dimensions             |30x40 mm   |
+|Included in Box                 |1x AI Vision SoM |
+|Dimensions                      |42mm x 42mm x 40mm   |
 |Weight                          |TBD          |
 |OS                              |NA           |
 |Management Control Plane        |ADU          |
 |Supported Software and Services |Azure IoT Hub <br> Azure IoT Edge <br> Azure Machine Learning <br> Azure Device Update <br> ONNX <br> OpenVINO        |
 |General Processor               |NA         |
 |AI Acceleration                 |Intel Movidius Myriad X Integrated ISP        |
-|Sensors and Visual Indicators   |Compatible Camera: Omni Vision 5670 <br> Compatible Lens: GSO GS8882AA (Resolution: 5MP at 30FPS, Distance: 50cm - infinity, FoV: 120 degrees, Color: Wide Dynamic Range, Fixed Focus Rolling Shutter)          |
+|Sensors and Visual Indicators   |Camera: Omni Vision 5670 <br> Lens: GSO GS8882AA (Resolution: 5MP at 30FPS, Distance: 50cm - infinity, FoV: 120 degrees, Color: Wide Dynamic Range, Fixed Focus Rolling Shutter)          |
+|Camera Support                  |RGB, IR, and Depth cameras <br> 2 cameras can be run simultaneously|
 |Integrated Graphics             |NA       |
-|Security                        |Crypto-Controller ST-Micro STM32L0x2, 64kB EEPROM      |
+|Security Crypto-Controller      |ST-Micro STM32L462CE      |
+|Versioning / ID Component       |64kb EEPROM |
 |Connectivity                    |NA      |
 |Storage                         |NA     |
-|Memory                          |LPDDR4 512 MB     |
+|Memory                          |LPDDR4 2GB     |
 |Power                           |     |
 |Ports                           |1x USB 3.0 Type C <br> 2 MIPI 4 Lane (up to 1.5 Gbps per lane)     |
+|Control Interfaces              |x2 I2C <br> x2 SPI <br> x6 PWM (GPIOs, e.g. x2 clock, x2frame sync, x2 unused) <br> x2 spare GPIO |
 |Protection                      |IP50    |
-|Certification                   |CE <br> UL <br> CCC <br> FCC     |
-|Operating Temperature           |-20 to 70 degrees C     |
+|Certification                   |CE <br> FCC     |
+|Operating Temperature           |0 to 27 degrees C     |
+|Touch Temperature               |<= 48 degrees C |
 |Relative Humidity               |8% to 90%    |
 |Noise                           |NA     |
 |Shock                           |     |
