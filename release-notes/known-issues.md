@@ -13,6 +13,8 @@ If you encounter any of these issues it is not necessary to open a bug, as we ar
 | Portal | Only a maximum of 15 devices are displayed in Azure portal. | If possible, delete unused devices. |
 | Device update | Containers do not run after an OTA update. | SSH into the device and restart the Iot Edge container with this command `systemctl restart iotedge`. This will restart all containers. |
 | Device update | Users may get a message that the update failed, even if it succeeded. | Confirm the device updated by navigating to the Device Twin for the device in IoT Hub. |
+| Dev Tools Pack Installer | Optional Caffe install may fail if Docker is not running properly on system. | Make sure Docker is installed and running, then retry Caffe installation. |
+| Dev Tools Pack Installer | Optional CUDA install fails on incompatible systems. | Verify system compatibility with CUDA prior to running installer. |
 
 
 
