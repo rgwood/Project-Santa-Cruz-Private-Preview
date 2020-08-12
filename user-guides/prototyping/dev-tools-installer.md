@@ -44,9 +44,9 @@ The Dev Tools Pack Installer is a one-stop solution that installs and configures
 
     1. If you are working with the Brainbox Development Kit, make sure to install the Nvidia DeepStream SDK and Miniconda3.
 
-    1. Click **Next** to proceed with the installation.
+    1. Click **Install** to proceed with the installation.
 
     ![configure_components](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/dev_tools_configure_components.png)
 
-1. After successful installation of all selected components, the wizard proceeds to the **Completing the setup wizard** page. Click **Finish** to exit the installer.
+1. After successful installation of all selected components, the wizard proceeds to the **Completing the Setup Wizard** page. Click **Finish** to exit the installer.
 
