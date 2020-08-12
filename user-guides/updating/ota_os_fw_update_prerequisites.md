@@ -1,10 +1,10 @@
 # OTA OS and FW Update Prerequisites
 
-1. Toggle Azure Device Update (ADU) on. This can be accomplished through the [onboarding](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/azure-subscription-onboarding.md) process or in your [Azure account](https://ms.portal.azure.com/?feature.canmodifystamps=true&Microsoft_Azure_Iothub=aduprod#home) after onboarding has been completed. After turning on ADU, please wait 5 business days for the service to propagate to your Azure account. 
+1. Toggle Azure Device Update (ADU) on. This can be accomplished through the [onboarding website](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/azure-subscription-onboarding.md). After turning on ADU, please wait 5 business days for the service to propagate to your Azure account. 
 
     ![onboarding](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/onboarding_dps_adu.png)
 
-1. Add the ADU service principal within your AAD tenant. Launch PowerShell and run the following commands with Azure AD Admin permissions:
+1. Add the ADU service principal within your AAD tenant. Launch PowerShell and run the following commands with Azure AD Admin permissions (if you do not have Azure AD Admin permissions, please contact your organization's admin):
 
     1. "Install-Module AzureAD" (if you don’t already have this Powershell Module)
     
