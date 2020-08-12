@@ -24,6 +24,12 @@ The Dev Tools Pack Installer is a one-stop solution that installs and configures
 * [CUDA Toolkit 10.0.130](https://developer.nvidia.com/cuda-toolkit)
 * [Microsoft Cognitive Toolkit 2.5.1](https://www.microsoft.com/en-us/research/product/cognitive-toolkit/?lang=fr_ca)
 
+## Known Issues
+
+1. Optional Caffe install may fail if Docker is not running properly on system. If you would like to install Caffe, make sure Docker is installed and running before attempting Caffe installation through the Dev Tools Pack Installer. 
+
+1. Optional CUDA install fails on incompatible systems. Before attempting to install the [CUDA Toolkit 10.0.130](https://developer.nvidia.com/cuda-toolkit) through the Dev Tools Pack Installer, verify your system compatibility.
+
 ## Instructions
 
 1. Download the [Dev Tools Pack Installer](https://go.microsoft.com/fwlink/?linkid=2132187).
