@@ -21,7 +21,7 @@ The Dev Tools Pack Installer is a one-stop solution that installs and configures
 * [Miniconda3](https://docs.conda.io/en/latest/miniconda.html)
 * [Chainer 5.2](https://chainer.org/)
 * [Caffe](https://caffe.berkeleyvision.org/)
-* [CUDA Toolkit 10.0.130](https://developer.nvidia.com/cuda-toolkit) 
+* [CUDA Toolkit 10.0.130](https://developer.nvidia.com/cuda-toolkit)
 * [Microsoft Cognitive Toolkit 2.5.1](https://www.microsoft.com/en-us/research/product/cognitive-toolkit/?lang=fr_ca)
 
 ## Instructions
@@ -32,11 +32,11 @@ The Dev Tools Pack Installer is a one-stop solution that installs and configures
 
 1. On the **Install Dev Tools Pack Installer** page, click **View license** to view the license agreements of each software package included in the installer. If you accept the terms in the license agreements, check the box and click **Next**.
 
-    ![license_agreements](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/user-guides/prototyping\article_images\dev_tools_license_agreements.png)
+    ![license_agreements](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/dev_tools_license_agreements.png)
 
 1. Click on **Privacy Statement** to review the Microsoft Privacy Statement. If you agree to the privacy statement terms and would like to send diagnostic data to Microsoft, select **Yes** and click **Next**. Otherwise, select **No** and click **Next**.
 
-    ![privacy_statement](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/user-guides/prototyping\article_images\dev_tools_privacy_statement.png)
+    ![privacy_statement](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/dev_tools_privacy_statement.png)
 
 1. On the **Configure Components** page, select the optional tools you would like to install (the mandatory tools will install by default).
 
@@ -46,7 +46,7 @@ The Dev Tools Pack Installer is a one-stop solution that installs and configures
 
     1. Click **Next** to proceed with the installation.
 
-    ![configure_components](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/user-guides/prototyping\article_images\dev_tools_configure_components.png)
+    ![configure_components](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/dev_tools_configure_components.png)
 
 1. After successful installation of all selected components, the wizard proceeds to the **Completing the setup wizard** page. Click **Finish** to exit the installer.
 
