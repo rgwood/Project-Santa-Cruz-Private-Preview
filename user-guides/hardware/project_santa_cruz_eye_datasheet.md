@@ -24,7 +24,7 @@ ms.topic: reference  # the type of article
 |Management Control Plane        |ADU          |
 |Supported Software and Services |Azure IoT Hub <br> Azure IoT Edge <br> Azure Machine Learning <br> Azure Device Update <br> ONNX <br> OpenVINO        |
 |General Processor               |NA         |
-|AI Acceleration                 |Intel Movidius Myriad X Integrated ISP        |
+|AI Acceleration                 |Intel Movidius Myriad X (MA2085) VPU Vision Processing Unit (VPU) with Intel Camera ISP integrated       |
 |Sensors and Visual Indicators   |Camera: Omni Vision 5670 <br> Lens: GSO GS8882AA (Resolution: 5MP at 30FPS, Distance: 50cm - infinity, FoV: 120 degrees, Color: Wide Dynamic Range, Fixed Focus Rolling Shutter)          |
 |Camera Support                  |RGB, IR, and Depth cameras <br> 2 cameras can be run simultaneously|
 |Integrated Graphics             |NA       |
