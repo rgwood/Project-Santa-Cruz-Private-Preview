@@ -1,6 +1,6 @@
 # Transfer learning local environment setup with Visual Studio Code
 
-This article walks you through the local environment setup process for Project Santa Cruz transfer learning solution development with Visual Studio Code and Jupyter Notebooks. After completing the steps detailed below, you will be able to get started with the [pre-built TensorFlow model](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/Sample-Scripts-and-Notebooks/MobileNetV2SSDL_Train_vscode) for object detection.
+This article walks you through the local environment setup process for transfer learning solution development with Visual Studio Code and Jupyter Notebooks. After completing the steps detailed below, you will be able to get started with the [pre-built TensorFlow model](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/Sample-Scripts-and-Notebooks/MobileNetV2SSDL_Train_vscode) for object detection.
 
 ## Visual Studio Code development environment setup
 
@@ -54,11 +54,9 @@ This article walks you through the local environment setup process for Project S
   
     - [Azure IoT Hub Toolkit extension](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-toolkit)
 
-    - [Azure IoT Edge](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-edge)
+    - [Azure IoT Edge extension](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-edge)
 
-1. Sign in to your Azure Account within Visual Studio Code.
-
-    In order to provision resources and run workloads on Azure, you have to sign in with your Azure account credentials.
+1. Sign in to your Azure Account within Visual Studio Code to provision resources and run workloads on Azure.
 
     1. Open the command palette in Visual Studio Code by selecting **View** > **Command Palette** from the menu bar.
 
@@ -84,4 +82,4 @@ This article walks you through the local environment setup process for Project S
 
 ## Next Steps
 
-The development environment is now setup to start Project Santa Cruz transfer learning solution development with Visual Studio Code and Jupyter Notebooks. Next, clone the [Project Santa Cruz Github repository](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview) within the **myworkspace** folder. To get started with transfer learning and object detection with your Project Santa Cruz Development Kit, check out the [pre-built TensorFlow model](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/Sample-Scripts-and-Notebooks/MobileNetV2SSDL_Train_vscode).
+The development environment is now setup to start transfer learning solution development with Visual Studio Code and Jupyter Notebooks. Next, clone the [Project Santa Cruz Github repository](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview) within the **myworkspace** folder. To get started with transfer learning and object detection with your Project Santa Cruz Development Kit, check out the [pre-built TensorFlow model](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/Sample-Scripts-and-Notebooks/MobileNetV2SSDL_Train_vscode).
