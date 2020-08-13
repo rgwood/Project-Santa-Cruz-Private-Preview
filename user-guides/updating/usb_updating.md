@@ -80,7 +80,7 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
     1. Reboot the device. The update installation will begin.
 
         ```console
-        reboot
+        reboot -f
         ```
 
         ![putty_usb_update_mode](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_putty_usb_update_mode.png)
