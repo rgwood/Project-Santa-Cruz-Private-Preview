@@ -13,11 +13,10 @@ ms.topic: reference  # the type of article
 |Product Specification           |     |
 |--------------------------------|--------|
 |Industrial Design               |Integrated 80/20 mounts <br> Detachable carrier board, vision SoM, and speech SoM <br> Operational versatility: can be used in the box, out of the box, on the wall, in a test lab, or in a production environment |
-|Performance                     |Eye SoM: 2-4 TOPS, 0.5 W/TOPS <br> Ear SoM: 180 Degrees Far-field at 4m 58dB   |
-|Target Industries               |Retail <br> Manufacturing  |
+|Performance                     |Eye SoM: 0.7 TOPS <br> Ear SoM: 180 Degrees Far-field at 4m 58dB   |
+|Target Industries               |Retail <br> Manufacturing <br> Hospitality <br> Smart Buildings <br> Auto |
 |Hero Scenarios                  |Out-of-box to first AI frames in under 10 minutes <br> Out-of-box to prototype in under 30 minutes <br> Capture and label initial training data <br> Basic AI model customization <br> Advanced AI model customization |
-|Price                           | |
-|Included in Box  |1x Carrier Board <br> 1x Azure Ear SoM <br> 1x Azure Eye SoM <br> 1x RGB Sensor <br> 1x USB 3.0 Type A to Micro B Cable <br> 1x USB 3.0 Type C Cable <br> 1x RGB MIPI Camera Cable <br> 1x DC Power Cable <br> 1x AC/DC Converter <br> 3x Carrier Board and SoM Enclosures <br> 2x Wi-Fi Antennas  |
+|Included in Box                 |1x Carrier Board <br> 1x Azure Ear SoM <br> 1x Azure Eye SoM <br> 1x RGB Sensor <br> 1x USB 3.0 Type A to Micro B Cable <br> 1x USB 3.0 Type C Cable <br> 1x RGB MIPI Camera Cable <br> 1x DC Power Cable <br> 1x AC/DC Converter <br> 3x Carrier Board and SoM Enclosures <br> 2x Wi-Fi Antennas  |
 |External Dimensions             |  |
 |Weight                          |TBD          |
 |OS                              |Linux: CentOS           |

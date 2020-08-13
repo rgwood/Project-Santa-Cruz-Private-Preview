@@ -12,11 +12,9 @@ ms.topic: reference  # the type of article
 
 |Product Specification           |     |
 |--------------------------------|--------|
-|Industrial Design               |Non-standalone Hardware Module       |
 |Performance                     |180 Degrees Far-field at 4m 58dB  |
 |Target Industries               |Hospitality <br> Smart Buildings <br> Auto <br> Retail  |
 |Hero Scenarios                  |In-room Virtual Concierge <br> Vehicle Voice Assistant and Command/Control <br> Point of Sale Quality Control <br> Active Shooter Detection  |
-|Price                           |$25 MSRP  |
 |Included in Box  |1x AI Audio SoM <br> 1x USB 3.0 Type A to Micro B Cable |
 |External Dimensions             |~18x136 mm   |
 |Weight                          |TBD          |
@@ -36,7 +34,7 @@ ms.topic: reference  # the type of article
 |Protection                      |IP50    |
 |Certification                   |CE <br> UL <br> CCC <br> FCC     |
 |Operating Temperature           |-20 to 70 degrees C     |
-|Relative Humidity                |8% to 90%    |
+|Relative Humidity               |8% to 90%    |
 |Noise                           |NA     |
 |Shock                           |     |
 |Vibration                       |2.0Grms from 1 to 300Hz.     |
