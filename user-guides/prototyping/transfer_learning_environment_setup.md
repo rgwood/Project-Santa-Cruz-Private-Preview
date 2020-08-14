@@ -11,7 +11,7 @@ This article walks you through the local environment setup process for transfer 
         Use the [Dev Tools Pack Installer](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/dev-tools-installer.md) to install the following packages:
 
         - Visual Studio Code
-        - Python 3.6 (Windows) or 3.5 (Linux)
+        - Python 3.5, 3.6, or 3.7
         - Miniconda3
         - Intel OpenVino Toolkit 2020.2
 
@@ -22,8 +22,8 @@ This article walks you through the local environment setup process for transfer 
         If you would prefer not to use the Dev Tools Pack Installer, manually install the following packages by clicking the links below and following the specified download and install guidelines:
 
         - [Visual Studio Code](https://code.visualstudio.com/)
-        - [Python 3.6 (Windows) or 3.5 (Linux)](https://www.python.org/)
-        - [Miniconda with Python 3.7](https://docs.conda.io/en/latest/miniconda.html)
+        - [Python 3.5, 3.6, or 3.7](https://www.python.org/)
+        - [Miniconda3](https://docs.conda.io/en/latest/miniconda.html)
         - [Intel OpenVino Toolkit 2020.2](https://docs.openvinotoolkit.org/)
   
     Note: If you already have the full Anaconda distribution installed, you don't need to install Miniconda. Alternatively, if you'd prefer not to use Anaconda or Miniconda, you can create a Python virtual environment and install the packages needed for running your AI model development using pip.
@@ -74,7 +74,7 @@ This article walks you through the local environment setup process for transfer 
 
         If you are training with GPU, select **1.12-GPU**
 
-    1. Click on **Explorer** in Activity Bar.
+    1. Select **Terminal** -> **New Terminal** to open a terminal within VS Code. Enter the following command to install the Azure ML SDK: 
 
         ```console
         pip install --upgrade azureml-sdk
