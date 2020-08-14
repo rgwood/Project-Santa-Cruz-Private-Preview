@@ -80,7 +80,7 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
     1. Reboot the device. The update installation will begin.
 
         ```console
-        reboot
+        reboot -f
         ```
 
         ![putty_usb_update_mode](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_putty_usb_update_mode.png)
@@ -106,6 +106,8 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
         The terminal will display the current software version, which should match the installed update (pe101-uefi-\<version>.raw).
 
         ![putty_terminal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_putty_terminal.png) 
+        
+
 
 ## Non-Standard Situations
 There are a few situations where it is not possible to gracefully USB update (re-flash) the carrier boards (i.e. if you need to recover an unbootable device). In these situations, please follow this guidance.
@@ -122,3 +124,4 @@ There are a few situations where it is not possible to gracefully USB update (re
  
  1. Toggle the DIP switches to eMMC boot mode (1001).
  
+
