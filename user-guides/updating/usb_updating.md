@@ -110,13 +110,15 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
 ## Non-Standard Situations
 There are a few situations where it is not possible to gracefully USB update (re-flash) the carrier boards (i.e. if you need to recover an unbootable device). In these situations, please follow this guidance.
 
- 1. Set the Boot Configuration switches to SD Card (1011) and remove the SD card so the device will boot into USB downloader mode.
+ 1. Toggle the Boot Configuration DIP switches to 1011 and remove the SD card so the device will boot into USB flash mode.
+ 
+    ![dip_switches](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/dip_switches.png)
  
  1. Run the UUU command corresponding to your build (see above).
  
  1. Power on the device.
  
- 1. it for UUU to complete, then power down the carrier board.
+ 1. Wait for UUU to complete, then power down the carrier board.
  
- 1. rn the DIP switches to eMMC mode (1001).
+ 1. Toggle the DIP switches to eMMC boot mode (1001).
  
