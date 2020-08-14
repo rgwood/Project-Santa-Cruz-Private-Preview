@@ -9,9 +9,10 @@ Project Santa Cruz enables you to build a complete computer vision solution and 
 * [Onboarding](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/azure-subscription-onboarding.md) complete.
 * [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md) complete.
 * Default vision and web stream AI modules deployed.
- - Storage
- - Web
- - Cognitive Services
+* Azure subscription with the following services enabled:
+    - Storage
+    - Web
+    - Cognitive Services
 
 ## Select the Azure Edge Devices in the Azure Portal
 
@@ -26,14 +27,28 @@ Alternatively, you can go directly to the [Azure Edge Devices Overview](https://
 ## Make a New Vision Solution
 
 1. On the **Azure Edge Devices Overview** site, choose the **Demos & Tutorials** tab.
-2. Under **Vision tutorials and demos**, choose the **Create a vision prototype** option. Your browser displays the **New AED Custom Vision prototype** page.
-3. In the uppermost text box, type the name of your vision project.
-4. Enter the project description in the next text box.
-5. From the **Resource** pull-down box, choose any resources you may need for your project. The Azure resources you use must be part of your subscription.
-6. In the **Project type** list, choose whether your Vision project will perform object detection or image classification using. For this Quickstart Guide, select **Object detection**.
-7. In the **Optimization** list, select whether you want to optimize your project for accuracy, low network latency, or a balance of both.
-8. Click the **I agree to terms & conditions for this project** checkbox. If you need to review the terms and conditions, select **See details**.
-9. Click the **Create** button.
+
+    ![overview](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_overview.png)
+
+1. Under **Vision tutorials and demos**, choose the **Create a vision prototype** option. Your browser displays the **New AED Custom Vision prototype** page.
+
+    ![tutorials_and_demos](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_tutorials_and_demos.png)
+
+1. In the uppermost text box, type the name of your vision project.
+
+1. Enter the project description in the next text box.
+
+1. From the **Resource** pull-down box, choose any resources you may need for your project. The Azure resources you use must be part of your subscription.
+
+1. In the **Project type** list, choose whether your Vision project will perform object detection or image classification using. For this Quickstart Guide, select **Object detection**.
+
+1. In the **Optimization** list, select whether you want to optimize your project for accuracy, low network latency, or a balance of both.
+
+1. Click the **I agree to terms & conditions for this project** checkbox. If you need to review the terms and conditions, select **See details**.
+
+1. Click the **Create** button.
+
+    ![create_prototype](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_create_prototype.png)
 
 The page that appears walks you through the remaining workflow that is required to get your project up and running.
 
