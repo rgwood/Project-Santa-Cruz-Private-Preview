@@ -91,4 +91,4 @@ This repo is building Tensorflow Object Detection on AzureML - Azure Machine Lea
 - Generate TF record from Pascal VOC format tagged images. The dataset was labelled using VoTT 2 https://github.com/microsoft/VoTT labeling tool to create and label bounding boxes and export in PASCAL VOC format.
 - Run training on remote ML compute node
 
-Open the notebook in VS code and follow the instructions in the notebook by running each cells to do transfer learning with Tensorflow SSDLiteV2 & SSDV2 Models and deploy the trained model to Azure Eye Devkit
+[Open the notebook](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/MobileNetV2SSDL_Training%20on%20VS%20Code%20IDE/Transferlearningusing_SSDLiteV2%20Model_VSCode.ipynb) in VS code and follow the instructions in the notebook by running each cells to do transfer learning with Tensorflow SSDLiteV2 & SSDV2 Models and deploy the trained model to Azure Eye Devkit
