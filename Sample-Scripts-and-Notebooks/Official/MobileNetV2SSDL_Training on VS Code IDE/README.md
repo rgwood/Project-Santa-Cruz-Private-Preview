@@ -90,4 +90,5 @@ This repo is building Tensorflow Object Detection on AzureML - Azure Machine Lea
 - Build tensorflow object detection docker image for AzureML with Mobilenetssdv2lite base model
 - Generate TF record from Pascal VOC format tagged images. The dataset was labelled using VoTT 2 https://github.com/microsoft/VoTT labeling tool to create and label bounding boxes and export in PASCAL VOC format.
 - Run training on remote ML compute node
-- Follow the instructions in the notebook by running each cells. 
+
+Open the notebook in VS code and follow the instructions in the notebook by running each cells to do transfer learning with Tensorflow SSDLiteV2 & SSDV2 Models and deploy the trained model to Azure Eye Devkit
