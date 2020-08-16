@@ -19,3 +19,10 @@ Select a notebook in Official folder to run thru the transfer learning on Azure 
 Refer to the readme.md section for each of the notebook folder which has instructions on how to run the AI model training.
 
 Also find other quickstarts and how-tos on the official documentation site for Azure Machine Learning service.
+
+#Get Started
+This repo is building Tensorflow Object Detection on AzureML - Azure Machine Learning Service. This repo include Python based AzureML development code.
+
+Build tensorflow object detection docker image for AzureML with Mobilenetssdv2lite base model
+Generate TF record from Pascal VOC format tagged images
+Run training on remote ML compute node
