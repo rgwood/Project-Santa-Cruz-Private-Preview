@@ -8,13 +8,13 @@ Open your Machine Learning workspace in the Azure portal. On your workspace page
 
 Select Jupyter in the URI column for your VM. On the Jupyter notebook webpage, the top foldername is your username. More details about quickstart setup instructions are located here.
 
-Clone this repo to your Notebook VM From the Notebook VM launch the Jupyter web interface as descriped in step #3 above. Click New -> Terminal on the upper right corner of the web interface. You will get a new browser tab with the bash prompt. You can use regular git clone --recursive https://github.com/Azure/AI-at-Edge-Preview/edit/main/machine-learning-notebooks command line commands to clone this repository into a desired folder.
+Clone this repo to your Notebook VM From the Notebook VM launch the Jupyter web interface as descriped in step #3 above. Click New -> Terminal on the upper right corner of the web interface. You will get a new browser tab with the bash prompt. You can use regular git clone --recursive https://github.com/microsoft/Project-Santa-Cruz-Private-Preview command line commands to clone this repository into a desired folder.
 
 Important update jupyter in the Notebook VM: (this is a temporary step)
 pip install –upgrade notebook
 sudo -i systemctl restart jupyter
 
-Select a notebook in machine-learning-reference\notebooks to run it. Set the kernel to Python 3.6 - AzureML.
+Under this Research folder, there are machine learning notebooks that are under development. You can select any of the notebook, Set the kernel to Python 3.6 - AzureML and run thru the instructions. 
 Notebooks in this repo The 00-aml-configuration.ipynb contains the basic steps to setup the environment for Azure ML. This step is important to complete your config.json file
 There are 4 notebook folders which does transfer learning for object detection and image classification using FasterRCNNResNet50, MobilenetSSDV2, MobilenetSSDV2Lite and MobileNetV1 models. 
 
