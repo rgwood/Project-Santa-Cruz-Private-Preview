@@ -1,5 +1,5 @@
 # Tensorflow Object Detection on AzureML project
-This repo is building Tensorflow Object Detection on AzureML - Azure Machine Learning Service. This repo include Python based AzureML development code.
+This repo is building Tensorflow Object Detection on AzureML - Azure Machine Learning Service. This repo include Python based AzureML development code under development. 
 
 - Build tensorflow object detection docker image for AzureML with Mobilenetssdv2lite base model
 - Generate TF record from Pascal VOC format tagged images
