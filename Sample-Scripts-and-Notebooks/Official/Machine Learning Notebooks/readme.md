@@ -21,8 +21,8 @@ Refer to the readme.md section for each of the notebook folder which has instruc
 Also find other quickstarts and how-tos on the official documentation site for Azure Machine Learning service.
 
 # Get Started
-This repo is building Tensorflow Object Detection on AzureML - Azure Machine Learning Service. This repo include Python based AzureML development code.
+This notebook is building Tensorflow Object Detection on AzureML. This includes Python based AzureML development code.
 
-Build tensorflow object detection docker image for AzureML with Mobilenetssdv2lite base model
-Generate TF record from Pascal VOC format tagged images
-Run training on remote ML compute node
+1) Build tensorflow object detection docker image for AzureML with Mobilenetssdv2lite base model
+2) Generate TF record from Pascal VOC format tagged images. The dataset was labelled using VoTT 2 https://github.com/microsoft/VoTT labeling tool to create and label bounding boxes and export in PASCAL VOC format. 
+3) Run training on remote ML compute node
