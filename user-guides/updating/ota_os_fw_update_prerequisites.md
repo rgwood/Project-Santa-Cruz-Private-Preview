@@ -34,3 +34,6 @@
     
     1. Select the 'Assign' button at the bottom of the pane.
 
+1. Once you have completed the steps above, you will be able to use Azure Device Update by navigating to the Azure Portal using this [link](https://portal.azure.com/?feature.canmodifystamps=true&Microsoft_Azure_Iothub=aduprod). This link turns on Azure Device Update functionality, given that this is a Private Preview feature.
+
+1. You are now ready to deploy your first OS/FW update over-the-air, learn more how to do it in the next part of this guide:  [Over-the-air OS/FW Updating](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/ota_update.md).
