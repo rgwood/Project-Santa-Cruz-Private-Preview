@@ -14,7 +14,7 @@ Important update jupyter in the Notebook VM: (this is a temporary step)
 pip install –upgrade notebook
 sudo -i systemctl restart jupyter
 
-Under this Research folder, there are machine learning notebooks that are under development. You can select any of the notebook, Set the kernel to Python 3.6 - AzureML and run thru the instructions. 
+# Under this Research folder, there are machine learning notebooks that are under development. You can select any of the notebook, Set the kernel to Python 3.6 - AzureML and run thru the instructions. 
 Notebooks in this repo The 00-aml-configuration.ipynb contains the basic steps to setup the environment for Azure ML. This step is important to complete your config.json file
 There are 4 notebook folders which does transfer learning for object detection and image classification using FasterRCNNResNet50, MobilenetSSDV2, MobilenetSSDV2Lite and MobileNetV1 models. 
 
