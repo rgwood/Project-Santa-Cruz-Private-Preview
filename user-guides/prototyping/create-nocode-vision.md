@@ -1,14 +1,17 @@
-# Create a No Code Vision Solution and Deploy it to a Project Santa Cruz Dev Kit
+# Create a no-code vision solution and deploy it to a Project Santa Cruz Development Kit
 
-Project Santa Cruz enables you to build a complete computer vision solution and deploy it to your Project Santa Cruz Dev Kit. This article will guide you through the process of training a vision AI model and deploying it to the dev kit.
-
+Project Santa Cruz enables you to build and deploy complete computer vision solutions, from simple no-code models to more advanced solutions. This article will guide you through the process of creating, training, and deploying a custom object detection or image classification model to your devkit. This is a no-code solution that is suitable for developers with little to no AI experience and those just getting started with Project Santa Cruz.
 
 ## Prerequisites
 
 * Project Santa Cruz Development Kit with the Azure Eye SoM connected.
+
 * [Onboarding](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/azure-subscription-onboarding.md) complete.
+
 * [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md) complete.
+
 * Default vision and web stream AI modules deployed.
+
 * Azure subscription with the following services enabled:
     - Storage
     - Web
@@ -16,13 +19,11 @@ Project Santa Cruz enables you to build a complete computer vision solution and 
 
 ## Open Azure Edge Devices in the Azure Portal
 
-The first step in creating a new vision solution is to select the Azure Edge device or devices to use.
+1. Open a browser and sign into your [Azure account](https://preview.portal.azure.com/#home).
 
-1. Start your browser and sign into your [Azure account](https://preview.portal.azure.com/#home).
+1. In the **Search** box at the top of the page, enter **Azure Edge Devices**.
 
-1. Use the **Search** box at the top of the page, enter **Azure Edge Devices**.
-
-1. In the list that appears, choose, **Azure Edge Devices**. Your browser displays the Azure Edge Devices Overview.
+1. Select **Azure Edge Devices** under **Services**.
 
 Alternatively, you can go directly to the [Azure Edge Devices Overview](https://preview.portal.azure.com/#blade/AzureEdgeDevices/AEDBlade/overview) page.
 
@@ -46,7 +47,7 @@ Alternatively, you can go directly to the [Azure Edge Devices Overview](https://
 
     1. Select a resource under the **Resource** drop-down menu or create a new resource.
 
-    1. In the **Project type** list, choose whether your vision project will perform object detection or image classification. For this Quickstart Guide, select **Object detection**.
+    1. In the **Project type** list, choose whether your vision project will perform object detection or image classification. For more information on the project types, click **Help me choose**.
 
     1. In the **Optimization** list, select whether you want to optimize your project for accuracy, low network latency, or a balance of both.
 
@@ -56,11 +57,9 @@ Alternatively, you can go directly to the [Azure Edge Devices Overview](https://
 
     ![create_prototype](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_create_prototype.png)
 
-The page that appears walks you through the remaining workflow that is required to get your project up and running.
-
 ## Connect a device to your project
 
-After creating a Vision solution, you must add an IoT hub and at least one device to it.
+After creating a vision solution, you must add a device and its corresponding IoT Hub to it.
 
 1. In the **IoT Hub** pull-down list, select the IoT hub to which your devkit was provisioned during the [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md).
 
@@ -70,51 +69,50 @@ After creating a Vision solution, you must add an IoT hub and at least one devic
 
 ## Capture images
 
-Next, you need to either load images to train your AI model, or you must capture images from the Eye SoM. For this Quickstart Guide, we'll capture images.
+Next, you must either load images or capture images for training your AI model. To capture images with the Eye SoM of your devkit, do the following:
 
-1. Choose the **Capture Images** link under **Capture images from your device to use as training data**. Alternatively, you can choose **+Capture Images** from the menu near the top of the page.
-2. In the pane that appears on the right side of the window, select **View device stream**. A tab appears in your browser that shows the device's input video stream.
-3. Ensure that your Eye SOM camera is correctly aligned to take the training pictures. If the camera isn't aligned properly, make adjustments until you are satisfied.
-4. Close the new browser tab and switch back to the tab containing your AED session.
-5. Select the **Take Photo** button.
+1. On your vision project page, click **Capture images** under **Capture images from your device to use as training data**. Alternatively, you can choose **+ Capture images** from the menu near the top of the page.
+
+1. In the **Image capture** window, select **View device stream** to view the Eye SoM video stream.
+
+1. Check the video stream to ensure that your Eye SoM camera is correctly aligned to take the training pictures. Make adjustments as necessary.
+
+1. In the **Image capture** window, click **Take photo**.
 
 ![capture_images](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_capture_images.png)
 
 At this point, you can continue to take photos if you need more. For example, if your project monitors a store shelf stocked with products and sends a notification when the shelf needs restocking, you'll need a photo of the empty shelf, one of a fully stocked shelf, and several pictures of the shelf stocked to varying degrees.
 
-When you have enough photos, choose the **Close** button.
+When you have enough photos, click **Close**.
 
 ## Label the images
 
-For the AI to process the photos, you must label them with tags.
+Before training your model, add labels to your images.
 
-1. From **Label images and train model iteration**, select **Open project in Custom Vision**. Custom Vision pops up in a new browser tab.
+1. Under **Label images and train a model iteration**, select **Open project in Custom Vision**.
 
     ![label_and_train](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_label_and_train.png)
 
-1. Select the one or more of the images that you captured.
+1. On the **Custom Vision** page, select one or more of your unlabeled images.
 
-1. Near the top of the new browser tab, click the **Tag images** option.
+1. Near the top of the page, click **Tag images**.
 
-1. In the **Image Tagging** dialog box that appears, enter a label for the image or images. For example, if you were creating an AI that would notify you when a store shelf needs restocking, you would select a photo of an empty shelf and then add the tag "Empty Shelf" to it. You might also add a tag that says "Full Shelf" to a photo of the fully-stocked shelf.
+1. In the **Image Tagging** dialog box, enter a label for each selected image. For example, if you were creating a vision solution that would notify you when a store shelf needs restocking, add the tag "Empty Shelf" to images of empty shelves, and add the tag "Full Shelf" to images of fully-stocked shelves.
 
-1. After adding a tag to an image, choose **Save and Close**.
+1. After labeling your images, click **Save and Close**.
 
 ## Train your model
 
-After your images are labeled, you must train your AI model. To do so, click the **Train** button near the top of the browser tab. This may take a while if your image set is extremely large.
+After your images are labeled, you are ready to train your AI model. To do so, click **Train** near the top of the page. Training may take a while if your image set is extremely large.
 
-When the training has completed, you'll see the results. If you are satisfied, close Custom Vision by closing the browser tab. Select the **Azure Developer Portal** browser tab to continue.
+When the training has completed, you'll see the results. If you are satisfied, close Custom Vision by closing the browser tab.
 
 ## Deploy Your AI Model
 
-Near the bottom of the **Azure Developer Portal** browser tab, you'll find the **Deploy Model** option. Click that to deploy your model.
+On your vision project page in the Azure Edge Devices portal, click **Deploy Model** to deploy your model.
 
 ![deploy_model](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_deploy_model.png)
 
 ## Next Steps
 
-In this Quickstart Guide, you created a Vision project for your Eye SOM. You took pictures and used that input data to train your AI model. Finally, you deployed it to your Eye SOM. Next, try the [Quickstart Guide for the Ear SOM to create a speech solution](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/nocode-speech.md).
-
-
-
+In this quickstart guide, you created a no-code vision solution for your Project Santa Cruz Development Kit. You collected and labeled images, which were used to train your AI model. Finally, you deployed the model to your devkit. Next, create a [no-code speech solution](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/nocode-speech.md). 
