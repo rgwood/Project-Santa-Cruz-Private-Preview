@@ -57,7 +57,10 @@ The page that appears walks you through the remaining workflow that is required 
 After making a Vision solution, you must add an IoT hub and at least one device to it.
 
 1. In the **IoT Hub** pull-down list, select the IoT hub that you'll be using for this project.
-2. In the **Devices** pull-down list, choose the Eye SOM that is attached to the IoT hub.
+
+1. In the **Devices** pull-down list, choose the Eye SOM that is attached to the IoT hub.
+
+![connect_device](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_connect_device.png)
 
 ## Capture Images
 Next, you need to either load images to train your AI model, or you must capture images from the Eye SOM. For this Quickstart Guide, we'll capture images.
@@ -68,6 +71,8 @@ Next, you need to either load images to train your AI model, or you must capture
 4. Close the new browser tab and switch back to the tab containing your AED session.
 5. Select the **Take Photo** button. 
 
+![capture_images](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_capture_images.png)
+
 At this point, you can continue to take photos if you need more. For example, if your project monitors a store shelf stocked with products and sends a notification when the shelf needs restocking, you'll need a photo of the empty shelf, one of a fully stocked shelf, and several pictures of the shelf stocked to varying degrees.
 
 When you have enough photos, choose the **Close** button.
@@ -77,10 +82,13 @@ When you have enough photos, choose the **Close** button.
 For the AI to process the photos, you must label them with tags.
 
 1. From **Label images and train model iteration**, select **Open project in Custom Vision**. Custom Vision pops up in a new browser tab.
-2. Select the one or more of the images that you captured.
-3. Near the top of the new browser tab, you'll see the **Tag images** option. Choose it.
-4. In the **Image Tagging** dialog box that appears, enter a label for the image or images. For example, if you were creating an AI that would notify you when a store shelf needs restocking, you would select a photo of an empty shelf and then add the tag "Empty Shelf" to it. You might also add a tag that says "Full Shelf" to a photo of the fully-stocked shelf. 
-5. After adding a tag to an image, choose **Save and Close**.
+
+    ![label_and_train](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_label_and_train.png)
+
+1. Select the one or more of the images that you captured.
+1. Near the top of the new browser tab, you'll see the **Tag images** option. Choose it.
+1. In the **Image Tagging** dialog box that appears, enter a label for the image or images. For example, if you were creating an AI that would notify you when a store shelf needs restocking, you would select a photo of an empty shelf and then add the tag "Empty Shelf" to it. You might also add a tag that says "Full Shelf" to a photo of the fully-stocked shelf. 
+1. After adding a tag to an image, choose **Save and Close**.
 
 ## Train Your Model
 
@@ -91,6 +99,8 @@ When the training has completed, you'll see the results. If you are satisfied, c
 ## Deploy Your AI Model
 
 Near the bottom of the **Azure Developer Portal** browser tab, you'll find the **Deploy Model** option. Click that to deploy your model.
+
+![deploy_model](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_deploy_model.png)
 
 ## Next Steps
 
