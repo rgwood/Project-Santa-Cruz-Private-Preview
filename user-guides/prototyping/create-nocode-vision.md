@@ -59,7 +59,9 @@ Alternatively, you can go directly to the [Azure Edge Devices Overview](https://
 
 ## Connect a device to your project
 
-After creating a vision solution, you must add a device and its corresponding IoT Hub to it.
+After creating a vision solution, you must add a device and its corresponding IoT Hub to it. 
+
+1. Power on your devkit.
 
 1. In the **IoT Hub** pull-down list, select the IoT hub to which your devkit was provisioned during the [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md).
 
@@ -79,7 +81,11 @@ Next, you must either load images or capture images for training your AI model. 
 
 1. In the **Image capture** window, click **Take photo**.
 
-![capture_images](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_capture_images.png)
+    ![capture_images](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_capture_images.png)
+
+1. Alternatively, set up an automated image capture to collect larger quantitites of images at a time by checking the **Automatic image capture** box. Select your preferred imaging rate under **Capture rate** and the total number of images you would like to collect under **Target**. Click **Set automatic capture** to begin the automatic image capture process.
+
+    ![automatic_image_capture](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_automatic_image_capture.png)
 
 At this point, you can continue to take photos if you need more. For example, if your project monitors a store shelf stocked with products and sends a notification when the shelf needs restocking, you'll need a photo of the empty shelf, one of a fully stocked shelf, and several pictures of the shelf stocked to varying degrees.
 
