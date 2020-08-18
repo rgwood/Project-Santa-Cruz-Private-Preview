@@ -36,4 +36,6 @@
 
 1. Once you have completed the steps above, you will be able to use Azure Device Update by navigating to the Azure Portal using this [link](https://portal.azure.com/?feature.canmodifystamps=true&Microsoft_Azure_Iothub=aduprod). This link turns on Azure Device Update functionality, given that this is a Private Preview feature.
 
+1. The first time you use Azure Device Update, you will be asked to provide your Azure Device Update Account name and Instance name. You will be able to find the Account name and Instance name on the  [onboarding website](https://aka.ms/projectsantacruz).; under the Azure Device Update section.
+
 1. You are now ready to deploy your first OS/FW update over-the-air, learn more how to do it in the next part of this guide:  [Over-the-air OS/FW Updating](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/ota_update.md).
