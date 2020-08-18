@@ -25,7 +25,7 @@ ms.topic: reference  # the type of article
 |AI Acceleration                 |XMOS XUF208 Codec        |
 |Sensors and Visual Indicators   |Microphones: <br> 4x MEM Sensing Microsystems MSM261D3526Z1CM <br> Interposer: <br> 2x Buttons, USB Hub, PCM, 3x LEDs, LED Driver          |
 |Integrated Graphics             |NA       |
-|Security                        |Crypto-Controller ST-Micro STM32L462CE       |
+|Security Crypto-Controller      |ST-Micro STM32L462CE       |
 |Connectivity                    |NA      |
 |Storage                         |NA     |
 |Memory                          |     |
