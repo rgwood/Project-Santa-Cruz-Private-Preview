@@ -28,7 +28,7 @@ ms.topic: reference  # the type of article
 |Security Crypto-Controller      |ST-Micro STM32L462CE       |
 |Connectivity                    |NA      |
 |Storage                         |NA     |
-|Memory                          |     |
+|Memory                          |NA   |
 |Power                           |     |
 |Ports                           |1x USB 2.0 Type Micro B <br> 3.5mm Audio Out     |
 |Protection                      |IP50    |
