@@ -17,7 +17,7 @@ If you are unable to watch via Microsoft Teams, you can download the video files
 
 | Video Topic | Stream | Download | 
 | :---------- | :----- | :------- |
-| Private Preview Overview | [Stream](https://microsoft.sharepoint-df.com/:v:/t/ProjectSantaCruzPrivatePreview/EYbAFWL9cP5Lu57PNWbc0bMBITnGejfCcrdx36JGTx1xpg?e=qvBl9b) | [Download](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/videos/1%20-%20Private%20Preview%20Overview.mp4) |
+| Private Preview Overview | [Stream](https://microsoft.sharepoint-df.com/:v:/r/teams/ProjectSantaCruzPrivatePreview/Shared%20Documents/General/Videos/Getting%20Started/1%20-%20Private%20Preview%20Overview.mp4?csf=1&web=1&e=iDXHtg) |
 | Devkit Unbox and Setup | [Stream](https://microsoft.sharepoint-df.com/:v:/t/ProjectSantaCruzPrivatePreview/EX3mBUcyM9tOmnVcZMnhe9wB-4lubt4scTkbqh_q8JSM3Q?e=a6QxvT) | [Download](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/videos/2%20-%20Devkit%20Unbox%20and%20Setup.mp4) |
 | No Code Vision | [Stream](https://microsoft.sharepoint-df.com/:v:/t/ProjectSantaCruzPrivatePreview/EdhHFF3PbmlBpgRgPEYXAl8BpGlZPE6RaY9YF_rSsX9-GA?e=fl1KhT) | [Download](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/videos/3%20-%20No%20Code%20Vision.mp4) |
 | No Code Speech | [Stream](https://microsoft.sharepoint-df.com/:v:/t/ProjectSantaCruzPrivatePreview/EX9RM66ulJ5Biab4HmtzfJoBLlZmq1SH2DzT8uf32SP_oA?e=wP66c2) | [Download](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/videos/4%20-%20No%20Code%20Speech.mp4) |
