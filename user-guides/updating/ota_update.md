@@ -24,7 +24,7 @@ With Project Santa Cruz, you can update your devkit carrier board software over-
 
 1. Plug in and power on your devkit.
 
-1. On your PC, navigate to the [Project Santa Cruz update management website](https://app-dev-sc.azurewebsites.net/Download). Download the image file (.swu) and manifest file (.json) of your desired update. 
+1. On your PC, navigate to the [Project Santa Cruz update management website](https://projectsantacruz.microsoft.com/Download). Download the image file (.swu) and manifest file (.json) of your desired update. 
 
     ![download_update](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_download_update.png)
 
