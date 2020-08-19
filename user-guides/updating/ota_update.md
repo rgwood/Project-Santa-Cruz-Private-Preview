@@ -46,7 +46,7 @@ With Project Santa Cruz, you can update your devkit carrier board software over-
 
     ![import_updates](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_import_updates.png)
 
-1. Click on the boxes under Select Import Manifest File and Select Update Files to select the appropriate manifest file (.json) and update file (.swu). Please note that only one update file we be needed for re-imaging the carrier board of your devkit. 
+1. Click on the boxes under Select Import Manifest File and Select Update Files to select the appropriate manifest file (.json) and update file (.swu). Please note that only one update file will be needed for re-imaging the carrier board of your devkit. 
 
     ![select_update](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_select_update.png)
 
