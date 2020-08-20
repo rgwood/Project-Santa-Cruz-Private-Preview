@@ -6,7 +6,7 @@
 
 1. Plug in the carrier board power cable and turn on the device.
 
-1. Connect to the devkit's Wi-Fi AP:
+1. If a Wi-Fi connection has not yet been set up through the [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md), connect to the devkit's Wi-Fi AP:
 
     1. SSID: scz-xxxx (where xxxx = the last four digits of the devkit's WiFi MAC address)
     1. password = santacruz
@@ -42,7 +42,7 @@
 ## Ear SoM and speech module troubleshooting
 
 - Access speech module logs:
-    - Connect to the devkit's Wi-Fi AP.
+    - If a Wi-Fi connection has not yet been set up through the [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md), connect to the devkit's Wi-Fi AP.
     - SSH into the devkit with PuTTY.
     - In the PuTTY terminal, enter the following:
         ```console
@@ -74,7 +74,7 @@
 
 ## Other device commands
 
-To run these commands, connect to the devkit's Wi-Fi AP, SSH into the devkit using PuTTY, and enter the commands in the PuTTY terminal.
+To run these commands, connect to the devkit's Wi-Fi AP (if a Wi-Fi connection has not yet been set up through the [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md)), SSH into the devkit using PuTTY, and enter the commands in the PuTTY terminal.
 
 |Category:         |Command:                    |Function:                  |
 |------------------|----------------------------|---------------------------|
