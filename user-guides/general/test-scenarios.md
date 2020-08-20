@@ -16,16 +16,17 @@ Questionnaire: please provide feedback [here](https://forms.office.com/Pages/Res
 
 Purpose of this Quest: update your device OS and firmware via the following three methods:
 
-    1. Over-the-air OS update (carrier board)
-    1. USB OS update (carrier board)
-    1. Over-the-air firmware update (Eye/Ear SoM)
+1. Over-the-air OS update (carrier board)
+1. USB OS update (carrier board)
+1. Over-the-air firmware update (Eye/Ear SoM)
 
 Expected outcome: successful OS/FW updates of devkit components.
 
 Experience documentation:
-    - [Over-the-air OS update (carrier board)](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/ota_update.md)
-    - [USB OS update (carrier board)](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/usb_updating.md)
-    - [Over-the-air firmware update (Eye/Ear SoM)](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/ear_som_firmware.md)
+
+- [Over-the-air OS update (carrier board)](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/ota_update.md)
+- [USB OS update (carrier board)](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/usb_updating.md)
+- [Over-the-air firmware update (Eye/Ear SoM)](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/ear_som_firmware.md)
 
 Questionnaire: please provide feedback [here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-EYOjUzOMlKvDaulVXd95tUNDc1V05EMDA2NjBRVDc5UlZBMVkwRjRNQSQlQCN0PWcu).
 
@@ -56,8 +57,9 @@ Purpose of this Quest: use guided journey samples to get started with advanced A
 Expected outcome: successfully train and deploy object detection models to the Project Santa Cruz devkit using TensorFlow on the AML platform.
 
 Experience documentation:
-    - [cloud development](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks)
-    - [local development](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/Sample-Scripts-and-Notebooks/Official/MobileNetV2SSDL_TrainingonVSCodeIDE)
+
+- [cloud development](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks)
+- [local development](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/Sample-Scripts-and-Notebooks/Official/MobileNetV2SSDL_TrainingonVSCodeIDE)
 
 Questionnaire: please provide feedback [here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRzoJxrXKT0dEvfQyxsA0h8lUMzE0V0pCTFU4UUVSS0xTRUtNT0hZSEs1Ry4u).
 
