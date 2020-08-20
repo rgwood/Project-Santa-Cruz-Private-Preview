@@ -119,6 +119,12 @@ On your vision project page in the Azure Edge Devices portal, click **Deploy Mod
 
 ![deploy_model](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_deploy_model.png)
 
+## Provide feedback
+
+After completing the no-code vision solution, please provide feedback on your experience via this [questionnaire](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRzoJxrXKT0dEvfQyxsA0h8lUMTc0N1U3SUhFTlZZMEdZVU45NVpNQkZFWC4u). Your feedback will help us continue to fine-tune and improve the no-code vision experience.
+
+For more information on Project Santa Cruz Quests and to provide feedback on other experiences, please visit the [test scenarios page](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/general/test-scenarios.md).
+
 ## Next Steps
 
 In this quickstart guide, you created a no-code vision solution for your Project Santa Cruz Development Kit. You collected and labeled images, which were used to train your AI model. Finally, you deployed the model to your devkit. Next, create a [no-code speech solution](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/nocode-speech.md). 

@@ -1,11 +1,12 @@
 <!---
 title: USB updating                        # the article title to show on the browser tab
-description: Walks a user through the usb update process for the devkit carrier board (July 2020). 
+description: Walks a user through the usb update process for the devkit carrier board (July 2020).
 author: elqu20      # the author's GitHub ID - will be auto-populated if set in settings.json
 ms.author: v-elqu     # the author's Microsoft alias (if applicable) - will be auto-populated if set in settings.json
 ms.date: {@date}           # the date - will be auto-populated when template is first applied
 ms.topic: reference  # the type of article
 --->
+
 # USB updating
 
 This guide will show you how to flash the carrier board of the Project Santa Cruz Development Kit with a new image file over USB. Ensure all prerequisites are satisfied before working through the USB update procedure.  
@@ -26,9 +27,9 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
 
 - [7zip](https://www.7-zip.org/). This software will be used for extracting the raw image file from its XZ compressed file. Download the appropriate .exe file and click on the .exe file to install 7zip.  
 
-## USB Update Procedure
+## USB update procedure
 
-1. On your PC, navigate to the [Project Santa Cruz update management website](https://app-dev-sc.azurewebsites.net/Download). Download the full devkit image (pe101-uefi-\<version>.raw.xz) as well as the associated emmc_full.txt and fast-hab-fw.raw files. 
+1. On your PC, navigate to the [Project Santa Cruz update management website](https://app-dev-sc.azurewebsites.net/Download). Download the full devkit image (pe101-uefi-\<version>.raw.xz) as well as the associated emmc_full.txt and fast-hab-fw.raw files.
 
     ![update_download](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_update_download.png)
 
@@ -44,18 +45,18 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
 
     ![wifi_ap](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_wifi_ap.png)  
 
-1. Open PuTTY. Enter the following and click Open to SSH into your devkit: 
+1. Open PuTTY. Enter the following and click Open to SSH into your devkit:
 
-    1. Host Name: 10.1.1.1 
-    1. Port: 22 
-    1. Connection Type: SSH 
+    1. Host Name: 10.1.1.1
+    1. Port: 22
+    1. Connection Type: SSH
 
     ![putty](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_putty.png)  
 
 1. Log in to the PuTTY terminal. If you set up an SSH username and password during the [OOBE]( https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md), enter those login credentials when prompted. Otherwise, enter the following:  
 
-    1. login as: root 
-    1. Password: p@ssw0rd 
+    1. login as: root
+    1. Password: p@ssw0rd
 
     ![putty_login](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_putty_login.png)  
 
@@ -71,7 +72,7 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
 
 1. In the PuTTY terminal, run the following commands:
 
-    1. Set the device to usb update mode. 
+    1. Set the device to usb update mode.
 
         ```console
         flagutil    -wBfRequestUsbFlash    -v1
@@ -105,23 +106,26 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
 
         The terminal will display the current software version, which should match the installed update (pe101-uefi-\<version>.raw).
 
-        ![putty_terminal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_putty_terminal.png) 
-        
+        ![putty_terminal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_putty_terminal.png)
 
+## Non-standard situations
 
-## Non-Standard Situations
 There are a few situations where it is not possible to gracefully USB update (re-flash) the carrier boards (i.e. if you need to recover an unbootable device). In these situations, please follow this guidance.
 
  1. Toggle the Boot Configuration DIP switches to 1011 and remove the SD card so the device will boot into USB flash mode.
- 
-    ![dip_switches](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/dip_switches.png)
- 
- 1. Run the UUU command corresponding to your build (see above).
- 
- 1. Power on the device.
- 
- 1. Wait for UUU to complete, then power down the carrier board.
- 
- 1. Toggle the DIP switches to eMMC boot mode (1001).
- 
 
+    ![dip_switches](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/dip_switches.png)
+
+ 1. Run the UUU command corresponding to your build (see above).
+
+ 1. Power on the device.
+
+ 1. Wait for UUU to complete, then power down the carrier board.
+
+ 1. Toggle the DIP switches to eMMC boot mode (1001).
+
+## Provide feedback
+
+After completing the USB update experience as well as the [OTA OS update experience](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/ota_update.md) and [OTA firmware update experience (Eye/Ear SoM)](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/ear_som_firmware.md), please provide feedback on your experience via this [questionnaire](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-EYOjUzOMlKvDaulVXd95tUNDc1V05EMDA2NjBRVDc5UlZBMVkwRjRNQSQlQCN0PWcu). Your feedback will help us continue to fine-tune and improve the update experiences.
+
+For more information on Project Santa Cruz Quests and to provide feedback on other experiences, please visit the [test scenarios page](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/general/test-scenarios.md).

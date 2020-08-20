@@ -138,6 +138,11 @@ Follow these steps to clean up resources you deployed in this quickstart:
 
 **WARNING:** This will remove any custom keywords you created in Speech Studio and voice assistant will no longer function. 
 
+## Provide feedback
+
+After completing the no-code speech solution, please provide feedback on your experience via this [questionnaire](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRzoJxrXKT0dEvfQyxsA0h8lUQU1YTDFUNkhBM005MFlYQkVQSFIxUURFRy4u). Your feedback will help us continue to fine-tune and improve the no-code speech experience.
+
+For more information on Project Santa Cruz Quests and to provide feedback on other experiences, please visit the [test scenarios page](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/general/test-scenarios.md).
 
 ## Next Steps
 

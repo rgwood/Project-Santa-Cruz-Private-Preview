@@ -88,3 +88,9 @@ This notebook is building Tensorflow Object Detection on AzureML. This includes 
 3) Run training on remote ML compute node
 
 [Open the notebook](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/MobileNetV2SSDL_TrainingonVSCodeIDE/Transferlearningusing_SSDLiteV2%20Model_VSCode.ipynb) in VS code and follow the instructions in the notebook by running each cells to do transfer learning with Tensorflow SSDLiteV2 & SSDV2 Models and deploy the trained model to Azure Eye Devkit
+
+## Provide feedback
+
+After completing the advanced tools local development experience as well as the [cloud development experience](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks), please provide feedback on your experience via this [questionnaire](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRzoJxrXKT0dEvfQyxsA0h8lUMzE0V0pCTFU4UUVSS0xTRUtNT0hZSEs1Ry4u). Your feedback will help us continue to fine-tune and improve the advanced tools experience.
+
+For more information on Project Santa Cruz Quests and to provide feedback on other experiences, please visit the [test scenarios page](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/general/test-scenarios.md).
