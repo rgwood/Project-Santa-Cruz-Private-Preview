@@ -48,6 +48,6 @@ can handle one device or thousands.
 
 The following Getting Started Guides help you get up and running quickly with producing no-code solutions and proof-of-concept demos.
 
-[Quickstart: Create a Vision Solution using the DevKit](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/aed-create-nocode-vision.md)
+[Quickstart: Create a Vision Solution using the DevKit](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/create-nocode-vision.md)
 
-[Quickstart: Create a Voice Assistant with the Devkit](https://github.com/Azure/AI-at-Edge-Preview/blob/main/user_guides/aed-nocode-speech.md)
+[Quickstart: Create a Voice Assistant with the Devkit](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/nocode-speech.md)
