@@ -1,6 +1,6 @@
 # Transfer learning local environment setup with Visual Studio Code
 
-This article walks you through the local environment setup process for transfer learning solution development with Visual Studio Code and Jupyter Notebooks. After completing the steps detailed below, you will be able to get started with the [pre-built TensorFlow model](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/Sample-Scripts-and-Notebooks/MobileNetV2SSDL_Train_vscode) for object detection.
+This article walks you through the local environment setup process for transfer learning solution development with Visual Studio Code and Jupyter Notebooks. After completing the steps detailed below, you will be able to get started with the [pre-built TensorFlow model](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/Sample-Scripts-and-Notebooks/Official/MobileNetV2SSDL_TrainingonVSCodeIDE) for object detection.
 
 ## Visual Studio Code development environment setup
 
@@ -82,4 +82,4 @@ This article walks you through the local environment setup process for transfer 
 
 ## Next Steps
 
-The development environment is now setup to start transfer learning solution development with Visual Studio Code and Jupyter Notebooks. Next, clone the [Project Santa Cruz Github repository](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview) within the **myworkspace** folder. To get started with transfer learning and object detection with your Project Santa Cruz Development Kit, check out the [pre-built TensorFlow model](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/MobileNetV2SSDL_Training%20on%20VS%20Code%20IDE/Transferlearningusing_SSDLiteV2%20Model_VSCode.ipynb).
+The development environment is now setup to start transfer learning solution development with Visual Studio Code and Jupyter Notebooks. Next, clone the [Project Santa Cruz Github repository](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview) within the **myworkspace** folder. To get started with transfer learning and object detection with your Project Santa Cruz Development Kit, check out the [pre-built TensorFlow model](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/Sample-Scripts-and-Notebooks/Official/MobileNetV2SSDL_TrainingonVSCodeIDE).
