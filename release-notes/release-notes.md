@@ -7,7 +7,7 @@
 - OOBE updates
 	- OOBE now waits for modules to start before showing the last screen
 	- Added link to be able to view the camera stream at the end of OOBE
-	- Added redirect to Azure Edge Devices portal to last screen
+	- Added redirect to the Project Santa Cruz portal to last screen
 	- Updated EULA page
 - Updated the hostname to include "scz-" at the front
 - Moved to a UEFI-based carrier board image
