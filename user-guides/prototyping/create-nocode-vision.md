@@ -25,7 +25,7 @@ Project Santa Cruz enables you to build and deploy complete computer vision solu
 
 1. Select **Project Santa Cruz** under **Services**.
 
-Alternatively, you can go directly to the [Project Santa Cruz Overview](https://go.microsoft.com/fwlink/?linkid=2135819) page.
+Alternatively, you can navigate directly to the [Project Santa Cruz Overview page](https://go.microsoft.com/fwlink/?linkid=2135819).
 
 ## Create a vision prototype
 
