@@ -29,12 +29,12 @@ The first step in creating a voice assistant is to navigate to the Project Santa
 
 1. Start your browser and go to the [Azure preview portal](https://preview.portal.azure.com/#home).
 2. Sign into your Azure account. 
-2.	Use the Search box at the top of the page, enter *Project Santa Cruz*.
-3.	In the list that appears, choose *Project Santa Cruz*. Your browser displays the Project Santa Cruz Overview page.
+3. Use the Search box at the top of the page, enter *Project Santa Cruz*.
+4. In the list that appears, choose *Project Santa Cruz*. Your browser displays the Project Santa Cruz Overview page.
 
 Alternatively, you can navigate directly to the [Project Santa Cruz Overview page](https://go.microsoft.com/fwlink/?linkid=2135819).
 
-![Azure Edge Devices Portal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/aed-portal-home-page.png)
+![Project Santa Cruz Portal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/aed-portal-home-page.png)
 
 
 ## Create voice assistant using templates
@@ -50,7 +50,7 @@ You can build a voice assistant using available templates. The Hospitality templ
 7.	Click **Create** button. The portal deploys the resource to the device.
 
 
-![Azure Edge Devices Portal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/aed-try-speech-themes.png)
+![Project Santa Cruz Portal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/aed-try-speech-themes.png)
 
 8. Select the Azure subscription in the **Subscription** box.
 9. Select the resource group to use from the **Resource group** list.
