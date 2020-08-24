@@ -25,7 +25,7 @@ Project Santa Cruz enables you to build and deploy complete computer vision solu
 
 1. Select **Azure Edge Devices** under **Services**.
 
-Alternatively, you can go directly to the [Azure Edge Devices Overview](https://preview.portal.azure.com/#blade/AzureEdgeDevices/AEDBlade/overview) page.
+Alternatively, you can navigate directly to the [Project Santa Cruz Overview page](https://go.microsoft.com/fwlink/?linkid=2135819).
 
 ## Create a vision prototype
 
