@@ -44,6 +44,8 @@
     1. Speed: 115200
     1. Connection Type: Serial
 
+    ![putty_serial](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/general/article_images/troubleshooting_putty.png)
+
 ## Docker troubleshooting commands
 
 |Command:                        |Function:                  |
