@@ -32,6 +32,7 @@ Here are some links to information that will help you while participating in the
 - [Providing feedback](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/general/give-feedback.md)
 - [Complete the Focused Test Scenarios](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/general/test-scenarios.md)
 - [Known issues](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/release-notes/known-issues.md)
+- [Hardware Specifications](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/user-guides/hardware)
 
 
  
