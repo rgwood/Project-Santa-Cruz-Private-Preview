@@ -32,7 +32,7 @@ The first step in creating a voice assistant is to navigate to the Project Santa
 2.	Use the Search box at the top of the page, enter *Azure Edge Devices*.
 3.	In the list that appears, choose *Azure Edge Devices*. Your browser displays the Azure Edge Devices Overview page.
 
-Alternatively, you can navigate directly to the [Azure Edge Devices Overview page](https://preview.portal.azure.com/#blade/AzureEdgeDevices/AEDBlade/overview).
+Alternatively, you can navigate directly to the [Project Santa Cruz Overview page](https://go.microsoft.com/fwlink/?linkid=2135819).
 
 ![Azure Edge Devices Portal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/aed-portal-home-page.png)
 
