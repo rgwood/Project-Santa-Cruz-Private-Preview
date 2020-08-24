@@ -17,19 +17,19 @@ Project Santa Cruz enables you to build and deploy complete computer vision solu
     - Web
     - Cognitive Services
 
-## Open Azure Edge Devices in the Azure Portal
+## Project Santa Cruz in the Azure Portal
 
 1. Open a browser and sign into your [Azure account](https://preview.portal.azure.com/#home).
 
-1. In the **Search** box at the top of the page, enter **Azure Edge Devices**.
+1. In the **Search** box at the top of the page, enter **Project Santa Cruz**.
 
-1. Select **Azure Edge Devices** under **Services**.
+1. Select **Project Santa Cruz** under **Services**.
 
-Alternatively, you can go directly to the [Azure Edge Devices Overview](https://preview.portal.azure.com/#blade/AzureEdgeDevices/AEDBlade/overview) page.
+Alternatively, you can go directly to the [Project Santa Cruz Overview](https://go.microsoft.com/fwlink/?linkid=2135819) page.
 
 ## Create a vision prototype
 
-1. On the **Azure Edge Devices Overview** page, click the **Demos & tutorials** tab.
+1. On the **Project Santa Cruz Overview** page, click the **Demos & tutorials** tab.
 
     ![overview](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_overview.png)
 
@@ -115,7 +115,7 @@ When the training has completed, you'll see the results. If you are satisfied, c
 
 ## Deploy Your AI Model
 
-On your vision project page in the Azure Edge Devices portal, click **Deploy Model** to deploy your model.
+On your vision project page in the Project Santa Cruz portal, click **Deploy Model** to deploy your model.
 
 ![deploy_model](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_deploy_model.png)
 
