@@ -28,6 +28,21 @@
 
     ![putty_login](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_putty_login.png)  
 
+## Serial connection to devkit
+
+1. Connect your devkit to a serial port.
+
+1. Power on your devkit.
+
+1. In Windows, open Device Manager. Go to **Ports** and click **USB to UART** to open **Properties**. Note which COM port your device is connected to.
+
+1. Click the **Port Settings** tab. Make sure **Bits per second** is set to 115200.
+
+1. Open PuTTY. Enter the following and click **Open** to connect to your devkit via serial:
+
+    1. Serial line: COM\<your COM port #>
+    1. Speed: 115200
+    1. Connection Type: Serial
 
 ## Docker troubleshooting commands
 
@@ -87,6 +102,7 @@ To run these commands, connect to the devkit's Wi-Fi AP (if a Wi-Fi connection h
 |Wi-Fi             |journalctl -u ztpd.service  |check Wi-Fi Zero Touch Provisioning Service logs |
 |Wi-Fi             |journalctl -u systemd-networkd |check Mariner Network stack logs |
 |OOBE              |journalctl -u oobe -b       |check OOBE logs |
+|Telemetry         |azure-device-health-id      |find unique telemetry HW_ID |
 
 Note: The Wi-Fi commands can be combined into the following:
 
