@@ -1,8 +1,8 @@
-## Getting started with Jupyter Notebooks in Azure Machine Learning Workspace
-# Clone Project Santa Cruz Github
+# Getting started with Jupyter Notebooks in Azure Machine Learning Workspace
+## Clone Project Santa Cruz Github
 Launch https://github.com/microsoft/Project-Santa-Cruz-Private-Preview -> Click Code -> Download zip ->Extract the zip file
  
-# Launch Machine Learning Azure Portal https://ml.azure.com 
+## Launch Machine Learning Azure Portal https://ml.azure.com 
 1.	Select Subscription and Machine Learning Workspace from the drop down and click on Get started. If you don’t have Azure Machine Learning workspace, then create a new workspace. Then re-select that workspace in the previous tab and click on Get started. 
 2.	Select Notebooks from the left-hand pane, then select user files under My files section in the middle-pane and then upload the notebook file (..\Project-Santa-Cruz-Private-Preview-main\Project-Santa-Cruz-Private-Preview-main\Sample-Scripts-and-Notebooks\Official\Machine Learning Notebooks\Transferlearningusing_SSDLiteV2 Model.pynb) that was downloaded and extracted from github. 
 3.	Select Transferlearningusing_SSDLiteV2 Model.pynb.
