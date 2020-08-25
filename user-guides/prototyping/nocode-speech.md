@@ -23,18 +23,18 @@ In this quickstart, you make your own voice assistant using the Project Santa Cr
 
 **NOTE:** Reach out to your lead AED PM for support if your devkit cannot complete step 5.
 
-## Azure Edge Devices in the Azure portal
+## Project Santa Cruz in the Azure portal
 
 The first step in creating a voice assistant is to navigate to the Project Santa Cruz in Azure portal.
 
 1. Start your browser and go to the [Azure preview portal](https://preview.portal.azure.com/#home).
 2. Sign into your Azure account. 
-2.	Use the Search box at the top of the page, enter *Azure Edge Devices*.
-3.	In the list that appears, choose *Azure Edge Devices*. Your browser displays the Azure Edge Devices Overview page.
+3. Use the Search box at the top of the page, enter *Project Santa Cruz*.
+4. In the list that appears, choose *Project Santa Cruz*. Your browser displays the Project Santa Cruz Overview page.
 
 Alternatively, you can navigate directly to the [Project Santa Cruz Overview page](https://go.microsoft.com/fwlink/?linkid=2135819).
 
-![Azure Edge Devices Portal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/aed-portal-home-page.png)
+![Project Santa Cruz Portal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/aed-portal-home-page.png)
 
 
 ## Create voice assistant using templates
@@ -50,7 +50,7 @@ You can build a voice assistant using available templates. The Hospitality templ
 7.	Click **Create** button. The portal deploys the resource to the device.
 
 
-![Azure Edge Devices Portal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/aed-try-speech-themes.png)
+![Project Santa Cruz Portal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/aed-try-speech-themes.png)
 
 8. Select the Azure subscription in the **Subscription** box.
 9. Select the resource group to use from the **Resource group** list.
@@ -85,9 +85,9 @@ Try any of the following commands to interact with your voice assistant. Always 
 
 ## Troubleshooting
 
-### Azure Edge Devices is not available in the Azure portal
+### Project Santa Cruz is not available in the Azure portal
 
-1.	Verify the Azure portal link. For the Project Santa Cruz private preview you must use the preview version of the Azure portal at  https://preview.portal.azure.com.
+1. Verify the Azure portal link. For the Project Santa Cruz private preview you must use the preview version of the Azure portal at  https://preview.portal.azure.com.
 2. Make sure that the onboarding process for your organization is completed. 
    * Contact your lead PM to find the latest status. 
    * Request onboarding to the Project Santa Cruz developer experience in Azure portal. 
