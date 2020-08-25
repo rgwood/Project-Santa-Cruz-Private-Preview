@@ -39,16 +39,22 @@ Welcome to Project Santa Cruz! Prior to getting started with Santa Cruz devkits 
 
     1. Enter your IoT Hub name. It is recommended that you create a new IoT Hub for working solely with Project Santa Cruz.  
 
-    1. Select your hub’s pricing tier from the drop-down menu. The S1 tier is recommended for use with Project Santa Cruz as the F1 tier has limited messaging capacity and cannot be upgraded. Other pricing tiers do not support IoT Edge, which is required. Note that Azure account credits may be used towards IoT Hub fees.   
+    1. Select your hub’s pricing tier from the drop-down menu. The S1 tier is recommended for use with Project Santa Cruz as the F1 tier has limited messaging capacity and cannot be upgraded. Other pricing tiers do not support IoT Edge, which is required. Note that Azure account credits may be used towards IoT Hub fees.
 
     1. Select a resource group from the drop-down menu or create a new one.  
 
     1. Select your location from the drop-down menu. Note that you may use any available region regardless of your country of residence.  
 
     1. After selecting your IoT Hub properties, click Submit. After submitting, any changes to your IoT properties can be made in your [Azure account](https://ms.portal.azure.com/?feature.canmodifystamps=true&Microsoft_Azure_Iothub=aduprod#home). 
-    
+
     ![onboarding_create_iot_hub](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/onboarding_create_iot_hub.png)
-    
+
+    1. In some cases, you may receive the following error message after clicking Submit:
+
+        ![iot_hub_error](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/onboarding_iot_hub_error.png)
+
+        The error message indicates that your Azure subscription is not registered to use the **Microsoft.Devices** namespace. To fix this, register your Azure subscription through the Azure portal by following the steps described [here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/error-register-resource-provider). There is no charge associated with the **Microsoft.Devices** namespace. Wait approximately 30 minutes after registering before trying to create your IoT Hub through the onboarding tool again.
+
 1. Toggle Device Provisioning Service (DPS) to the ON position and enter your DPS name.  
 
 1. Toggle Azure Device Update (ADU) and Automatic Import Updates to the ON Position. Click Submit. After submitting, any changes to these properties can be made in your [Azure account](https://ms.portal.azure.com/?feature.canmodifystamps=true&Microsoft_Azure_Iothub=aduprod#home) (this link allows you to access the Azure Device Update extension, which is a Private Preview service).
