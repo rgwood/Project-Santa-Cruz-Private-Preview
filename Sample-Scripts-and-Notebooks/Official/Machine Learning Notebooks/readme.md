@@ -6,17 +6,17 @@
 
 ## Download Project Santa Cruz GitHub repository
 
-1. Got to the [Project Santa Cruz GitHub repository](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview).
+1. Go to the [Project Santa Cruz GitHub repository](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview).
 
 1. Clone the repository or download the ZIP file. Near the top of the screen, click **Code** -> **Download ZIP**.
 
     ![download_zip](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/download_zip.png)
  
-## Set up Azure Machine Learning workspace and notebook
+## Set up Azure Machine Learning portal and notebook
 
 1. Go to the [Azure Machine Learning Portal](https://ml.azure.com).
 
-1. Select your Azure subscription and Machine Learning workspace from the drop down menus and click **Get started**.
+1. Select your directory, Azure subscription, and Machine Learning workspace from the drop down menus and click **Get started**.
 
     ![ml_portal_get_started](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/ml_portal_get_started.png)
 
