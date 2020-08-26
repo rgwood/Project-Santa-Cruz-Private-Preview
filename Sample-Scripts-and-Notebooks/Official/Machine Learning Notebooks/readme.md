@@ -38,14 +38,39 @@
 
     Once your workspace creation is complete, return to the machine learning portal tab and click **Get started**.
 
-2.	Select Notebooks from the left-hand pane, then select user files under My files section in the middle-pane and then upload the notebook file (..\Project-Santa-Cruz-Private-Preview-main\Project-Santa-Cruz-Private-Preview-main\Sample-Scripts-and-Notebooks\Official\Machine Learning Notebooks\Transferlearningusing_SSDLiteV2 Model.pynb) that was downloaded and extracted from github. 
-3.	Select Transferlearningusing_SSDLiteV2 Model.pynb.
-4.	On the right hand pane, if no computes found, create New compute by clicking on … next to “No computes found” text. Provide Compute name, select Virtual machine type and the standard virtual machine size and then click on create. 
-5.	Once the compute is created, select Jupyter AML Kernel 3.6 from the drop down list.
-6.	Now you are ready to get started with transfer learning using pre-trained tensor flow models (MobileNetSSDV2/MobileNetSSDV2Lite on AzureML. This notebook includes python based AzureML development code.
-7.	This notebook does transfer learning using custom dataset to detect dog. The trained model can then be deployed to Azure eye devkit using module twin update method. 
-8.	The dataset was labelled using Opensource VoTT 2 https://github.com/microsoft/VoTT labeling tool to create and label bounding boxes and export in PASCAL VOC format. 
-9.	Make sure to run each cell individually as some of cells will require input parameters before executing the script. 
+1. In the machine learning portal, click **Notebooks** on the left-hand pane.
+
+    ![notebooks](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/notebook.png)
+
+1. Under the **My files** tab, click the vertical arrow to upload your .ipynb file.
+
+    ![upload_files](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/upload_files.png)
+
+1. Navigate to and select the [Transferlearningusing_SSDLiteV2 Model.ipynb file](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/Transferlearningusing_SSDLiteV2%20Model.ipynb) from your local copy of the Project Santa Cruz GitHub repository. Click **Open**. In the **Upload files** window, check the box next to **I trust contents from this file** and click **Upload**.
+
+    ![select_file](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/select_file.png)
+
+1. On the top right menu bar, check your **Compute** status. If no computes are found, click the **+** icon to create a new compute.
+
+    ![no_computes_found](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/no_computes_found.png)
+
+1. In the **New compute instance** window, enter a **Compute name**, choose a **Virtual machine type**, and select a **Virtual machine size**. Click **Create**.
+
+    ![new_compute_instance](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/new_compute_instance.png)
+
+    Once you click **Create**, your **Compute** status will display a blue circle and **\<your compute name> - Creating**
+
+    ![compute_creating](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/compute_creating.png)
+
+    Your **Compute** status will display a green circle and **\<your compute name> - Running** after compute creation is complete.
+
+    ![compute_running](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/compute_running.png)
+
+1. Once the compute is created, select Jupyter AML Kernel 3.6 from the drop down list.
+1. Now you are ready to get started with transfer learning using pre-trained tensor flow models (MobileNetSSDV2/MobileNetSSDV2Lite on AzureML. This notebook includes python based AzureML development code.
+1. This notebook does transfer learning using custom dataset to detect dog. The trained model can then be deployed to Azure eye devkit using module twin update method. 
+1. The dataset was labelled using Opensource VoTT 2 https://github.com/microsoft/VoTT labeling tool to create and label bounding boxes and export in PASCAL VOC format. 
+1. Make sure to run each cell individually as some of cells will require input parameters before executing the script. 
 
 ## Provide feedback
 After completing the advanced tools cloud development experience as well as the [local development experience](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/Sample-Scripts-and-Notebooks/Official/MobileNetV2SSDL_TrainingonVSCodeIDE), please provide feedback on your experience via this [questionnaire](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRzoJxrXKT0dEvfQyxsA0h8lUMzE0V0pCTFU4UUVSS0xTRUtNT0hZSEs1Ry4u). Your feedback will help us continue to fine-tune and improve the advanced tools experience.
