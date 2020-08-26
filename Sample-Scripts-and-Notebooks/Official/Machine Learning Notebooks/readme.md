@@ -1,9 +1,43 @@
 # Getting started with Jupyter Notebooks in Azure Machine Learning Workspace
-## Clone Project Santa Cruz Github
-Launch https://github.com/microsoft/Project-Santa-Cruz-Private-Preview -> Click Code -> Download zip ->Extract the zip file
+
+## Prerequisites
+
+- [Azure Machine Learning Subscription](https://azure.microsoft.com/en-us/free/services/machine-learning/)
+
+## Download Project Santa Cruz GitHub repository
+
+1. Got to the [Project Santa Cruz GitHub repository](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview).
+
+1. Clone the repository or download the ZIP file. Near the top of the screen, click **Code** -> **Download ZIP**.
+
+    ![download_zip](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/download_zip.png)
  
-## Launch Machine Learning Azure Portal https://ml.azure.com 
-1.	Select Subscription and Machine Learning Workspace from the drop down and click on Get started. If you don’t have Azure Machine Learning workspace, then create a new workspace. Then re-select that workspace in the previous tab and click on Get started. 
+## Set up Azure Machine Learning workspace and notebook
+
+1. Go to the [Azure Machine Learning Portal](https://ml.azure.com).
+
+1. Select your Azure subscription and Machine Learning workspace from the drop down menus and click **Get started**.
+
+    ![ml_portal_get_started](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/ml_portal_get_started.png)
+
+    If you don’t have an Azure Machine Learning workspace yet, click **Create a new workspace**. In the new browser tab, do the following:
+
+    1. Select your Azure subscription.
+    1. Select your resource group.
+    1. Enter a name for your workspace.
+    1. Select your region.
+    1. Select your workspace edition.
+    1. Click **Review and create**.
+    1. On the next page, review your selections and click **Create**.
+
+        ![workspace_review_and_create](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/workspace_review_and_create.png)
+
+    Please allow a few minutes for workspace creation. After the workspace creation is complete, you will see green check marks next to your resources and **Your deployment is complete** at the top of the Machine Learning Services overview page.
+
+    ![workspace_creation_complete](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/workspace_creation_complete.png)
+
+    Once your workspace creation is complete, return to the machine learning portal tab and click **Get started**.
+
 2.	Select Notebooks from the left-hand pane, then select user files under My files section in the middle-pane and then upload the notebook file (..\Project-Santa-Cruz-Private-Preview-main\Project-Santa-Cruz-Private-Preview-main\Sample-Scripts-and-Notebooks\Official\Machine Learning Notebooks\Transferlearningusing_SSDLiteV2 Model.pynb) that was downloaded and extracted from github. 
 3.	Select Transferlearningusing_SSDLiteV2 Model.pynb.
 4.	On the right hand pane, if no computes found, create New compute by clicking on … next to “No computes found” text. Provide Compute name, select Virtual machine type and the standard virtual machine size and then click on create. 
