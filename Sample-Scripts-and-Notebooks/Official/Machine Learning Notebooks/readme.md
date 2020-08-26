@@ -11,7 +11,7 @@
 1. Clone the repository or download the ZIP file. Near the top of the screen, click **Code** -> **Download ZIP**.
 
     ![download_zip](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/download_zip.png)
- 
+
 ## Set up Azure Machine Learning portal and notebook
 
 1. Go to the [Azure Machine Learning Portal](https://ml.azure.com).
@@ -38,7 +38,7 @@
 
     Once your workspace creation is complete, return to the machine learning portal tab and click **Get started**.
 
-1. In the machine learning portal, click **Notebooks** on the left-hand pane.
+1. In the machine learning workspace homepage, click **Notebooks** on the left-hand pane.
 
     ![notebooks](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/notebook.png)
 
@@ -66,13 +66,17 @@
 
     ![compute_running](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/compute_running.png)
 
-1. Once the compute is created, select Jupyter AML Kernel 3.6 from the drop down list.
-1. Now you are ready to get started with transfer learning using pre-trained tensor flow models (MobileNetSSDV2/MobileNetSSDV2Lite on AzureML. This notebook includes python based AzureML development code.
-1. This notebook does transfer learning using custom dataset to detect dog. The trained model can then be deployed to Azure eye devkit using module twin update method. 
-1. The dataset was labelled using Opensource VoTT 2 https://github.com/microsoft/VoTT labeling tool to create and label bounding boxes and export in PASCAL VOC format. 
-1. Make sure to run each cell individually as some of cells will require input parameters before executing the script. 
+1. Once the compute running, select the **Python 3.6 - AzureML** kernel from the drop-down menu next to the **+** icon.
+
+## Working with the notebook
+
+1. Now you are ready to get started with transfer learning using pre-trained TensorFlow models (MobileNetSSDV2/MobileNetSSDV2Lite) on AzureML. This notebook includes python-based AzureML development code.
+1. This notebook does transfer learning using a custom dataset to detect dogs. The trained model can then be deployed to the Project Santa Cruz devkit using the module twin update method.
+1. The dataset was labelled using the opensource [VoTT 2](https://github.com/microsoft/VoTT) labeling tool to create and label bounding boxes and export in PASCAL VOC format.
+1. Make sure to run each cell of the notebook individually as some of cells will require input parameters before executing the script.
 
 ## Provide feedback
-After completing the advanced tools cloud development experience as well as the [local development experience](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/Sample-Scripts-and-Notebooks/Official/MobileNetV2SSDL_TrainingonVSCodeIDE), please provide feedback on your experience via this [questionnaire](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRzoJxrXKT0dEvfQyxsA0h8lUMzE0V0pCTFU4UUVSS0xTRUtNT0hZSEs1Ry4u). Your feedback will help us continue to fine-tune and improve the advanced tools experience.
+
+After completing the advanced tools cloud development experience as well as the [local development experience](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/Sample-Scripts-and-Notebooks/Official/MobileNetV2SSDL_TrainingonVSCodeIDE), please provide feedback via this [questionnaire](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRzoJxrXKT0dEvfQyxsA0h8lUMzE0V0pCTFU4UUVSS0xTRUtNT0hZSEs1Ry4u). Your feedback will help us continue to fine-tune and improve the advanced tools experience.
 
 For more information on Project Santa Cruz Quests and to provide feedback on other experiences, please visit the [test scenarios page](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/general/test-scenarios.md).
