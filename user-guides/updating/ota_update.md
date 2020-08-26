@@ -42,7 +42,7 @@ With Project Santa Cruz, you can update your devkit carrier board software over-
 
     ![iot_edge_device_page](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_iot_edge_device_page.png)
 
-1. Navigate back to the IoT Hub page and click Import updates under Azure Device Update on the left side of the IoT Hub page. The first time you navigate to Azure Device Update (ADU), you will be asked for your ADU Account Name and Instance Name. These will be provided to you by your Project Santa Cruz representative. Click Import New Update at the top of the Import updates page. 
+1. Navigate back to the IoT Hub page and click Import updates under Azure Device Update on the left side of the IoT Hub page. The first time you navigate to Azure Device Update (ADU), you will be asked for your ADU Account Name and Instance Name. These can be found in the Summary Page of the [Project Santa Cruz onboarding and update management website](https://projectsantacruz.microsoft.com). Click Import New Update at the top of the Import updates page. 
 
     ![import_updates](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/ota_import_updates.png)
 
