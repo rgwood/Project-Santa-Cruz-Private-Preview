@@ -1,8 +1,11 @@
-# Getting started with Jupyter Notebooks in Azure Machine Learning Workspace
+# Getting started with advanced development in the cloud via Jupyter Notebooks and Azure Machine Learning
 
 ## Prerequisites
 
 - [Azure Machine Learning Subscription](https://azure.microsoft.com/en-us/free/services/machine-learning/)
+- Project Santa Cruz Development Kit with Azure Eye SoM connected
+- [Onboarding](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/azure-subscription-onboarding.md) completed
+- [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md) completed
 
 ## Download Project Santa Cruz GitHub repository
 
@@ -66,7 +69,7 @@
 
     ![compute_running](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/compute_running.png)
 
-1. Once the compute running, select the **Python 3.6 - AzureML** kernel from the drop-down menu next to the **+** icon.
+1. Once the compute is running, select the **Python 3.6 - AzureML** kernel from the drop-down menu next to the **+** icon.
 
 ## Working with the notebook
 
