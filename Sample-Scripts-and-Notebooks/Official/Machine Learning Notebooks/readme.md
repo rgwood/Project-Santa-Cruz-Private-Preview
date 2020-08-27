@@ -1,5 +1,7 @@
 # Getting started with advanced development in the cloud via Jupyter Notebooks and Azure Machine Learning
 
+This article walks you through the process of setting up an Azure Machine Learning workspace, uploading a Jupyter Notebook to the workspace, creating a compute instance, and running the cells of the notebook within the workspace. The [notebook](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/Transferlearningusing_SSDLiteV2%20Model.ipynb) performs transfer learning using pre-trained TensorFlow models (MobileNetSSDV2/MobileNetSSDV2Lite) on AzureML in Python with a custom dataset to detect dogs. The dataset was labelled using the open-source [VoTT 2](https://github.com/microsoft/VoTT) labeling tool to create and label bounding boxes in the PASCAL VOC format. After retraining the model on the custom dog dataset, the model can then be deployed to your Project Santa Cruz devkit using the module twin update method. You may then check model inferencing by viewing the live RTSP stream from the Azure Eye SoM of your devkit. Both model retraining and deployment are performed within the notebook in the cloud.
+
 ## Prerequisites
 
 - [Azure Machine Learning Subscription](https://azure.microsoft.com/en-us/free/services/machine-learning/)
@@ -73,10 +75,9 @@
 
 ## Working with the notebook
 
-1. Now you are ready to get started with transfer learning using pre-trained TensorFlow models (MobileNetSSDV2/MobileNetSSDV2Lite) on AzureML. This notebook includes python-based AzureML development code.
-1. This notebook does transfer learning using a custom dataset to detect dogs. The trained model can then be deployed to the Project Santa Cruz devkit using the module twin update method.
-1. The dataset was labelled using the opensource [VoTT 2](https://github.com/microsoft/VoTT) labeling tool to create and label bounding boxes and export in PASCAL VOC format.
-1. Make sure to run each cell of the notebook individually as some of cells will require input parameters before executing the script.
+You are now ready to run the notebook to train your custom dog detector and deploy it to your devkit. Make sure to run each cell of the notebook individually as some of the cells require input parameters before executing the script. Cells that require input parameters may be edited directly in the notebook. To run a cell, click the play icon on the left side of the cell:
+
+![run_cell](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/run_cell.png)
 
 ## Provide feedback
 
