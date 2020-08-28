@@ -10,7 +10,13 @@ After completing the [onboarding](https://github.com/microsoft/Project-Santa-Cru
 
 ## OOBE Procedure
 
-1. After the devkit has been powered on and your computer is connected to the Santa Cruz Wi-Fi AP, open a browser and go to http://10.1.1.1:4242.  
+1. After the devkit has been powered on, connect your laptop to the Santa Cruz Wi-Fi AP. 
+1. On your computer, open your network and internet settings and connect to the following:
+    1. SoftAP/Hotspot SSID: scz-xxxx    (where xxxx = the last four digits of the devkit's WiFi MAC address)
+    2. Password: santacruz
+    > [!NOTE]
+    > Windows may complain about the SoftAP using a less secure standard (WPA2+TKIP cipher).  This will be addressed in a future build to only allow connections via the CCMP pairwise cipher.
+1. open a browser and go to http://10.1.1.1:4242.  
 
 1. Click Next on the OOBE Welcome screen.  
 
