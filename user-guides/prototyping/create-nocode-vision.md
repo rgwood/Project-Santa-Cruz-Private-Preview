@@ -10,13 +10,6 @@ Project Santa Cruz enables you to build and deploy complete computer vision solu
 
 * [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md) complete.
 
-* Default vision and web stream AI modules deployed.
-
-* Azure subscription with the following services enabled:
-    - Storage
-    - Web
-    - Cognitive Services
-
 ## Project Santa Cruz in the Azure Portal
 
 1. Open a browser and sign into your [Azure account](https://preview.portal.azure.com/#home).
