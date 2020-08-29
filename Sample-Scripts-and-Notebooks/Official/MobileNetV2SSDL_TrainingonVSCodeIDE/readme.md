@@ -130,7 +130,9 @@ Channel”)
     1. Activate the Python extension and Azure account by navigating to the Azure tab on the left-hand
 side of VS Code.
 
-    1. Open Notebook Transferlearningusing_SSDLiteV2 Model_VSCode.ipynb from workspace folder, invoke the “Python: specify local or remote Jupyter server for
+    1. Open Notebook Transferlearningusing_SSDLiteV2 Model_VSCode.ipynb from workspace folder
+
+    1. From View Command Palette, invoke the “Python: specify local or remote Jupyter server for
 connections” command.
 
     1. You should see a list of connection options to choose from. Pick the “Azure ML Compute
