@@ -152,7 +152,7 @@ working on.
 
 You are now ready to run the notebook to train your custom dog detector and deploy it to your devkit. Make sure to run each cell of the notebook individually as some of the cells require input parameters before executing the script. Cells that require input parameters may be edited directly in the notebook. To run a cell, click the play icon on the left side of the cell:
 
-![run_cell](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/run_cell.png)
+![run_cell](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/run_cell1.png)
 
 
 ## Provide feedback
