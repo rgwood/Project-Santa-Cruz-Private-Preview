@@ -56,3 +56,4 @@ The Dev Tools Pack Installer is a one-stop solution that installs and configures
 
 1. After successful installation of all selected components, the wizard proceeds to the **Completing the Setup Wizard** page. Click **Finish** to exit the installer.
 
+    ![finish](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/dev_tools_finish.png)
