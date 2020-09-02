@@ -76,7 +76,7 @@ Next, you must either load images or capture images for training your AI model. 
 
     ![capture_images](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_capture_images.png)
 
-1. Alternatively, set up an automated image capture to collect larger quantitites of images at a time by checking the **Automatic image capture** box. Select your preferred imaging rate under **Capture rate** and the total number of images you would like to collect under **Target**. Click **Set automatic capture** to begin the automatic image capture process.
+1. Alternatively, set up an automated image capture to collect a large quantity of images at a time by checking the **Automatic image capture** box. Select your preferred imaging rate under **Capture rate** and the total number of images you would like to collect under **Target**. Click **Set automatic capture** to begin the automatic image capture process.
 
     ![automatic_image_capture](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/article_images/no_code_vision_automatic_image_capture.png)
 
