@@ -1,5 +1,0 @@
-{
-    "DomainType": "classification",
-    "LabelFileName": "labels.txt",
-    "ModelFileName": "mobilenetv1.blob"
-}

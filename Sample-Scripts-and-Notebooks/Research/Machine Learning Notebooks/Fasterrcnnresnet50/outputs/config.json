@@ -1,5 +1,0 @@
-{
-    "DomainType": "ssd100",
-    "LabelFileName": "labels.txt",
-    "ModelFileName": "fast-rcnn-resnet50.blob"
-}
