@@ -11,7 +11,7 @@ After [onboarding](https://github.com/microsoft/Project-Santa-Cruz-Private-Previ
 ## Devkit unboxing and setup procedure
 
 1. Unbox the devkit components.
-    - The devkit contains a carrier board, Azure Eye SoM, Azure Ear SoM, RGB camera, accessories box with required cables, a section of 80/20 mounting rail, and a welcome card with a hex key.
+    - The devkit contains a carrier board, Azure Eye SoM, Azure Ear SoM, RGB camera, accessories box with required cables, a section of 80/20 1010 Series mounting rail, and a welcome card with a hex key.
     
 	![devkit full in box](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/dev-kit-full-in-box.png)
 

@@ -10,7 +10,7 @@ The Project Santa Cruz Development Kit contains the following major components:
 -	RBG camera (connects to Eye SoM)
 -	Required cables: MIPI, USB-C, USB Micro Type-B to USB-A, power cable.
 -	Welcome card with hex key
--	Section of 80/20 mounting rail
+-	Section of 80/20 1010 Series mounting rail
 
 For more detailed specs, please see the datasheets for the [devkit]( https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/hardware/project_santa_cruz_developer_kit_datasheet.md), [Eye SoM]( https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/hardware/project_santa_cruz_eye_datasheet.md), and [Ear SoM]( https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/hardware/project_santa_cruz_ear_datasheet.md).
 

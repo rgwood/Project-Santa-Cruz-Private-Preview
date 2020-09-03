@@ -12,7 +12,7 @@ ms.topic: reference  # the type of article
 
 |Product Specification           |     |
 |--------------------------------|--------|
-|Industrial Design               |Integrated 80/20 mounts <br> Detachable carrier board, vision SoM, and speech SoM <br> Operational versatility: can be used in the box, out of the box, on the wall, in a test lab, or in a production environment |
+|Industrial Design               |Integrated 80/20 1010 Series mounts <br> Detachable carrier board, vision SoM, and speech SoM <br> Operational versatility: can be used in the box, out of the box, on the wall, in a test lab, or in a production environment |
 |Performance                     |Eye SoM: 0.7 TOPS <br> Ear SoM: 180 Degrees Far-field at 4m 58dB   |
 |Target Industries               |Retail <br> Manufacturing <br> Hospitality <br> Smart Buildings <br> Auto |
 |Hero Scenarios                  |Out-of-box to first AI frames in under 10 minutes <br> Out-of-box to prototype in under 30 minutes <br> Capture and label initial training data <br> Basic AI model customization <br> Advanced AI model customization |
