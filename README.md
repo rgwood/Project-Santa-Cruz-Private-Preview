@@ -7,8 +7,7 @@ By participating in this preview program you will get an early start using the P
 On this page you will find everything you need to get started, including these [getting started videos](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/videos.md).
 
 ## 1. Ensure your Azure Subscription is On-boarded
-- [Onboard your Azure subscription](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/azure-subscription-onboarding.md){:target="_blank"}
-
+- [Onboard your Azure subscription](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/azure-subscription-onboarding.md)
 ## 2. Set Up Your Dev Kit
 - [Unbox and assemble your dev kit](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/devkit-unboxing-setup.md)
 - [Connect your dev kit to Wifi and Azure](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md)
