@@ -1,5 +1,7 @@
 # Capture images for a vision project
 
+Follow this guide to capture images using the Azure Eye SoM of the devkit for an [existing vision project](https://preview.portal.azure.com/#blade/AzureEdgeDevices/Main/visionProjects).
+
 ## Prerequisites
 
 * Project Santa Cruz Development Kit with the Azure Eye SoM connected.
@@ -9,8 +11,6 @@
 * [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md) complete.
 
 ## Capture images
-
-To capture images using the Azure Eye SoM of the devkit for an existing vision project, do the following:
 
 1. Power on your devkit. If your devkit is not connected to a Wi-Fi network, set up a connection through the [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md) before proceeding.
 

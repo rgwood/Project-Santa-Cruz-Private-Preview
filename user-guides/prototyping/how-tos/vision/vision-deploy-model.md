@@ -1,5 +1,7 @@
 # Deploy a vision AI model to a device
 
+Follow this guide to deploy an existing vision model to your Project Santa Cruz devkit.
+
 ## Prerequisites
 
 * Project Santa Cruz Development Kit with the Azure Eye SoM connected.
@@ -9,8 +11,6 @@
 * [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md) complete.
 
 ## Model Deployment
-
-To deploy an existing AI model to your Project Santa Cruz devkit, follow these steps:
 
 1. Power on your devkit. If your devkit is not connected to a Wi-Fi network, set up a connection through the [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md) before proceeding.
 

@@ -1,5 +1,7 @@
 # View your device's RTSP video stream
 
+Follow this guide to view the RTSP video stream from your Azure Eye SoM of the Project Santa Cruz devkit.
+
 ## Prerequisites
 
 * Project Santa Cruz Development Kit with the Azure Eye SoM connected.
@@ -9,8 +11,6 @@
 * [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md) complete.
 
 ## View RTSP video stream
-
-To view the video stream from your Azure Eye SoM of the Project Santa Cruz devkit, follow these steps:
 
 1. Power on your devkit. If your devkit is not connected to a Wi-Fi network, set up a connection through the [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md) before proceeding.
 

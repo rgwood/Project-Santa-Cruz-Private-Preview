@@ -1,5 +1,7 @@
 # View your device's inference telemetry
 
+Follow this guide to view your Project Santa Cruz devkit's model inference telemetry.
+
 ## Prerequisites
 
 * Project Santa Cruz Development Kit with the Azure Eye SoM connected.
@@ -11,8 +13,6 @@
 * [Model deployed](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/how-tos/vision/vision-deploy-model.md) to your devkit.
 
 ## View telemetry
-
-To view your device's model inference telemetry, follow these steps:
 
 1. Power on your devkit.
 
