@@ -1,6 +1,18 @@
 # Getting started with advanced development in the cloud via Jupyter Notebooks and Azure Machine Learning
 
-This article walks you through the process of setting up an Azure Machine Learning workspace, uploading a Jupyter Notebook to the workspace, creating a compute instance, and running the cells of the notebook within the workspace. The [notebook](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/Transferlearningusing_SSDLiteV2%20Model.ipynb) performs transfer learning using pre-trained TensorFlow models (MobileNetSSDV2/MobileNetSSDV2Lite) on AzureML in Python with a custom dataset to detect dogs. The dataset was labelled using the open-source [VoTT 2](https://github.com/microsoft/VoTT) labeling tool to create and label bounding boxes in the PASCAL VOC format. After retraining the model on the custom dog dataset, the model can then be deployed to your Project Santa Cruz devkit using the module twin update method. You may then check model inferencing by viewing the live RTSP stream from the Azure Eye SoM of your devkit. Both model retraining and deployment are performed within the notebook in the cloud.
+This article walks you through the process of setting up an Azure Machine Learning workspace, uploading a Jupyter Notebook to the workspace,
+creating a compute instance, and running the cells of the notebook within the workspace.
+
+The [notebook](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/Transferlearningusing_SSDLiteV2%20Model.ipynb) performs transfer learning using a pre-trained TensorFlow model (MobileNetSSDV2Lite) on AzureML
+in Python with a custom dataset to detect bowls.
+
+The notebook shows how to start from [COCO](https://cocodataset.org/#home), filter it down to only the class of interest (bowls), and then
+convert it into the appropriate format. Alternatively, you could use the open-source [VoTT 2](https://github.com/microsoft/VoTT) labeling tool to create
+and label bounding boxes in the PASCAL VOC format.
+
+After retraining the model on the custom dataset, the model can then be deployed to your Project Santa Cruz devkit using the module twin update method.
+You may then check model inferencing by viewing the live RTSP stream from the Azure Eye SoM of your devkit. Both model retraining and deployment are
+performed within the notebook in the cloud.
 
 ## Prerequisites
 
@@ -37,7 +49,8 @@ This article walks you through the process of setting up an Azure Machine Learni
 
         ![workspace_review_and_create](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/workspace_review_and_create.png)
 
-    Please allow a few minutes for workspace creation. After the workspace creation is complete, you will see green check marks next to your resources and **Your deployment is complete** at the top of the Machine Learning Services overview page.
+    Please allow a few minutes for workspace creation. After the workspace creation is complete, you will see green check marks next to
+    your resources and **Your deployment is complete** at the top of the Machine Learning Services overview page.
 
     ![workspace_creation_complete](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/workspace_creation_complete.png)
 
@@ -51,7 +64,9 @@ This article walks you through the process of setting up an Azure Machine Learni
 
     ![upload_files](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/upload_files.png)
 
-1. Navigate to and select the [Transferlearningusing_SSDLiteV2 Model.ipynb file](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/Transferlearningusing_SSDLiteV2%20Model.ipynb) from your local copy of the Project Santa Cruz GitHub repository. Click **Open**. In the **Upload files** window, check the box next to **I trust contents from this file** and click **Upload**.
+1. Navigate to and select the [Transferlearningusing_SSDLiteV2 Model.ipynb file](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/Transferlearningusing_SSDLiteV2%20Model.ipynb) from your local copy of the
+Project Santa Cruz GitHub repository. Click **Open**. In the **Upload files** window, check the box next
+to **I trust contents from this file** and click **Upload**.
 
     ![select_file](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/select_file.png)
 
@@ -75,12 +90,17 @@ This article walks you through the process of setting up an Azure Machine Learni
 
 ## Working with the notebook
 
-You are now ready to run the notebook to train your custom dog detector and deploy it to your devkit. Make sure to run each cell of the notebook individually as some of the cells require input parameters before executing the script. Cells that require input parameters may be edited directly in the notebook. To run a cell, click the play icon on the left side of the cell:
+You are now ready to run the notebook to train your custom bowl detector and deploy it to your devkit. Make sure to run each cell of the notebook
+individually as some of the cells require input parameters before executing the script. Cells that require input parameters may be
+edited directly in the notebook. To run a cell, click the play icon on the left side of the cell:
 
 ![run_cell](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/Sample-Scripts-and-Notebooks/Official/Machine%20Learning%20Notebooks/article_images/run_cell.png)
 
 ## Provide feedback
 
-After completing the advanced tools cloud development experience as well as the [local development experience](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/Sample-Scripts-and-Notebooks/Official/MobileNetV2SSDL_TrainingonVSCodeIDE), please provide feedback via this [questionnaire](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRzoJxrXKT0dEvfQyxsA0h8lUMzE0V0pCTFU4UUVSS0xTRUtNT0hZSEs1Ry4u). Your feedback will help us continue to fine-tune and improve the advanced tools experience.
+After completing the advanced tools cloud development experience as well as the [local development experience](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/Sample-Scripts-and-Notebooks/Official/MobileNetV2SSDL_TrainingonVSCodeIDE), please provide feedback
+via this [questionnaire](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRzoJxrXKT0dEvfQyxsA0h8lUMzE0V0pCTFU4UUVSS0xTRUtNT0hZSEs1Ry4u).
+Your feedback will help us continue to fine-tune and improve the advanced tools experience.
 
-For more information on Project Santa Cruz Quests and to provide feedback on other experiences, please visit the [test scenarios page](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/general/test-scenarios.md).
+For more information on Project Santa Cruz Quests and to provide feedback on other experiences,
+please visit the [test scenarios page](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/general/test-scenarios.md).
