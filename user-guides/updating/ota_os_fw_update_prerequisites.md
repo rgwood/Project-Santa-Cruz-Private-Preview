@@ -24,7 +24,7 @@
 
         ![azure_active_directory](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/prereqs_azure_active_directory.png)
 
-    1. On the **Enterprise applications - All applications** page, change the **Application type** to **Microsoft Applications** and click **Apply**.
+    1. On the **Enterprise applications | All applications** page, change the **Application type** to **Microsoft Applications** and click **Apply**.
 
         ![enterprise_applications](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/prereqs_enterprise_applications.png)
 
@@ -32,15 +32,15 @@
 
         ![all_applications](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/prereqs_all_applications.png)
 
-    1. On the Azure Device Update page, select **Users and groups**.
+    1. On the **Azure Device Update** page, select **Users and groups**.
 
         ![azure_device_update](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/prereqs_azure_device_update.png)
 
-    1. On the Azure Device Update **Users and Groups** page, select **Add user**.
+    1. On the **Azure Device Update | Users and groups** page, select **Add user**.
 
     1. On the **Add Assignment** page, select a user or a group.
 
-    1. On the **Add Assignment** page, select Role and add either **Allow full access to ADU management APIs** or **Allow read-only access to ADU management APIs**.
+    1. On the **Add Assignment** page, select **Role** and add either **Allow full access to ADU management APIs** or **Allow read-only access to ADU management APIs**.
 
     1. Select the **Assign** button at the bottom of the page.
 
