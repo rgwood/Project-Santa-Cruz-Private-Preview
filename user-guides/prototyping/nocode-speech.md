@@ -112,14 +112,20 @@ Try any of the following commands to interact with your voice assistant. Always 
 
 ### Voice Assistant was created but does not respond to commands
 
-1. Check led lights on the Ear SOM. 
+Check led lights on the Ear SOM. 
    * 3 bright blue lights indicate that voice assistant is ready and waiting for the keyword
    * no lights when devkit is powered indicate that devkit completed initialization and needs to be configured
    * any combination of green lights indicates that Ear SOM did not complete initialization 
+   
+### Voice Assistant does not respond to a custom keyword created in Speech Studio
+
+This might happen if speech module is out of date. 
+Follow these steps to update the speech module to the latest version.
+* Complete [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md) (you can skip the step about wifi configuration if device will be connected to the same network).
 
 ### Documentation links are not working
 
-1. Make sure that the onboarding process for your organization is completed. 
+Make sure that the onboarding process for your organization is completed. 
    * Contact your lead PM to find the latest status. 
    * Request onboarding to the private preview documentation.
 
