@@ -34,6 +34,8 @@
             New-AzureADServicePrincipal -AppId '6ee392c4-d339-4083-b04d-6b7947c6cf78'
             ```
 
+            You may close PowerShell after adding the ADU service principal within your AAD tenant.
+
 1. Assign ADU roles to users who will be performing ADU OTA updates. Currently, ADU supports FullAccessAdmin and ReadOnlyAdmin. To assign ADU roles for users, do the following:
 
     1. Sign in to the [Azure portal](https://portal.azure.com/?feature.canmodifystamps=true&Microsoft_Azure_Iothub=aduprod).
