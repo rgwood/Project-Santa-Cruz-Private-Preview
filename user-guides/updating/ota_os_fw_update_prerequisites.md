@@ -4,13 +4,35 @@
 
     ![onboarding](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/onboarding_dps_adu.png)
 
-1. Add the ADU service principal within your AAD tenant. Launch PowerShell and run the following commands with Azure AD Admin permissions (if you do not have Azure AD Admin permissions, please contact your organization's admin):
+1. Add the ADU service principal within your Azure Active Directory (AAD) tenant.
 
-    1. "Install-Module AzureAD" (if you don’t already have this Powershell Module)
+    1. Launch [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7). If you do not have PowerShell, download and install the appropriate [release](https://github.com/PowerShell/PowerShell/releases).
 
-    1. "Connect-AzureAD"
+    1. Open PowerShell and run the following commands with AAD admin permissions (if you do not have AAD admin permissions, please contact your organization's admin before proceeding):
 
-    1. "New-AzureADServicePrincipal -AppId '6ee392c4-d339-4083-b04d-6b7947c6cf78'"
+        1. ```powershell
+            Install-Module AzureAD
+            ```
+
+            Enter **Y** when prompted to start the module installation.
+
+            ![install_module](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/prereqs_install_module.png)
+
+        1. ```powershell
+            Connect-AzureAD
+            ```
+
+            Enter your login details in the **Sign in** window.
+
+            ![account_sign_in](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/prereqs_account_sign_in.png)
+
+            After you sign in, you will see your account information displayed in the PowerShell terminal confirming connection to your Azure Active Directory.
+
+            ![connect_azuread](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/prereqs_connect_azuread.png)
+
+        1. ```powershell
+            New-AzureADServicePrincipal -AppId '6ee392c4-d339-4083-b04d-6b7947c6cf78'
+            ```
 
 1. Assign ADU roles to users who will be performing ADU OTA updates. Currently, ADU supports FullAccessAdmin and ReadOnlyAdmin. To assign ADU roles for users, do the following:
 
