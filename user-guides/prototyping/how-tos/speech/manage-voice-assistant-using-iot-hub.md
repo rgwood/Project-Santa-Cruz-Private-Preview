@@ -13,7 +13,6 @@ Name|Address|Username|Password
 ----|-------|--------|--------
 azureedgedevices|azureedgedevices.azurecr.io|devkitprivatepreviewpull|***
 
-
 **NOTE:** If you do not have a password for the container registry, please reach to your primary contact for the Santa Cruz private preview program. 
 
 6.	In the **IoT Edge Modules** section, select **azureearspeechclientmodule**.
@@ -49,7 +48,12 @@ azureedgedevices.azurecr.io/azureearspeechclientmodule:preload-devkit |always|ru
     }
 ```
 
-All settings can be found in Speech Studio -> Custom Commands -> target project -> Settings.
+All settings can be found in [Speech Studio](https://speech.microsoft.com/). 
+  1. Sign-in and select speech resource you will use. 
+  1. Click on **Custom Commands** tile under **Voice Assistants**.
+  1. Select target project.
+  1. Click on **Settings**.
+
 The keyword used below is a default publicly available keyword. If you wish to use your own, you can add your own custom keyword by uploading a created table file to blob storage. Blob storage needs to be configured with either anonymous container access or anonymous blob access. 
 
 11. Click **Update**.
