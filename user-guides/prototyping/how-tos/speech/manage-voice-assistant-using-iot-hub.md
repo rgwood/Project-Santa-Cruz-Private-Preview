@@ -7,18 +7,13 @@ For a step-by-step tutorial that guides you through the process of creating a vo
 1. Select *IoT Edge* under *Automatic Device Management* in the left navigation menu.
 1. Select the device that you wish to configure.
 1. Click on **Set Modules**.
-1.	Verify that *azureedgedevices* has been added to the container registry credentials. 
+1. Verify that *azureedgedevices* has been added to the container registry credentials.
    1. Name: *azureedgedevices*
    1. Address: *azureedgedevices.azurecr.io*
    1. User Name: *devkitprivatepreviewpull*
 
-**NOTE:** If you do not have a password for the container registry, please reach to your primary contact for the Santa Cruz private preview program. 
 
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
+**NOTE:** If you do not have a password for the container registry, please reach to your primary contact for the Santa Cruz private preview program. 
 
 1.	In the IoT Edge Modules section, select azureearspeechclientmodule
  
