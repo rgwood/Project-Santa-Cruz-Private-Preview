@@ -3,16 +3,24 @@
 This article describes how you can configure your voice assistant application using IoT Hub only. 
 For a step-by-step tutorial that guides you through the process of creating a voice assistant using demo template, see [QuickStart: Creating a Voice Assistant with the Project Santa Cruz Devkit](../../nocode-speech.md).
 
+1. Open up the [Azure portal](https://portal.azure.com) and find your IoT Hub.
+1. Select *IoT Edge* under *Automatic Device Management* in the left navigation menu.
+1. Select the device that you wish to configure.
+1. Click on **Set Modules**.
+1.	Verify that *azureedgedevices* has been added to the container registry credentials. 
+   1. Name: *azureedgedevices*
+   1. Address: *azureedgedevices.azurecr.io*
+   1. User Name: *devkitprivatepreviewpull*
 
-1.	Open up the [Azure portal](https://portal.azure.com) and find your IoT Hub.
-2.  Select the device that you wish to configure
-3.	Click on Set Modules
- 
-4.	Ensure that azureedgedevices has been added to the container registries. Please get the password from your partner manager.
-a.	Name: azureedgedevices
-b.	Address: azureedgedevices.azurecr.io
-c.	User Name: devkitprivatepreviewpull
-5.	In the IoT Edge Modules section, select azureearspeechclientmodule
+**NOTE:** If you do not have a password for the container registry, please reach to your primary contact for the Santa Cruz private preview program. 
+
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
+
+1.	In the IoT Edge Modules section, select azureearspeechclientmodule
  
 6.	On Module Settings tab ensure the settings are:
 a.	Image URI: azureedgedevices.azurecr.io/azureearspeechclientmodule:preload-devkit
