@@ -39,20 +39,25 @@ azureedgedevices.azurecr.io/azureearspeechclientmodule:preload-devkit |always|ru
 
 10. Click on the **Module Twin Settings** tab. Update the *speechConfigs* section as follows:
 
-> "speechConfigs": {
->        "appId": "<Application id for custom command project>",
->        "key": "<Speech Resource key for custom command project>",
->        "region": "<region your speech studio service is located in. This is likely found in the LUIS resources prediction resource field i.e. westus>",
->        "keywordModelUrl": "https://aedspeechscenarios.blob.core.windows.net/keyword-tables/computer.table",
->        "keyword": "computer"
->    }
+```
+    "speechConfigs": {
+        "appId": "<Application id for custom command project>",
+        "key": "<Speech Resource key for custom command project>",
+        "region": "<Region for the speech service>",
+        "keywordModelUrl": "https://aedspeechscenarios.blob.core.windows.net/keyword-tables/computer.table",
+        "keyword": "computer"
+    }
+```
 
-All settings can be found in Speech Studio -> Custom Commands -> target project -> Settings
-The keyword used below is a default publicly available keyword. If you wish to use your own, you can add your own Custom Keyword by uploading a created table file to Blob Storage that is either anonymous container access or anonymous blob access.
+All settings can be found in Speech Studio -> Custom Commands -> target project -> Settings.
+The keyword used below is a default publicly available keyword. If you wish to use your own, you can add your own custom keyword by uploading a created table file to blob storage. Blob storage needs to be configured with either anonymous container access or anonymous blob access. 
 
-10. Click **Update**.
-11. Click on the **Routes** tab at the top and ensure you have a route with the following value:
+11. Click **Update**.
+1. Click on the **Routes** tab at the top. Ensure you have a route with the following value:
+
+```   
    FROM /messages/modules/azureearspeechclientmodule/outputs/* INTO $upstream
-12. Click **Review + Create**.
-13. Click **Create**.
+```   
 
+1. Click **Review + Create**.
+1. Click **Create**.
