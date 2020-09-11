@@ -29,7 +29,7 @@ This guide will show you how to flash the carrier board of the Project Santa Cru
 
 ## USB update procedure
 
-1. On your PC, navigate to the [Project Santa Cruz update management website](https://app-dev-sc.azurewebsites.net/Download). Download the full devkit image (pe101-uefi-\<version>.raw.xz) as well as the associated emmc_full.txt and fast-hab-fw.raw files.
+1. On your PC, navigate to the [Project Santa Cruz update management website](https://projectsantacruz.microsoft.com/Download). Download the full devkit image (pe101-uefi-\<version>.raw.xz) as well as the associated emmc_full.txt and fast-hab-fw.raw files.
 
     ![update_download](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/usb_update_download.png)
 
