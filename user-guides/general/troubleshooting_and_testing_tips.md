@@ -113,9 +113,9 @@ For additional information on the Iot Edge commands, please see the [IoT Edge de
 |Wi-Fi             |journalctl -u systemd-networkd |check Mariner Network stack logs |
 |OOBE              |journalctl -u oobe -b       |check OOBE logs |
 |Telemetry         |azure-device-health-id      |find unique telemetry HW_ID |
-|Iot Edge          |sudo iotedge check          |runs configuration and connectivity checks for common issues |
+|Iot Edge          |sudo iotedge check          |run configuration and connectivity checks for common issues |
 |Iot Edge          |sudo iotedge logs \<container name> |check container logs, such as speech and vision modules |
-|Iot Edge          |sudo iotedge support-bundle --since 1h |collect module logs, IoT Edge security manager logs, container engine logs, 'iotedge check' JSON output, and other useful debug information from the past hour. |
+|Iot Edge          |sudo iotedge support-bundle --since 1h |collect module logs, IoT Edge security manager logs, container engine logs, 'iotedge check' JSON output, and other useful debug information from the past hour |
 |Iot Edge          |sudo journalctl -u iotedge -f |view the logs of the IoT Edge security manager |
 |Iot Edge          |sudo systemctl restart iotedge |restart the IoT Edge Security Daemon |
 |IoT Edge          |sudo iotedge list           |list the deployed iotedge modules |
