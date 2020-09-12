@@ -42,7 +42,7 @@ Alternatively, you can navigate directly to the [Project Santa Cruz Overview pag
 You can build a voice assistant using available templates. The Hospitality template is available for the private preview. Healthcare is also scheduled to be released soon.
 
 1.	Open **Demos & Tutorials** tab. 
-2.	Click **Try out speech themes** under **Speech tutorials and demos**.
+2.	Click **Try out voice assistant templates** under **Speech tutorials and demos**.
 3.	Select IoT hub to which your device is connected from the **IoT hub** list.
 4. Choose the device from the list.
 5.	Select one of the speech templates.
