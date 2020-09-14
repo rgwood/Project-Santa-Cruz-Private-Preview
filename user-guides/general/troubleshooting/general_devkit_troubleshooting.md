@@ -30,6 +30,7 @@ For additional information on the Iot Edge commands, please see the [IoT Edge de
 |Iot Edge          |sudo journalctl -u iotedge -f |view the logs of the IoT Edge security manager |
 |Iot Edge          |sudo systemctl restart iotedge |restart the IoT Edge Security Daemon |
 |IoT Edge          |sudo iotedge list           |list the deployed iotedge modules |
+|Other             |df \<option> \<file>        |display information on available/total space in specified file system(s) |
 
 Note: The Wi-Fi commands can be combined into the following:
 
@@ -45,6 +46,7 @@ journalctl -u hostapd.service -u wpa_supplicant.service -u ztpd.service -u syste
 |docker images                   |shows which images are on the device |
 |docker rmi \<image id> -f       |deletes an image from the device |
 |docker logs -f edgeAgent <br> docker logs -f \<module_name> |takes container logs of specified module |
+|docker image prune              |removes all dangling images |
 
 ## USB Updating
 
