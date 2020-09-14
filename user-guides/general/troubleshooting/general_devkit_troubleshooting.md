@@ -2,7 +2,7 @@
 
 ## General devkit troubleshooting commands
 
-To run these commands, connect to the devkit's Wi-Fi AP (if a Wi-Fi connection has not yet been set up through the [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md)), SSH into the devkit using PuTTY, and enter the commands in the PuTTY terminal.
+To run these commands, connect to the devkit's Wi-Fi AP (if a Wi-Fi connection has not yet been set up through the [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md)), [SSH into the devkit using PuTTY](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/general/troubleshooting/ssh_and_serial_connection_setup.md), and enter the commands in the PuTTY terminal.
 
 To redirect any output to a .txt file for further analysis, use the following syntax:
 

@@ -2,7 +2,7 @@
 
 - Access speech module logs:
     - If a Wi-Fi connection has not yet been set up through the [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md), connect to the devkit's Wi-Fi AP.
-    - SSH into the devkit with PuTTY.
+    - [SSH into the devkit with PuTTY](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/general/troubleshooting/ssh_and_serial_connection_setup.md).
     - In the PuTTY terminal, enter the following:
         ```console
          iotedge logs azureearspeechclientmodule
