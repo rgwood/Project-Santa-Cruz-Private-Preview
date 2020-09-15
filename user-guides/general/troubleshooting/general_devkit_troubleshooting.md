@@ -22,6 +22,7 @@ For additional information on the Iot Edge commands, please see the [IoT Edge de
 |Wi-Fi             |journalctl -u wpa_supplicant.service |check Wi-Fi services logs |
 |Wi-Fi             |journalctl -u ztpd.service  |check Wi-Fi Zero Touch Provisioning Service logs |
 |Wi-Fi             |journalctl -u systemd-networkd |check Mariner Network stack logs |
+|Wi-Fi             |/data/misc/wifi/hostapd_virtual.conf |check wifi access point configuration details |
 |OOBE              |journalctl -u oobe -b       |check OOBE logs |
 |Telemetry         |azure-device-health-id      |find unique telemetry HW_ID |
 |Iot Edge          |sudo iotedge check          |run configuration and connectivity checks for common issues |
@@ -31,8 +32,10 @@ For additional information on the Iot Edge commands, please see the [IoT Edge de
 |Iot Edge          |sudo systemctl restart iotedge |restart the IoT Edge Security Daemon |
 |IoT Edge          |sudo iotedge list           |list the deployed iotedge modules |
 |Other             |df \<option> \<file>        |display information on available/total space in specified file system(s) |
+|Other             |ip route get 1.1.1.1        |display device IP and interface information |
+|Other             |ip route get 1.1.1.1 \| awk '{print $7}' <br> ifconfig \<interface> |display device IP address only |
 
-Note: The Wi-Fi commands can be combined into the following:
+Note: The journalctl Wi-Fi commands can be combined into the following:
 
 ```console
 journalctl -u hostapd.service -u wpa_supplicant.service -u ztpd.service -u systemd-networkd -b
@@ -47,6 +50,8 @@ journalctl -u hostapd.service -u wpa_supplicant.service -u ztpd.service -u syste
 |docker rmi \<image id> -f       |deletes an image from the device |
 |docker logs -f edgeAgent <br> docker logs -f \<module_name> |takes container logs of specified module |
 |docker image prune              |removes all dangling images |
+|watch docker ps <br> watch ifconfig \<interface> |check docker container download status |
+
 
 ## USB Updating
 
