@@ -2,7 +2,7 @@
 
 ## General devkit troubleshooting commands
 
-To run these commands, connect to the devkit's Wi-Fi AP (if a Wi-Fi connection has not yet been set up through the [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md)), [SSH into the devkit using PuTTY](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/general/troubleshooting/ssh_and_serial_connection_setup.md), and enter the commands in the PuTTY terminal.
+To run these commands, connect to the devkit's Wi-Fi AP (if a Wi-Fi connection has not yet been set up through the [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md), [SSH into the devkit using PuTTY](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/general/troubleshooting/ssh_and_serial_connection_setup.md), and enter the commands in the PuTTY terminal.
 
 To redirect any output to a .txt file for further analysis, use the following syntax:
 
@@ -15,6 +15,8 @@ After redirecting output to a .txt file, copy the file to your host PC via SCP:
 ```console
 scp [remote username]@[IP address]:[remote file path]/[file name].txt [local host file path]
 ```
+
+[local host file path] refers to the location on your host PC which you would like to copy the .txt file to. [remote username] is the SSH username chosen during the [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md) setup process. If you did not set up an SSH login during the OOBE, your remote username is root.
 
 For additional information on the Iot Edge commands, please see the [IoT Edge device troubleshooting documentation](https://docs.microsoft.com/en-us/azure/iot-edge/troubleshoot).
 
