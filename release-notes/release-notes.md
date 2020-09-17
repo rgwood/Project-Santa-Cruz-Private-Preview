@@ -1,8 +1,25 @@
-# Release Notes
+# Release notes
 
-## Release Date: 08/05/2020 | Build: 1.0.20200731.2336
+## Release date: 09/15/2020 | Project Santa Cruz portal experiences
 
-### New Features and Fixes
+### New features and fixes
+- Useful error messages added around registering resource providers
+- Added multi-word keyword support to speech templates
+- Added validation of app service plan count prior to deploying speech template
+- Several improvements for Azure Portal themes
+- Improved telemetry for speech no-code path
+- More telemetry events for tutorials and demos tab
+- Enabled healthcare theme
+- Users can now delete Custom Vision projects
+- Migrated Custom Command APIs from preview to v1.0
+- Added ability for first 50 devices to turn on telemetry events for the speech module
+- Added ability for users to upgrade the version of the speech module on their devices
+- Added pagination to browse device page
+
+
+## Release date: 08/05/2020 | Build: 1.0.20200731.2336
+
+### New features and fixes
 - SoftAP SSID changed to a more unique name (scz-<last 4 hex digits of wmac>)
 - OOBE updates
 	- OOBE now waits for modules to start before showing the last screen
