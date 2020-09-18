@@ -11,6 +11,8 @@ For a step-by-step tutorial that guides you through the process of creating a vo
 
 1. Click on **Set Modules**.
 
+    ![set_modules](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/how-tos/speech/article_images/speech_set_modules.png)
+
 1. Verify that the following entry is present in the container registry credentials. Add credential is required.
 
     Name|Address|Username|Password
@@ -20,6 +22,8 @@ For a step-by-step tutorial that guides you through the process of creating a vo
     **NOTE:** If you do not have a password for the container registry, please reach to your primary contact for the Santa Cruz private preview program.
 
 1. In the **IoT Edge Modules** section, select **azureearspeechclientmodule**.
+
+    ![modules](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/how-tos/speech/article_images/speech_modules.png)
 
 1. Click on the **Module Settings** tab. Verify configuration.
 
@@ -42,7 +46,7 @@ For a step-by-step tutorial that guides you through the process of creating a vo
     }
     ```
 
-1. Click on the **Module Twin Settings** tab. Update the *speechConfigs* section as follows:
+1. Click on the **Module Twin Settings** tab. Update the **speechConfigs** section as follows:
 
     ```
     "speechConfigs": {
@@ -80,7 +84,7 @@ For a step-by-step tutorial that guides you through the process of creating a vo
 
         ![luis_resources](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/how-tos/speech/article_images/speech_luis_resources.png)
 
-1. Click **Update**.
+1. After entering your **speechConfigs** information, click **Update**.
 
 1. Click on the **Routes** tab at the top. Ensure you have a route with the following value:
 
