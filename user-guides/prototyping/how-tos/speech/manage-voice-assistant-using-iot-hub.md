@@ -56,23 +56,23 @@ To locate your **appID**, **key**, and **region**, go to [Speech Studio](https:/
 
 - On the **Speech Studio** home page, click on **Custom Commands** under **Voice Assistants**.
 
-    ![custom_commands](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/user-guides/prototyping/how-tos/speech/article_images/speech_custom_commands.png)
+    ![custom_commands](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/how-tos/speech/article_images/speech_custom_commands.png)
 
 - Select your target project.
 
-    ![project](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/user-guides/prototyping/how-tos/speech/article_images/speech_project.png)
+    ![project](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/how-tos/speech/article_images/speech_project.png)
 
 - Click on **Settings** on the left-hand menu panel.
 
-    ![project_settings](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/user-guides/prototyping/how-tos/speech/article_images/speech_project_settings.png)
+    ![project_settings](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/how-tos/speech/article_images/speech_project_settings.png)
 
 - The **appID** and **key** will be located under the **General** settings tab.
 
-    ![general_settings](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/user-guides/prototyping/how-tos/speech/article_images/speech_general_settings.png)
+    ![general_settings](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/how-tos/speech/article_images/speech_general_settings.png)
 
 - To find your **region**, open the **LUIS resources** tab within the settings. The **Authoring resource** selection will contain region information.
 
-    ![luis_resources](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/user-guides/prototyping/how-tos/speech/article_images/speech_luis_resources.png)
+    ![luis_resources](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/how-tos/speech/article_images/speech_luis_resources.png)
 
 1. Click **Update**.
 
