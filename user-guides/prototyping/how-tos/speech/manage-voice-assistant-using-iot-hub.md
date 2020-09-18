@@ -1,6 +1,6 @@
 # Managing your voice assistant using IoT Hub
 
-This article describes how you can configure your voice assistant application using IoT Hub only. 
+This article describes how you can configure your voice assistant application using IoT Hub only.
 For a step-by-step tutorial that guides you through the process of creating a voice assistant using demo template, see [QuickStart: Creating a Voice Assistant with the Project Santa Cruz Devkit](../../nocode-speech.md).
 
 1. Open the [Azure portal](https://portal.azure.com) and locate your IoT Hub.
@@ -13,17 +13,17 @@ Name|Address|Username|Password
 ----|-------|--------|--------
 azureedgedevices|azureedgedevices.azurecr.io|devkitprivatepreviewpull|***
 
-**NOTE:** If you do not have a password for the container registry, please reach to your primary contact for the Santa Cruz private preview program. 
+**NOTE:** If you do not have a password for the container registry, please reach to your primary contact for the Santa Cruz private preview program.
 
-6.	In the **IoT Edge Modules** section, select **azureearspeechclientmodule**.
-7.	Click on the **Module Settings** tab. Verify configuration.
+1. In the **IoT Edge Modules** section, select **azureearspeechclientmodule**.
+1. Click on the **Module Settings** tab. Verify configuration.
 
 Image URI|Restart Policy|Desired Status
 ---------|--------------|--------------
 azureedgedevices.azurecr.io/azureearspeechclientmodule:preload-devkit |always|running
 
-8.	Click on the **Environment Variables** tab. Verify that there are no environment variables defined.
-9.	Click on the **Container Create Options** tab.
+1. Click on the **Environment Variables** tab. Verify that there are no environment variables defined.
+1. Click on the **Container Create Options** tab.
 
 ```
     {
@@ -36,7 +36,7 @@ azureedgedevices.azurecr.io/azureearspeechclientmodule:preload-devkit |always|ru
     }
 ```
 
-10. Click on the **Module Twin Settings** tab. Update the *speechConfigs* section as follows:
+1. Click on the **Module Twin Settings** tab. Update the *speechConfigs* section as follows:
 
 ```
     "speechConfigs": {
@@ -48,20 +48,40 @@ azureedgedevices.azurecr.io/azureearspeechclientmodule:preload-devkit |always|ru
     }
 ```
 
-All settings can be found in [Speech Studio](https://speech.microsoft.com/). 
-  1. Sign-in and select speech resource you will use. 
-  1. Click on **Custom Commands** tile under **Voice Assistants**.
-  1. Select target project.
-  1. Click on **Settings**.
+Note: The keyword used above is a default publicly available keyword. If you wish to use your own, you can add your own custom keyword by uploading a created table file to blob storage. Blob storage needs to be configured with either anonymous container access or anonymous blob access.
 
-The keyword used below is a default publicly available keyword. If you wish to use your own, you can add your own custom keyword by uploading a created table file to blob storage. Blob storage needs to be configured with either anonymous container access or anonymous blob access. 
+To locate your **appID**, **key**, and **region**, go to [Speech Studio](https://speech.microsoft.com/):
 
-11. Click **Update**.
+- Sign in and select the appropriate speech resource.
+
+- On the **Speech Studio** home page, click on **Custom Commands** under **Voice Assistants**.
+
+    ![custom_commands](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/user-guides/prototyping/how-tos/speech/article_images/speech_custom_commands.png)
+
+- Select your target project.
+
+    ![project](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/user-guides/prototyping/how-tos/speech/article_images/speech_project.png)
+
+- Click on **Settings** on the left-hand menu panel.
+
+    ![project_settings](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/user-guides/prototyping/how-tos/speech/article_images/speech_project_settings.png)
+
+- The **appID** and **key** will be located under the **General** settings tab.
+
+    ![general_settings](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/user-guides/prototyping/how-tos/speech/article_images/speech_general_settings.png)
+
+- To find your **region**, open the **LUIS resources** tab within the settings. The **Authoring resource** selection will contain region information.
+
+    ![luis_resources](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/tree/main/user-guides/prototyping/how-tos/speech/article_images/speech_luis_resources.png)
+
+1. Click **Update**.
+
 1. Click on the **Routes** tab at the top. Ensure you have a route with the following value:
 
-```   
+```
    FROM /messages/modules/azureearspeechclientmodule/outputs/* INTO $upstream
-```   
+```
 
-13. Click **Review + Create**.
+1. Click **Review + Create**.
+
 1. Click **Create**.
