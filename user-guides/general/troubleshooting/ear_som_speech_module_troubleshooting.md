@@ -1,6 +1,6 @@
-# SoM and speech/eye module troubleshooting
+# Ear SoM and speech module troubleshooting
 
-## Ear SoM and speech module troubleshooting
+## Speech module troubleshooting tips
 
 - Access speech module logs:
     - If a Wi-Fi connection has not yet been set up through the [OOBE](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md), connect to the devkit's Wi-Fi AP.
@@ -21,7 +21,7 @@
 
     - Check if the Ear SoM LEDs are green. If the left LED is green, this indicates that the device is powered on. If the center LED is also blinking green, this indicates that authentication is in progress. All three LEDs will change to blue once the device is authenticated and ready to use.
 
-### Ear SoM LED indicators
+## Ear SoM LED indicators
 
 |LED State:                  |Ear SoM Status:            |
 |----------------------------|---------------------------|
@@ -32,9 +32,3 @@
 |3x blinking blue            |keyword recognized |
 |3x racing blue              |processing |
 |3x red                      |mute |
-
-## Eye SoM and eye module troubleshooting
-
-In case of problems with **WebStreamModule**, ensure that **azureeyemodule**, which does the vision model inferencing, is running. To check the runtime status, go to the [Azure portal](https://ms.portal.azure.com/?feature.canmodifystamps=true&Microsoft_Azure_Iothub=aduprod#home) and navigate to **All resources** -> **\<your IoT hub>** -> **IoT Edge** -> **\<your device ID>**. Click the **Modules** tab to see the runtime status of all installed modules.
-
-If the runtime status of **azureeyemodule** is not listed as **running**, click **Set modules** -> **azureeyemodule**. On the **Module Settings** page, set **Desired Status** to **running** and click **Update**.

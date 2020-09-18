@@ -66,9 +66,3 @@ journalctl -u hostapd.service -u wpa_supplicant.service -u ztpd.service -u syste
 |Error:                                    |Solution:                                               |
 |------------------------------------------|--------------------------------------------------------|
 |LIBUSB_ERROR_XXX during USB flash via UUU |This error is the result of a USB connection failure during UUU updating. If the USB cable is not properly connected to the USB ports on the PC or the PE-10X, an error of this form will occur. Try unplugging and replugging both ends of the USB cable and jiggling the cable to ensure a secure connection. This almost always solves the issue. |
-
-## View device RTSP video stream
-
-View your device's RTSP video stream through the [Project Santa Cruz portal](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/how-tos/vision/vision_view_video-stream.md) or [VLC media player](https://www.videolan.org/vlc/index.html).
-
-To open the RTSP stream in VLC media player, go to **Media** -> **Open network stream** -> **rtsp://[device IP address]/result**.
