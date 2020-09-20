@@ -13,7 +13,7 @@ For a step-by-step tutorial that guides you through the process of creating a vo
 
     ![set_modules](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/prototyping/how-tos/speech/article_images/speech_set_modules.png)
 
-1. Verify that the following entry is present in the container registry credentials. Add credential is required.
+1. Verify that the following entry is present in the container registry credentials. Add credentials if required.
 
     Name|Address|Username|Password
     ----|-------|--------|--------
