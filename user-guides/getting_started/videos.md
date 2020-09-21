@@ -11,7 +11,6 @@ This the preferred way to view the videos as it prevents the video files from ne
 | Video Topic | Stream |
 | :---------- | :----- |
 | Private Preview Overview | [Stream](https://microsoft.sharepoint-df.com/:v:/r/teams/ProjectSantaCruzPrivatePreview/Shared%20Documents/General/Videos/Getting%20Started/1%20-%20Private%20Preview%20Overview.mp4?csf=1&web=1&e=iDXHtg) |
-| Devkit Unbox and Setup | [Stream](https://microsoft.sharepoint-df.com/:v:/r/teams/ProjectSantaCruzPrivatePreview/Shared%20Documents/General/Videos/Getting%20Started/2%20-%20Devkit%20Unbox%20and%20OOBE.mp4?csf=1&web=1&e=eclGZp) |
 | No Code Vision | [Stream](https://microsoft.sharepoint-df.com/:v:/r/teams/ProjectSantaCruzPrivatePreview/Shared%20Documents/General/Videos/Getting%20Started/3%20-%20No%20Code%20Vision.mp4?csf=1&web=1&e=VQY9Yc) |
 | No Code Speech | [Stream](https://microsoft.sharepoint-df.com/:v:/r/teams/ProjectSantaCruzPrivatePreview/Shared%20Documents/General/Videos/Getting%20Started/4%20-%20No%20Code%20Speech.mp4?csf=1&web=1&e=xKGr35) |
 | Custom Solutions with Advanced Code | [Stream](https://microsoft.sharepoint-df.com/:v:/r/teams/ProjectSantaCruzPrivatePreview/Shared%20Documents/General/Videos/Getting%20Started/5%20-%20Custom%20Solutions%20with%20Advanced%20Code.mp4?csf=1&web=1&e=kBe0Iv) |

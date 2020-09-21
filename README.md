@@ -1,7 +1,5 @@
 
 # Welcome to the Project Santa Cruz Private Preview
-Watch [this video](https://microsoft.sharepoint-df.com/:v:/r/teams/ProjectSantaCruzPrivatePreview/Shared%20Documents/General/Videos/Getting%20Started/2%20-%20Devkit%20Unbox%20and%20OOBE.mp4?csf=1&web=1&e=eclGZp) to immediately start setting up your Project Santa Cruz Dev Kit (having trouble viewing the video? [click here](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/videos.md)).
-
 By participating in this preview program you will get an early start using the Project Santa Cruz Dev Kits and services while providing our product and engineering team valuable feedback.
 
 On this page you will find everything you need to get started, including these [getting started videos](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/videos.md).

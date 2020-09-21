@@ -114,8 +114,6 @@ There are a few situations where it is not possible to gracefully USB update (re
 
  1. Toggle the Boot Configuration DIP switches to 1011 and remove the SD card so the device will boot into USB flash mode.
 
-    ![dip_switches](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/updating/images/dip_switches.png)
-
  1. Run the UUU command corresponding to your build (see above).
 
  1. Power on the device.
