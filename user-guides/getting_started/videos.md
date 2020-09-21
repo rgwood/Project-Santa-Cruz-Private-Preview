@@ -3,7 +3,7 @@
 The getting started videos are quick overviews of key components of the Project Santa Cruz experience.
 
 ## Stream the videos via Microsoft Teams
-This the preferred way to view the videos as it prevents the video files from needing to be downloaded on multiple machines. To view the videos you must be added to the Project Santa Cruz Private Preview Team. If you have not been added to the Team, send an email to aedppsup@microsoft.com and the support team will get you added.
+This the preferred way to view the videos as it prevents the video files from needing to be downloaded on multiple machines. To view the videos you must be added to the Project Santa Cruz Private Preview Teams channel. 
 
 ## The Videos
 
