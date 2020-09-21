@@ -8,7 +8,7 @@ After completing the [onboarding](https://github.com/microsoft/Project-Santa-Cru
 - Project Santa Cruz Devkit [setup](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/devkit-unboxing-setup.md) completed.
 - Computer with Wi-Fi connectivity.
 
-## OOBE Procedure
+## OOBE Wi-Fi Procedure
 
 1. After the devkit has been powered on, connect your laptop to the Santa Cruz Wi-Fi AP. 
 1. On your computer, open your network and internet settings and connect to the following:
@@ -16,7 +16,7 @@ After completing the [onboarding](https://github.com/microsoft/Project-Santa-Cru
     2. Password: santacruz
     > [!NOTE]
     > Windows may complain about the SoftAP using a less secure standard (WPA2+TKIP cipher).  This will be addressed in a future build to only allow connections via the CCMP pairwise cipher.
-1. open a browser and go to http://10.1.1.1:4242.  
+1. Open a browser and go to http://10.1.1.1:4242.  
 
 1. Click Next on the OOBE Welcome screen.  
 
@@ -69,6 +69,14 @@ After completing the [onboarding](https://github.com/microsoft/Project-Santa-Cru
 1. Congratulations! Your devkit has been successfully linked to your Azure account and Project Santa Cruz IoT Hub. You may now access your device within the [Azure Portal](https://ms.portal.azure.com/?feature.canmodifystamps=true&Microsoft_Azure_Iothub=aduprod#home).  
 
     ![oobe_complete](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/oobe_complete.png)
+
+## OOBE Ethernet Procedure
+
+1. After the device has been powered on, connect the ethernet cord to the device and your ethernet hub or port
+1. Open a web browser on your laptop or desktop 
+1. Type in http://10.1.1.1:4242
+1. OOBE will launch 
+1. Proceed through OOBE following the Welcome steps outlined above
 
 ## Provide feedback
 

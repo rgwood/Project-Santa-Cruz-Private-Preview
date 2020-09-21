@@ -39,6 +39,13 @@ After [onboarding](https://github.com/microsoft/Project-Santa-Cruz-Private-Previ
 
 1. The PE-101 carrier board is assigned a default address of 10.1.1.1 on the Santa Cruz Wi-fi AP. To reach the OOBE (out-of-box-experience), open a browser and go to http://10.1.1.1:4242. 
 
+## Ethernet setup
+
+1. After step 3 above, connect the ethernet cable to the device and your ethernet hub or port
+1. Open a web browser on your laptop or desktop 
+1. Type in http://10.1.1.1:4242
+1. Proceed through OOBE following the steps outline in Next Steps
+
 ## Next steps
 
 Now that your devkit is powered on and connected to the OOBE, work through the OOBE to connect your devkit to a Wi-Fi network and provision it to your Azure account. For guidance on the OOBE process, please see the [OOBE walkthrough](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/oobe.md).
