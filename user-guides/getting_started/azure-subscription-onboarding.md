@@ -30,8 +30,6 @@ Welcome to Project Santa Cruz! Prior to getting started with Santa Cruz devkits 
 
 1. Click **Get Started** on the onboarding welcome screen.
 
-    ![onboarding_get_started](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/onboarding_get_started.png)
-
 1. Select the Azure subscription you would like to use with Project Santa Cruz from the drop-down menu. If you do not have an Azure subscription, or if you would like to create a new subscription to use with Project Santa Cruz, click the blue **Learn more** icon. This link redirects to the Azure website where you may create a new Azure account. Note that the free account, which currently provides $200 in credits to use within 30 days of the account opening, is sufficient to get started with Project Santa Cruz. Your account credit card will be charged for usage following the exhaustion or expiration of the credits. After you have selected the appropriate Azure subscription from the drop-down on the onboarding screen, click **Next**.
 
     ![onboarding_select_azure_subscription](https://github.com/microsoft/Project-Santa-Cruz-Private-Preview/blob/main/user-guides/getting_started/getting_started_images/onboarding_select_azure_subscription.png)
