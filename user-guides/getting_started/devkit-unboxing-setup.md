@@ -29,7 +29,7 @@ After [onboarding](https://github.com/microsoft/Project-Santa-Cruz-Private-Previ
 
     1. Remove any remaining plastic packaging from the devices.
 
-1. Turn on the carrier board. Allow some time for the device to boot up. 
+1. Press the power button on the side of carrier board. Allow some time for the device to boot up. 
 
 1. By default, the devkit will start a SoftAP/Hotspot for initial setup. On your computer, open your network and internet settings and connect to the following:
     1. SoftAP/Hotspot SSID: scz-xxxx    (where xxxx = the last four digits of the devkit's WiFi MAC address)
